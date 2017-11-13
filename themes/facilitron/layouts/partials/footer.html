@@ -1,0 +1,58 @@
+<!--views/partials/footer.ejs-->
+<footer class="page-footer">
+  <!--Footer links-->
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col">
+        <div class="footer-socials mb-5 flex-center">
+          <!--Facebook-->
+          <a href="https://www.facebook.com/facilitron" target="_blank" class="icons-sm fb-ic"><i class="fa fa-facebook fa-lg white-text mr-md-4"> </i></a>
+          <!--Linkedin-->
+          <a href="https://www.linkedin.com/company/18033676/" target="_blank" class="icons-sm li-ic"><i class="fa fa-linkedin fa-lg white-text mr-md-4"> </i></a>
+          <!--Instagram-->
+          <a href="https://www.instagram.com/facilitron/" target="_blank" class="icons-sm ins-ic"><i class="fa fa-instagram fa-lg white-text mr-md-4"> </i></a>
+          <!--Twitter-->
+          <a href="https://twitter.com/facilitroninc" target="_blank" class="icons-sm tw-ic"><i class="fa fa-twitter fa-lg white-text mr-md-4"> </i></a>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col text-center py-2 mb-5">
+        <nav>
+          <a href="https://facilitron.com/aboutus">About Facilitiron</a>
+          <a href="https://facilitron.com/contactus">Contact Us</a>
+          <a href="https://facilitron.com/terms">Terms of Use</a>
+          <a href="https://facilitron.com/privacy">Privacy Policy</a>
+        </nav>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col text-center pb-5">
+        Facilitron, Inc. • 800-272-2962 <br> HQ: 485 Alberto Way, Suite 230, Los Gatos, CA 95032 • East: 345 W Hancock Ave, Athens GA 30601
+      </div>
+    </div>
+  </div>
+  <!--/.Footer links-->
+
+  <!--Copyright-->
+  <div class="footer-copyright">
+    <div class="container-fluid">
+      ©2017<a href="https://www.facilitron.com"> Facilitron, inc.</a>
+    </div>
+  </div>
+  <!--/.Copyright-->
+
+</footer>
+<!--/.Footer-->
+
+
+
+<!-- JavaScript libs are placed at the end of the document so the pages load faster -->
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js"></script>
+<script src="{{ .Site.BaseURL }}js/template.js"></script>
+<script id="dsq-count-scr" src="//{{ .Site.Params.disqus.site }}/count.js" async></script>
+{{ partial "analyticstracking.html" . }}
+</body>
+</html>

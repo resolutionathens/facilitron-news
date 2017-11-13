@@ -1,0 +1,79 @@
+baseURL = "http://example.org/"
+languageCode = "en-us"
+title = "Facilitron News"
+theme = "facilitron"
+disqusShortname = "disqus_ygr6wmlEnU"
+[params]
+    name = "Facilitron"
+    description = "The evolution of facility management"
+    email = "GetStarted@facilitron.com"
+    phone = "800.272.2962"
+    address = "485 Alberto Way, Suite 230, Los Gatos, CA 95032"
+    year = 2017
+    background = ""
+    favicon = "images/gt_favicon.png"
+    DateForm = "January 2, 2006"
+
+    showSubheader = false
+    showServices = false
+    showRecentWorks = false
+    showDownload = false
+    showClients = false
+
+[[menu.main]]
+    name = "home"
+    url = "/"
+    weight = 1
+[[menu.main]]
+    name = "news"
+    url = "/post/"
+    weight = 3
+[[menu.main]]
+    name = "news"
+    url = "/post/"
+    weight = 5
+[params.disqus]
+    site = "facilitron.disqus.com"
+
+[params.sharethis]
+    property = "5a07366950e8bc00116c801d"
+    custom = true
+
+[params.google.analytics]
+    trackerID = "GA-000000000-0"
+
+[[params.social]]
+	title = "facebook"
+	url = "https://www.facebook.com/facilitron/"
+    icon = "fa-facebook-square"
+    footer = true
+    sharethis = true
+    network = "facebook"
+[[params.social]]
+	title = "twitter"
+	url = "https://twitter.com/FacilitronInc"
+    icon = "fa-twitter-square"
+    footer = true
+    sharethis = true
+    network = "twitter"
+[[params.social]]
+	title = "instagram"
+	url = "https://www.instagram.com/facilitron/"
+    icon = "fa-instagram"
+    footer = true
+    sharethis = false
+    network = ""
+[[params.social]]
+	title = "linkedin"
+	url = "https://www.linkedin.com/company/facilitron"
+    icon = "fa-linkedin-square"
+    footer = false
+    sharethis = true
+    network = "linkedin"
+[[params.social]]
+	title = "email"
+	url = "mailto:GetStarted@facilitron.com"
+    icon = "fa-envelope"
+    footer = false
+    sharethis = true
+    network = "email"
