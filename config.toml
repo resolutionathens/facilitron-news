@@ -52,7 +52,7 @@ sharethis = true
 title = "linkedin"
 url = "https://www.linkedin.com/company/facilitron"
 [[params.social]]
-footer = false
+footer = true
 icon = "fa-envelope"
 network = "email"
 sharethis = true
