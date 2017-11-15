@@ -22,3 +22,7 @@ fields:
   label: Author
   name: author
   description: Article author
+- type: text
+  name: original_article_url
+  label: Original Article URL
+  description: The full url of the original article
