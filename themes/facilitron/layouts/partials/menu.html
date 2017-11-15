@@ -1,15 +1,16 @@
-<!-- views/partials/navbar.ejs -->
-<nav class="navbar navbar-dark fixed-top">
-  <div>
-    <a class="navbar-brand" href="{{ .Site.BaseURL }}"><img src="{{ .Site.BaseURL }}images/logos/logo-facilitron-header.png" alt="Facilitron"></a>
-  </div>
-  <div class="navbar-menu-items">
-    <ul>
+<nav class="navbar navbar-dark fixed-top navbar-expand-md">
+  <a class="navbar-brand" href="{{ .Site.BaseURL }}"><img src="{{ .Site.BaseURL }}images/logos/facilitron-logo-reversed.svg" alt="Facilitron"></a>
+
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav11" aria-controls="navbarNav11" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarNav11">
+    <ul class="navbar-nav ml-auto">
       {{ $currentPage := . }}
       {{ range .Site.Menus.main }}
-        <li><a href="{{.URL}}">{{ .Name }}</a></li>
+        <li class="nav-item"><a class="nav-link" href="{{.URL}}">{{ .Name }}</a></li>
       {{ end }}
     </ul>
   </div>
 </nav>
-<!--/.Navbar-->
