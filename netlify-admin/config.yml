@@ -1,5 +1,18 @@
 backend:
   name: git-gateway
-  branch: master # Branch to update (optional; defaults to master)
-  media_folder: "static/images/uploads" # Media files will be stored in the repo under static/images/uploads
-  public_folder: "/images/uploads" # The src attribute for uploaded media will begin with /images/uploads
+  branch: Forestry # Branch to update (optional; defaults to master)
+
+media_folder: "static/images/uploads" # Media files will be stored in the repo under static/images/uploads
+# public_folder: "images/uploads" # The src attribute for uploaded media will begin with /images/uploads
+
+collections:
+  - name: "case-studies"
+    label: "Case Study"
+    folder: "content/case-studies"
+    create: true
+    fields:
+      - {label: "Title", name: "title", widget: "string"}
+      - {label: "Publish Date", name: "date", widget: "datetime"}
+      - {label: "Intro Blurb", name: "description", widget: "text"}
+      - {label: "Image", name: "image", widget: "image", required: false}
+      - {label: "Body", name: "body", widget: "markdown"}
