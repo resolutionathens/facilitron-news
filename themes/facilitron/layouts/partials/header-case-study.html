@@ -23,7 +23,7 @@
   <!--[if lt IE 9]> <script src="js/html5shiv.js"></script> <![endif]-->
   <style>
     #head {
-      {{ with .Params.custom_header_img }}background: url({{ $.Site.BaseURL }}images/headers/{{ $.Params.custom_header_img }}) !important;  {{ end }}
+      {{ with .Params.custom_header_img }}background: url({{ $.Site.BaseURL }}{{ $.Params.custom_header_img }}) !important;  {{ end }}
       min-height: 400px;
     }
     #head h2{
