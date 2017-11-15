@@ -2,6 +2,8 @@
 title: Fairfield-Suisun Unified School District Plans Changes in Facility Use Process
 date: 2017-10-04 11:56:02 -0500
 author: Time Goree
+original_publication: Daily Republic
+original_article_url: http://www.dailyrepublic.com/solano-news/community-news-and-views/press-release-fairfield-suisun-unified-school-district-plans-changes-in-facility-use-process/
 
 ---
 <div class="article-meta">
