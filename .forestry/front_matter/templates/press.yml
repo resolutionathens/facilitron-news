@@ -3,26 +3,30 @@ pages:
 - press/fairfield.md
 hide_body: false
 fields:
-- name: title
-  label: Title
-  type: text
-  hidden: false
-  default: ''
-- name: type
-  label: Type
-  type: text
-  hidden: false
-  default: ''
 - name: date
   label: Date
   type: datetime
   hidden: false
   default: Invalid date
+- name: title
+  label: Title
+  type: text
+  hidden: false
+  default: ''
 - type: text
   label: Author
   name: author
   description: Article author
 - type: text
+  name: original_publication
+  label: Original Publication
+  description: Name of the original publication
+- type: text
   name: original_article_url
   label: Original Article URL
   description: The full url of the original article
+- name: type
+  label: Type
+  type: text
+  hidden: false
+  default: ''
