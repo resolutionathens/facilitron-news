@@ -1,63 +1,58 @@
 baseURL = "https://resolutionathens.github.io/facilitron-news/"
-languageCode = "en-us"
-title = "Facilitron News"
-theme = "facilitron"
 disqusShortname = "disqus_ygr6wmlEnU"
-
+languageCode = "en-us"
+theme = "facilitron"
+title = "Facilitron News"
 [params]
-    name = "Facilitron"
-    description = "The evolution of facility management"
-    email = "GetStarted@facilitron.com"
-    phone = "800.272.2962"
-    address = "485 Alberto Way, Suite 230, Los Gatos, CA 95032"
-    year = 2017
-    background = ""
-    favicon = "images/gt_favicon.png"
-    DateForm = "January 2, 2006"
-    showServices = false
-
+address = "485 Alberto Way, Suite 230, Los Gatos, CA 95032"
+background = ""
+dateform = "January 2, 2006"
+description = "The evolution of facility management"
+email = "GetStarted@facilitron.com"
+favicon = "images/gt_favicon.png"
+name = "Facilitron"
+phone = "800.272.2962"
+showservices = false
+year = 2017
 [params.disqus]
-    site = "facilitron.disqus.com"
-
-[params.sharethis]
-    property = "5a07366950e8bc00116c801d"
-    custom = true
-
+site = "facilitron.disqus.com"
 [params.google.analytics]
-    trackerID = "GA-000000000-0"
-
+trackerid = "GA-000000000-0"
+[params.sharethis]
+custom = true
+property = "5a07366950e8bc00116c801d"
 [[params.social]]
-	title = "facebook"
-	url = "https://www.facebook.com/facilitron/"
-    icon = "fa-facebook-square"
-    footer = true
-    sharethis = true
-    network = "facebook"
+footer = true
+icon = "fa-facebook-square"
+network = "facebook"
+sharethis = true
+title = "facebook"
+url = "https://www.facebook.com/facilitron/"
 [[params.social]]
-	title = "twitter"
-	url = "https://twitter.com/FacilitronInc"
-    icon = "fa-twitter-square"
-    footer = true
-    sharethis = true
-    network = "twitter"
+footer = true
+icon = "fa-twitter-square"
+network = "twitter"
+sharethis = true
+title = "twitter"
+url = "https://twitter.com/FacilitronInc"
 [[params.social]]
-	title = "instagram"
-	url = "https://www.instagram.com/facilitron/"
-    icon = "fa-instagram"
-    footer = true
-    sharethis = false
-    network = ""
+footer = true
+icon = "fa-instagram"
+network = ""
+sharethis = false
+title = "instagram"
+url = "https://www.instagram.com/facilitron/"
 [[params.social]]
-	title = "linkedin"
-	url = "https://www.linkedin.com/company/facilitron"
-    icon = "fa-linkedin-square"
-    footer = false
-    sharethis = true
-    network = "linkedin"
+footer = false
+icon = "fa-linkedin-square"
+network = "linkedin"
+sharethis = true
+title = "linkedin"
+url = "https://www.linkedin.com/company/facilitron"
 [[params.social]]
-	title = "email"
-	url = "mailto:GetStarted@facilitron.com"
-    icon = "fa-envelope"
-    footer = false
-    sharethis = true
-    network = "email"
+footer = false
+icon = "fa-envelope"
+network = "email"
+sharethis = true
+title = "email"
+url = "mailto:GetStarted@facilitron.com"
