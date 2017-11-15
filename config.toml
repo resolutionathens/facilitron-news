@@ -1,4 +1,4 @@
-baseURL = "http://example.org/"
+baseURL = "https://resolutionathens.github.io/facilitron-news/"
 languageCode = "en-us"
 title = "Facilitron News"
 theme = "facilitron"
