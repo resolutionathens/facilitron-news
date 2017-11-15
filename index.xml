@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Facilitron News</title>
+    <link>http://example.org/</link>
+    <description>Recent content on Facilitron News</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 14 Nov 2017 10:44:17 -0500</lastBuildDate>
+    
+	<atom:link href="http://example.org/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>About</title>
+      <link>http://example.org/about/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/about/</guid>
+      <description>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eveniet, consequuntur eius repellendus eos aliquid molestiae ea laborum ex quibusdam laudantium voluptates placeat consectetur quam aliquam beatae soluta accusantium iusto nihil nesciunt unde veniam magnam repudiandae sapiente.
+Necessitatibus Velit, odit, eius, libero unde impedit quaerat dolorem assumenda alias consequuntur optio quae maiores ratione tempore sit aliquid architecto eligendi pariatur ab soluta doloremque dicta aspernatur labore quibusdam dolore corrupti quod inventore. Maiores, repellat, consequuntur eius repellendus eos aliquid molestiae ea laborum ex quibusdam laudantium voluptates placeat consectetur quam aliquam!</description>
+    </item>
+    
+    <item>
+      <title>Case Study: ESUHSD Data</title>
+      <link>http://example.org/case-studies/eastside-data/</link>
+      <pubDate>Tue, 14 Nov 2017 10:44:17 -0500</pubDate>
+      
+      <guid>http://example.org/case-studies/eastside-data/</guid>
+      <description>Access to data drives policy changes and $1 million increase in facility revenues Client: East Side Union High School District Like many districts across the country, East Side Union High School District and its CBO Marcus Battle were facing challenging budget cuts and were looking to the facility use program for possible additional funds. In the first year alone, revenue from community use of district facilities jumped from $450 thousand to over $2 million as a result of a new focus on the program and access and efficiencies created by the Facilitron partnership.</description>
+    </item>
+    
+    <item>
+      <title>Case Study: College of Marin</title>
+      <link>http://example.org/case-studies/marin/</link>
+      <pubDate>Tue, 14 Nov 2017 08:03:00 -0500</pubDate>
+      
+      <guid>http://example.org/case-studies/marin/</guid>
+      <description>College of Marin slashes administrative costs while generating additional revenue. Client: College of Marin Challenge: Cut costs by optimizing facility management process College of Marin needed a tool for all their facility usage - from managing their course schedule to administering external facility requests and approvals. The Facilitron platform delivered that and more allowing administrators to consolidate campus data into a single, centralized place – saving significant time and money.</description>
+    </item>
+    
+    <item>
+      <title>Case Study: Napa Valley Unified School District</title>
+      <link>http://example.org/case-studies/napa-valley/</link>
+      <pubDate>Tue, 14 Nov 2017 06:53:20 -0500</pubDate>
+      
+      <guid>http://example.org/case-studies/napa-valley/</guid>
+      <description>Napa Valley Unified unknowingly subsidized community programs through facility use fees Client: Napa Valley Unified School District Challenge: Find ways to more effectively manage facility use amid budget crunch Facing budget reductions and layoffs, Napa Valley Unified School District turned to their facility use program in search of revenues and ways to alleviate the crunch. Utilization reports and cost analysis by Facilitron using data from just one year on the reservation and scheduling platform allowed the district to more clearly understand the actual cost of using district’s facilities - whether by school programs or the community.</description>
+    </item>
+    
+    <item>
+      <title>Case Study: ESUHSD</title>
+      <link>http://example.org/case-studies/eastside/</link>
+      <pubDate>Mon, 13 Nov 2017 14:46:23 -0500</pubDate>
+      
+      <guid>http://example.org/case-studies/eastside/</guid>
+      <description>ESUHSD takes control of their facility rentals Client: East Side Union High School District Challenge: Schools weren&amp;rsquo;t adhering to district guidelines for facility rentals After an internal review, Marcus Battle, CBO of East Side Union High School District in San Jose, confirmed what he had suspected – the district’s schools weren’t following a number of district guidelines regarding external facility rentals. Facility rental pricing was inconsistent from school to school, reservation requests and approvals weren’t transparent to the district, and the lack of a centralized calendar system meant the district couldn’t always see events occurring in their own facilities.</description>
+    </item>
+    
+    <item>
+      <title>Fairfield-Suisun Unified School District Plans Changes in Facility Use Process</title>
+      <link>http://example.org/press/fairfield/</link>
+      <pubDate>Wed, 04 Oct 2017 11:56:02 -0500</pubDate>
+      
+      <guid>http://example.org/press/fairfield/</guid>
+      <description>by: Time Goree
+originally appeared in: Daily Republic  Fairfield-Suisun Unified School District is pleased to announce a new online facility request and rental system designed to provide our community with an improved user experience. With Facilitron, reservation requests can be submitted easily and will be handled more efficiently. Renters will be able to access photos and descriptions of FSUSD facilities, see real-time availability, get estimated quotes, upload documentation, and pay fees online.</description>
+    </item>
+    
+    <item>
+      <title>Application development</title>
+      <link>http://example.org/service/service3/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/service/service3/</guid>
+      <description>&lt;p&gt;I don&amp;rsquo;t think they tried to market it to the billionaire, spelunking, base-jumping crowd. i did the same thing to gandhi, he didn&amp;rsquo;t eat for three weeks. i once heard a wise man say there are no perfect men.&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Custom website design</title>
+      <link>http://example.org/service/service1/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/service/service1/</guid>
+      <description>&lt;p&gt;I don&amp;rsquo;t think they tried to market it to the billionaire, spelunking, base-jumping crowd. i did the same thing to gandhi, he didn&amp;rsquo;t eat for three weeks. i once heard a wise man say there are no perfect men.&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>SEO &amp; SEM services</title>
+      <link>http://example.org/service/service4/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/service/service4/</guid>
+      <description>&lt;p&gt;I don&amp;rsquo;t think they tried to market it to the billionaire, spelunking, base-jumping crowd. i did the same thing to gandhi, he didn&amp;rsquo;t eat for three weeks. i once heard a wise man say there are no perfect men.&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Wordpress integration</title>
+      <link>http://example.org/service/service2/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/service/service2/</guid>
+      <description>&lt;p&gt;I don&amp;rsquo;t think they tried to market it to the billionaire, spelunking, base-jumping crowd. i did the same thing to gandhi, he didn&amp;rsquo;t eat for three weeks. i once heard a wise man say there are no perfect men.&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

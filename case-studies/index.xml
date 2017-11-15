@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Case-studies on Facilitron News</title>
+    <link>http://example.org/case-studies/</link>
+    <description>Recent content in Case-studies on Facilitron News</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 14 Nov 2017 10:44:17 -0500</lastBuildDate>
+    
+	<atom:link href="http://example.org/case-studies/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Case Study: ESUHSD Data</title>
+      <link>http://example.org/case-studies/eastside-data/</link>
+      <pubDate>Tue, 14 Nov 2017 10:44:17 -0500</pubDate>
+      
+      <guid>http://example.org/case-studies/eastside-data/</guid>
+      <description>Access to data drives policy changes and $1 million increase in facility revenues Client: East Side Union High School District Like many districts across the country, East Side Union High School District and its CBO Marcus Battle were facing challenging budget cuts and were looking to the facility use program for possible additional funds. In the first year alone, revenue from community use of district facilities jumped from $450 thousand to over $2 million as a result of a new focus on the program and access and efficiencies created by the Facilitron partnership.</description>
+    </item>
+    
+    <item>
+      <title>Case Study: College of Marin</title>
+      <link>http://example.org/case-studies/marin/</link>
+      <pubDate>Tue, 14 Nov 2017 08:03:00 -0500</pubDate>
+      
+      <guid>http://example.org/case-studies/marin/</guid>
+      <description>College of Marin slashes administrative costs while generating additional revenue. Client: College of Marin Challenge: Cut costs by optimizing facility management process College of Marin needed a tool for all their facility usage - from managing their course schedule to administering external facility requests and approvals. The Facilitron platform delivered that and more allowing administrators to consolidate campus data into a single, centralized place – saving significant time and money.</description>
+    </item>
+    
+    <item>
+      <title>Case Study: Napa Valley Unified School District</title>
+      <link>http://example.org/case-studies/napa-valley/</link>
+      <pubDate>Tue, 14 Nov 2017 06:53:20 -0500</pubDate>
+      
+      <guid>http://example.org/case-studies/napa-valley/</guid>
+      <description>Napa Valley Unified unknowingly subsidized community programs through facility use fees Client: Napa Valley Unified School District Challenge: Find ways to more effectively manage facility use amid budget crunch Facing budget reductions and layoffs, Napa Valley Unified School District turned to their facility use program in search of revenues and ways to alleviate the crunch. Utilization reports and cost analysis by Facilitron using data from just one year on the reservation and scheduling platform allowed the district to more clearly understand the actual cost of using district’s facilities - whether by school programs or the community.</description>
+    </item>
+    
+    <item>
+      <title>Case Study: ESUHSD</title>
+      <link>http://example.org/case-studies/eastside/</link>
+      <pubDate>Mon, 13 Nov 2017 14:46:23 -0500</pubDate>
+      
+      <guid>http://example.org/case-studies/eastside/</guid>
+      <description>ESUHSD takes control of their facility rentals Client: East Side Union High School District Challenge: Schools weren&amp;rsquo;t adhering to district guidelines for facility rentals After an internal review, Marcus Battle, CBO of East Side Union High School District in San Jose, confirmed what he had suspected – the district’s schools weren’t following a number of district guidelines regarding external facility rentals. Facility rental pricing was inconsistent from school to school, reservation requests and approvals weren’t transparent to the district, and the lack of a centralized calendar system meant the district couldn’t always see events occurring in their own facilities.</description>
+    </item>
+    
+  </channel>
+</rss>
