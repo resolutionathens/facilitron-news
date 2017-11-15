@@ -1,12 +1,11 @@
 html {
-  font-size: 100%;
+  font-size: 18px;
 }
 body {
-  font-size: 15px;
-  font-size: 0.9375rem;
-  font-family: "Open sans", Helvetica, Arial, sans-serif;
+  /*font-size: 0.9375rem;*/
+  /*font-family: "Roboto", "Open sans", Helvetica, Arial, sans-serif;
   color: #666666;
-  padding: 0;
+  padding: 0;*/
 }
 .topspace {
   margin-top: 40px;
@@ -73,49 +72,14 @@ body {
   background-size: cover;
   color: #7C7C7C;
   padding: 30px 0 35px 0;
+
 }
 #head img.img-circle {
   display: block;
   width: 140px;
   height: 140px;
   overflow: hidden;
-  border: 9px solid rgba(0, 0, 0, 0.05);
-  margin: 0 auto;
-}
-#head .title {
-  font-family: Alice, Georgia, serif;
-  font-size: 49px;
-  font-size: 3.0625rem;
-}
-#head .title a {
-  text-decoration: none;
-  color: #333333;
-}
-#head .tagline {
-  display: block;
-  font-size: 14px;
-  font-size: 0.875rem;
-  line-height: 1.2em;
-  color: #7C7C7C;
-  margin: 5px 0 0;
-}
-#head .tagline b {
-  font-weight: normal;
-}
-#head .tagline a {
-  color: #5E5E5E;
-}
-.home #head {
-  padding: 90px 0;
-}
-.home #head .title {
-  font-size: 49px;
-  font-size: 3.0625rem;
-}
-.home #head .tagline {
-  font-size: 16px;
-  font-size: 1rem;
-  margin: 15px 0 0;
+  margin: 2em auto 1em auto;
 }
 /*********************************************************************
 
@@ -155,6 +119,27 @@ img {
 
 
 **********************************************************************/
+
+.article-meta {
+  font-size: 0.85em;
+  margin-bottom: 2em;
+}
+
+article.post {
+  margin: 3em auto;
+}
+
+.post hr {
+  margin: 2em auto;
+}
+
+.post blockquote {
+  font-size: 16px;
+  line-height: 27px;
+  font-style: italic;
+  border-left: 2px solid #0C86DF;
+  margin: 2em;
+}
 
 /*********************************************************************
 

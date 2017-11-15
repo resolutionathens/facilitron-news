@@ -24,6 +24,14 @@
   <style>
     #head {
       {{ with .Params.custom_header_img }}background: url({{ $.Site.BaseURL }}images/headers/{{ $.Params.custom_header_img }}) !important;  {{ end }}
+      min-height: 400px;
+    }
+    #head h2{
+      margin-top: 200px !important;
+      text-shadow: 4px 4px 5px rgba(0, 0, 0, 0.3);
+    }
+    #head p {
+      text-shadow: 4px 4px 5px rgba(0, 0, 0, 0.3);
     }
   </style>
 </head>
@@ -32,9 +40,7 @@
   <header id="header">
     {{ partial "menu.html" . }}
     <div id="head">
-      <h1 id="logo" class="text-center">
-      <img class="img-circle" src="{{ .Site.BaseURL }}images/logos/facilitron-stacked-reversed.svg" alt="">
-    </h1>
-    <h2 class="h1-responsive font-bold text-uppercase white-text text-center">The evolution of<br>facility management</h2>
+      <h2 class="h1-responsive font-bold text-uppercase white-text text-center">{{ .Title }}</h2>
+      <p class="h3-responsive white-text text-center mb-5"><time class="entry-date published" date="{{ .Date }}">{{ dateFormat .Site.Params.DateForm .Date }}</time></p>
     </div>
   </header>

@@ -3,6 +3,7 @@ languageCode = "en-us"
 title = "Facilitron News"
 theme = "facilitron"
 disqusShortname = "disqus_ygr6wmlEnU"
+
 [params]
     name = "Facilitron"
     description = "The evolution of facility management"
@@ -13,25 +14,8 @@ disqusShortname = "disqus_ygr6wmlEnU"
     background = ""
     favicon = "images/gt_favicon.png"
     DateForm = "January 2, 2006"
-
-    showSubheader = false
     showServices = false
-    showRecentWorks = false
-    showDownload = false
-    showClients = false
 
-[[menu.main]]
-    name = "home"
-    url = "/"
-    weight = 1
-[[menu.main]]
-    name = "news"
-    url = "/post/"
-    weight = 3
-[[menu.main]]
-    name = "news"
-    url = "/post/"
-    weight = 5
 [params.disqus]
     site = "facilitron.disqus.com"
 
