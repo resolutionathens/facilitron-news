@@ -6,7 +6,7 @@ title = "Facilitron News"
 [[menu.main]]
 name = "Home"
 url = "/"
-weight = -110
+weight = 1
 [params]
 address = "485 Alberto Way, Suite 230, Los Gatos, CA 95032"
 dateform = "January 2, 2006"
