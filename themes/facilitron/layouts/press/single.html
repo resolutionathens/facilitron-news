@@ -3,6 +3,10 @@
 <main id="main">
   <div class="container">
     <article class="post">
+      <div class="article-meta">
+        <p>by: <cite>{{ .Params.author }}</cite><br>
+        originally appeard in: <cite><a href="{{ $.Params.original_article_url }}"></a>.Params.original_publication</cite></p>
+      </div>
       <div>
         {{ .Content }}
       </div>
