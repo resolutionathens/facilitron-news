@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>_Index on Facilitron News</title>
-    <link>http://example.org/press/</link>
+    <link>https://resolutionathens.github.io/facilitron-news/press/</link>
     <description>Recent content in _Index on Facilitron News</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Mon, 13 Nov 2017 12:55:59 -0500</lastBuildDate>
     
-	<atom:link href="http://example.org/press/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://resolutionathens.github.io/facilitron-news/press/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Fairfield-Suisun Unified School District Plans Changes in Facility Use Process</title>
-      <link>http://example.org/press/fairfield/</link>
+      <link>https://resolutionathens.github.io/facilitron-news/press/fairfield/</link>
       <pubDate>Wed, 04 Oct 2017 11:56:02 -0500</pubDate>
       
-      <guid>http://example.org/press/fairfield/</guid>
+      <guid>https://resolutionathens.github.io/facilitron-news/press/fairfield/</guid>
       <description>by: Time Goree
 originally appeared in: Daily Republic  Fairfield-Suisun Unified School District is pleased to announce a new online facility request and rental system designed to provide our community with an improved user experience. With Facilitron, reservation requests can be submitted easily and will be handled more efficiently. Renters will be able to access photos and descriptions of FSUSD facilities, see real-time availability, get estimated quotes, upload documentation, and pay fees online.</description>
     </item>

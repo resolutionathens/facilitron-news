@@ -2,13 +2,13 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Facilitron in the News on Facilitron News</title>
-    <link>http://example.org/news/</link>
+    <link>https://resolutionathens.github.io/facilitron-news/news/</link>
     <description>Recent content in Facilitron in the News on Facilitron News</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Mon, 13 Nov 2017 12:54:15 -0500</lastBuildDate>
     
-	<atom:link href="http://example.org/news/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://resolutionathens.github.io/facilitron-news/news/index.xml" rel="self" type="application/rss+xml" />
     
     
   </channel>
