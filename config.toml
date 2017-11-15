@@ -3,6 +3,10 @@ disqusShortname = "disqus_ygr6wmlEnU"
 languageCode = "en-us"
 theme = "facilitron"
 title = "Facilitron News"
+[[menu.main]]
+name = "Home"
+url = "/"
+weight = -110
 [params]
 address = "485 Alberto Way, Suite 230, Los Gatos, CA 95032"
 dateform = "January 2, 2006"
@@ -12,10 +16,6 @@ favicon = "images/gt_favicon.png"
 name = "Facilitron"
 phone = "800.272.2962"
 year = 2017
-[[menu.main]]
-  name = "Home"
-  weight = -110
-  url = "/"
 [params.disqus]
 site = "facilitron.disqus.com"
 [params.google.analytics]
