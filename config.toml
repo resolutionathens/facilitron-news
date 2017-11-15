@@ -45,7 +45,7 @@ sharethis = false
 title = "instagram"
 url = "https://www.instagram.com/facilitron/"
 [[params.social]]
-footer = false
+footer = true
 icon = "fa-linkedin-square"
 network = "linkedin"
 sharethis = true
