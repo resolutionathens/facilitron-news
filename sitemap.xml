@@ -3,6 +3,11 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://resolutionathens.github.io/facilitron-news/case-studies/</loc>
+    <lastmod>2017-11-15T11:44:12-05:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://resolutionathens.github.io/facilitron-news/case-studies/eastside-data/</loc>
     <lastmod>2017-11-14T10:44:17-05:00</lastmod>
   </url>
@@ -35,12 +40,6 @@
   <url>
     <loc>https://resolutionathens.github.io/facilitron-news/case-studies/marin/</loc>
     <lastmod>2017-04-04T08:03:00-04:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://resolutionathens.github.io/facilitron-news/case-studies/</loc>
-    <lastmod>2017-11-14T10:44:17-05:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
