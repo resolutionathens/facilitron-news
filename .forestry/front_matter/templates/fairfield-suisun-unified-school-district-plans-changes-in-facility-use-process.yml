@@ -16,3 +16,7 @@ fields:
   type: datetime
   hidden: false
   default: ''
+- type: text
+  label: Author
+  name: author
+  description: Article author
