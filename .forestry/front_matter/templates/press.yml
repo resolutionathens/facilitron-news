@@ -11,7 +11,7 @@ fields:
 - name: type
   label: Type
   type: text
-  hidden: true
+  hidden: false
   default: ''
 - name: date
   label: Date
