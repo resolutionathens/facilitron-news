@@ -1,7 +1,7 @@
 ---
 pages:
-- case-studies/napa-valley.md
 - case-studies/eastside-data.md
+- case-studies/napa-valley.md
 - case-studies/eastside.md
 - case-studies/marin.md
 hide_body: false
