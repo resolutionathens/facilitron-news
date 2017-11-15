@@ -12,7 +12,6 @@ email = "GetStarted@facilitron.com"
 favicon = "images/gt_favicon.png"
 name = "Facilitron"
 phone = "800.272.2962"
-showservices = false
 year = 2017
 [params.disqus]
 site = "facilitron.disqus.com"

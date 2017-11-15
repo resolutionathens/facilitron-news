@@ -7,6 +7,10 @@
     <ul>
       <li><a href="{{ .Site.BaseURL }}case-studies/">Case Studies</a></li>
       <li><a href="{{ .Site.BaseURL }}press/">Press</a></li>
+      {{ $currentPage := . }}
+      {{ range .Site.Menus.main }}
+        <a class="sidebar-nav-item{{if or ($currentPage.IsMenuCurrent "main" .) ($currentPage.HasMenuCurrent "main" .) }} active{{end}}" href="{{.URL}}">{{ .Name }}</a>
+      {{ end }}
     </ul>
   </div>
 </nav>
