@@ -1,10 +1,9 @@
 ---
-title: "Case Study: Napa Valley Unified School District"
-date: 2017-11-14T06:53:20-05:00
-draft: false
-custom_header_img: "napa-valley.jpg"
----
+title: 'Case Study: Napa Valley Unified School District'
+date: 2017-11-14 06:53:20 -0500
+custom_header_img: napa-valley.jpg
 
+---
 ## Napa Valley Unified unknowingly subsidized community programs through facility use fees
 #### Client: Napa Valley Unified School District
 #### Challenge: Find ways to more effectively manage facility use amid budget crunch
