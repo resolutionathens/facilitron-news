@@ -19,7 +19,7 @@ year = 2017
 [params.disqus]
 site = "facilitron.disqus.com"
 [params.google.analytics]
-trackerid = "GA-000000000-0"
+trackerid = "UA-88933286-1"
 [params.sharethis]
 custom = true
 property = "5a07366950e8bc00116c801d"
