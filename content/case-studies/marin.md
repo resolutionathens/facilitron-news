@@ -1,6 +1,6 @@
 ---
 title: 'Case Study: College of Marin'
-date: 2017-11-14 08:03:00 -0500
+date: 2017-04-04 08:03:00 -0400
 custom_header_img: marin.jpg
 
 ---
