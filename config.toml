@@ -5,7 +5,6 @@ theme = "facilitron"
 title = "Facilitron News"
 [params]
 address = "485 Alberto Way, Suite 230, Los Gatos, CA 95032"
-background = ""
 dateform = "January 2, 2006"
 description = "The evolution of facility management"
 email = "GetStarted@facilitron.com"
@@ -13,6 +12,10 @@ favicon = "images/gt_favicon.png"
 name = "Facilitron"
 phone = "800.272.2962"
 year = 2017
+[[menu.main]]
+  name = "Home"
+  weight = -110
+  url = "/"
 [params.disqus]
 site = "facilitron.disqus.com"
 [params.google.analytics]
