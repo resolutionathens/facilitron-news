@@ -4,7 +4,6 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="description" content="{{ .Description }}">
-  <meta name="author" content="Sergey Pozhilov (GetTemplate.com)">
 
   <title>{{ .Title }}</title>
 
@@ -33,7 +32,7 @@
     {{ partial "menu.html" . }}
     <div id="head">
       <h2 class="h1-responsive font-bold text-uppercase white-text text-center">{{ .Title }}</h2>
-      {{ with .Params.showdate }}
+      {{ if .Params.showdate }}
       <p class="h3-responsive white-text text-center mb-5"><time class="entry-date published" date="{{ .Date }}">{{ dateFormat .Site.Params.DateForm .Date }}</time></p>
       {{ end }}
     </div>

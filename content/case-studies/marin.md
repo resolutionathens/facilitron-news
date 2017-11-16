@@ -2,7 +2,7 @@
 title: 'Case Study: College of Marin'
 date: 2017-04-04 08:03:00 -0400
 custom_header_img: marin.jpg
-
+showdate: true
 ---
 ## College of Marin slashes administrative costs while generating additional revenue.
 #### Client: College of Marin

@@ -2,7 +2,7 @@
 title: 'Case Study: ESUHSD'
 date: 2017-11-13 14:46:23 -0500
 custom_header_img: eastside.jpg
-
+showdate: true
 ---
 ## ESUHSD takes control of their facility rentals
 #### Client: East Side Union High School District
