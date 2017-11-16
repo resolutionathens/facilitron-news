@@ -120,13 +120,10 @@
    margin: 2em;
  }
 
- #head h2 {
-   /*margin-top: 200px !important;*/
-   text-shadow: 4px 4px 5px rgba(0, 0, 0, 0.3);
- }
- #head p {
-   text-shadow: 4px 4px 5px rgba(0, 0, 0, 0.3);
- }
+.header-shadow {
+  text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.75);
+  letter-spacing: 1px;
+}
 
  /*********************************************************************
 
