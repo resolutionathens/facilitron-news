@@ -5,5 +5,5 @@ menu:
   main:
     name: Case Studies
     weight: 2
-
+showdate: false
 ---
