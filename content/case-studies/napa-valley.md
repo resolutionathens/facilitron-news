@@ -3,6 +3,7 @@ title: 'Case Study: Napa Valley Unified School District'
 date: 2017-11-14 06:53:20 -0500
 custom_header_img: napa-valley.jpg
 showdate: true
+
 ---
 ## Napa Valley Unified unknowingly subsidized community programs through facility use fees
 #### Client: Napa Valley Unified School District

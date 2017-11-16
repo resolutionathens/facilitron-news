@@ -3,6 +3,7 @@ title: 'Case Study: ESUHSD Data'
 date: 2017-11-14 10:44:17 -0500
 custom_header_img: eastside.jpg
 showdate: true
+
 ---
 ## Access to data drives policy changes and $1 million increase in facility revenues
 #### Client: East Side Union High School District
