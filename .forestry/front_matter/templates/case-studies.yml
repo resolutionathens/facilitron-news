@@ -17,6 +17,10 @@ fields:
   type: datetime
   hidden: false
   default: ''
+- type: text
+  name: description
+  label: Description
+  description: SEO rich description of the content
 - name: custom_header_img
   label: Custom header img
   type: file
@@ -27,7 +31,3 @@ fields:
   type: text
   hidden: false
   default: ''
-- type: text
-  name: description
-  label: Description
-  description: SEO rich description of the content
