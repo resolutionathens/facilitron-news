@@ -12,6 +12,10 @@ fields:
   hidden: false
   default: ''
 - type: text
+  name: description
+  label: Description
+  description: SEO rich description of the release
+- type: text
   label: Author
   name: author
   description: Article author
