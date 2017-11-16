@@ -70,7 +70,7 @@
    background-size: cover;
    color: #7C7C7C;
    padding: 30px 0 35px 0;
-
+  min-height: 500px;
  }
  #head img.img-circle {
    display: block;
@@ -224,3 +224,23 @@
  #respond {
    margin: 55px 0 0 0;
  }
+.partners {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  padding: 50px;
+}
+
+.partner-icon {
+  height: 75px;
+  margin: 10px;
+}
+
+.testimonial-icon {
+   width:250px;
+   margin-top:20px;
+}
+
+.cta-logo {
+  width: 150px;
+}
