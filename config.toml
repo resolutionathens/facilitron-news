@@ -1,7 +1,7 @@
 baseURL = "https://resolutionathens.github.io/facilitron-news/"
 disqusShortname = "disqus_ygr6wmlEnU"
 languageCode = "en-us"
-theme = "facilitron"
+# theme = "facilitron"
 title = "Facilitron News"
 [[menu.main]]
 name = "Home"
