@@ -1,9 +1,12 @@
 ---
 title: 'Case Study: ESUHSD Data'
-date: 2017-11-14 10:44:17 -0500
+date: '2017-11-14 10:44:17 -0500'
+description: >-
+  Like many districts across the country, East Side Union High School District
+  and its CBO Marcus Battle were facing challenging budget cuts and were looking
+  to the facility use program for possible additional funds.
 custom_header_img: eastside.jpg
 showdate: true
-
 ---
 ## Access to data drives policy changes and $1 million increase in facility revenues
 #### Client: East Side Union High School District
