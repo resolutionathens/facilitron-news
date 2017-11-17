@@ -9062,7 +9062,7 @@ footer.page-footer nav a:hover {
 
 /* pagination */
 
-.pagination>li>a {
+/*.pagination>li>a {
   color: #808080;
   border: 0 none;
   font-size: 20px;
@@ -9083,7 +9083,7 @@ footer.page-footer nav a:hover {
 .pagination>li.active>a:hover {
   color: #000000;
   background: none;
-}
+}*/
 
 .article-meta {
   font-size: 0.85em;
@@ -9118,6 +9118,10 @@ article.post {
 
 
  **********************************************************************/
+
+#disqus_thread {
+  width: 1200px; 
+}
 
 /*#comments {
   font-size: 13px;
