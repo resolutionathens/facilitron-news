@@ -7,7 +7,7 @@ public_folder: "images/" # The src attribute for uploaded media will begin with 
 
 collections:
   - name: "case-studies"
-    label: "Case Study"
+    label: "Case Studies"
     folder: "content/case-studies"
     create: true
     fields:
@@ -16,8 +16,8 @@ collections:
       - {label: "Intro Blurb", name: "description", widget: "text"}
       - {label: "Custom Header Image", name: "custom_header_img", widget: "string", required: false}
       - {label: "Body", name: "body", widget: "markdown"}
-      - {label: "Show Date", name: "showdate", widget: "boolean", default: "true"}
-      
+      - {label: "Show Date", name: "showdate", widget: "boolean", default: true}
+
   - name: "press"
     label: "Press"
     folder: "content/press"
@@ -42,4 +42,5 @@ collections:
       - {label: "Intro Blurb", name: "description", widget: "text"}
       - {label: "Custom Header Image", name: "custom_header_img", widget: "string", required: false}
       - {label: "Body", name: "body", widget: "markdown"}
-      - {label: "Show Date", name: "showdate", widget: "boolean", default: "true"}
+      - {label: "Show Date", name: "showdate", widget: "boolean", default: true}
+      - {label: "Show Comments", name: "comments", widget: "boolean", default: true}
