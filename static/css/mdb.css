@@ -9119,7 +9119,7 @@ article.post {
 
  **********************************************************************/
 
-#comments {
+/*#comments {
   font-size: 13px;
   font-size: 0.8125rem;
 }
@@ -9226,7 +9226,7 @@ article.post {
 
 #respond {
   margin: 55px 0 0 0;
-}
+}*/
 
 .partners {
   display: flex;
