@@ -4,19 +4,27 @@
 
   <div class="container-fluid px-5">
     <div class="row topspace">
-      <div>
+      <div class="card-container">
         {{ range .Paginator.Pages }}
-        <article class="post">
-          <header class="entry-header">
-            <div class="entry-meta">
-              <span class="posted-on"><time class="entry-date published" date="{{ .Date }}">{{ dateFormat .Site.Params.DateForm .Date }}</time></span>
-            </div>
-            <h1 class="entry-title"><a href="{{ .Permalink }}" rel="bookmark">{{ .Title }}</a></h1>
-          </header>
-          <div class="entry-content">
-            {{ .Summary }}
+        <!--Card-->
+        <div class="card">
+          <!--Card image-->
+          <img class="img-fluid" src="{{ .Site.BaseURL }}images/headers/{{ .Params.custom_header_img }}" alt="{{ .Title }}">
+          <!--Card content-->
+          <div class="card-body">
+            <header class="entry-header">
+              <div class="entry-meta">
+                <span class="posted-on"><time class="entry-date published" date="{{ .Date }}">{{ dateFormat .Site.Params.DateForm .Date }}</time></span>
+              </div>
+            </header>
+            <!--Title-->
+            <h4 class="card-title">{{ .Title }}</h4>
+            <!--Text-->
+            <p class="card-text">{{ .Summary | truncate 180 }}</p>
+            <a href="{{ .Permalink }}" class="btn btn-sm btn-primary" rel="bookmark">Read More</a>
           </div>
-        </article>
+        </div>
+        <!--/.Card-->
         {{ end }}
 
       </div>

@@ -43,6 +43,7 @@
   <!--/.Copyright-->
 
 </footer>
+{{ partial "get-started-form" . }}
 <!--/.Footer-->
 
 
@@ -53,6 +54,6 @@
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js"></script>
 <script src="{{ .Site.BaseURL }}js/template.js"></script>
 <script id="dsq-count-scr" src="//{{ .Site.Params.disqus.site }}/count.js" async></script>
-{{ partial "analyticstracking.html" . }}
+{{ partial "analyticstracking" . }}
 </body>
 </html>
