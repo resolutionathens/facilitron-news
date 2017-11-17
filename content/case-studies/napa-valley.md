@@ -9,6 +9,7 @@ description: >-
   allowed the district to more clearly understand the actual cost of using
   district’s facilities - whether by school programs or the community.
 custom_header_img: napa-valley.jpg
+showdate: true
 ---
 ## Napa Valley Unified unknowingly subsidized community programs through facility use fees
 #### Client: Napa Valley Unified School District
