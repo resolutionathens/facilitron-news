@@ -1,11 +1,7 @@
-<nav class="navbar navbar-dark fixed-top navbar-expand-md">
-  <a class="navbar-brand" href="{{ .Site.BaseURL }}"><img src="{{ .Site.BaseURL }}images/logos/facilitron-logo-reversed.svg" alt="Facilitron"></a>
+<nav class="navbar navbar-light fixed-top navbar-expand-md">
+  <a class="navbar-brand" href="{{ .Site.BaseURL }}"><img src="{{ .Site.BaseURL }}images/logos/facilitron-logo.svg" alt="Facilitron"></a>
 
-  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav11" aria-controls="navbarNav11" aria-expanded="false" aria-label="Toggle navigation">
-    <span class="navbar-toggler-icon"></span>
-  </button>
-
-  <div class="collapse navbar-collapse" id="navbarNav11">
+  <div class="collapse navbar-collapse" id="topNav">
     <ul class="navbar-nav ml-auto">
       {{ $currentPage := . }}
       {{ range .Site.Menus.main }}
@@ -13,4 +9,8 @@
       {{ end }}
     </ul>
   </div>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#topNav" aria-controls="topNav" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
 </nav>
