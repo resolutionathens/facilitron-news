@@ -1,6 +1,6 @@
 ---
-title: "Facilitron Overview"
-type: "Overview"
+title: Facilitron Overview
+type: Overview
 page: "/overview.html"
 menu:
   main:
