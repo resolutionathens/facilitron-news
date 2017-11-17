@@ -18,7 +18,7 @@ collections:
       - {label: "Body", name: "body", widget: "markdown"}
 
   - name: "press"
-    label: "Case Study"
+    label: "Press"
     folder: "content/press"
     create: true
     fields:
@@ -28,4 +28,16 @@ collections:
       - {label: "Intro Blurb", name: "description", widget: "text"}
       - {label: "Original Publication", name: "original_publication", widget: "string", required: false}
       - {label: "Original URL", name: "original_article_url", widget: "string", required: false}
+      - {label: "Body", name: "body", widget: "markdown"}
+
+  - name: "news"
+    label: "News"
+    folder: "content/news"
+    create: true
+    fields:
+      - {label: "Title", name: "title", widget: "string"}
+      - {label: "Author", name: "author", widget: "string"}
+      - {label: "Publish Date", name: "date", widget: "datetime"}
+      - {label: "Intro Blurb", name: "description", widget: "text"}
+      - {label: "Custom Header Image", name: "custom_header_img", widget: "image", required: false}
       - {label: "Body", name: "body", widget: "markdown"}
