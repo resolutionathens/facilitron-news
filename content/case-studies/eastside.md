@@ -1,9 +1,13 @@
 ---
 title: 'Case Study: ESUHSD'
-date: 2017-11-13 14:46:23 -0500
+date: '2017-11-13 14:46:23 -0500'
+description: >-
+  After an internal review, Marcus Battle, CBO of East Side Union High School
+  District in San Jose, confirmed what he had suspected – the district’s schools
+  weren’t following a number of district guidelines regarding external facility
+  rentals.
 custom_header_img: eastside.jpg
 showdate: true
-
 ---
 ## ESUHSD takes control of their facility rentals
 #### Client: East Side Union High School District
