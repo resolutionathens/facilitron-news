@@ -1,9 +1,14 @@
 ---
 title: 'Case Study: College of Marin'
-date: 2017-04-04 08:03:00 -0400
+date: '2017-04-04 08:03:00 -0400'
+description: >-
+  College of Marin needed a tool for all their facility usage - from managing
+  their course schedule to administering external facility requests and
+  approvals. The Facilitron platform delivered that and more allowing
+  administrators to consolidate campus data into a single, centralized place –
+  saving significant time and money.
 custom_header_img: marin.jpg
 showdate: true
-
 ---
 ## College of Marin slashes administrative costs while generating additional revenue.
 #### Client: College of Marin
