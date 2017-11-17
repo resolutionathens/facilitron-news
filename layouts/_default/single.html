@@ -22,21 +22,20 @@
     <!-- /row post  -->
 
     <div class="clearfix"></div>
-
-    <div class="row">
-      <div>
-
-        <div id="comments">
-          {{ if .Params.Comments }} {{ partial "disqus.html" . }} {{ end }}
-        </div>
-      </div>
-    </div>
-    <!-- /row comments -->
-    <div class="clearfix"></div>
-
   </div>
   <!-- /container -->
 
 </main>
+<div class="row">
+  <div>
+
+    <div id="comments">
+      {{ if .Params.Comments }} {{ partial "disqus.html" . }} {{ end }}
+    </div>
+  </div>
+</div>
+<!-- /row comments -->
+<div class="clearfix"></div>
+
 
 {{ partial "footer.html" . }}
