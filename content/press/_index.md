@@ -5,6 +5,6 @@ showdate: false
 menu:
   main:
     name: Press
-    weight: 3
+    weight: 2
 
 ---
