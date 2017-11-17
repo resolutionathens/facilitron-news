@@ -36,12 +36,14 @@
     <ul class="navbar-nav ml-auto">
       
       
-        <li class="nav-item"><a class="nav-link" href="/facilitron-news/">Home</a></li>
+        <li class="nav-item"><a class="nav-link" href="/facilitron-news/overview/">About</a></li>
       
         <li class="nav-item"><a class="nav-link" href="/facilitron-news/case-studies/">Results</a></li>
       
         <li class="nav-item"><a class="nav-link" href="/facilitron-news/press/">Press</a></li>
       
+      <li class="nav-item"><a id="sign-up-free-btn" class="nav-link" data-toggle="modal" data-target="#fLoginForm">Sign Up</a></li>
+      <li class="nav-item"><a class="nav-link" href="#"><i class="fa fa-sign-in mr-1"></i>Log In</a></li>
     </ul>
   </div>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#topNav" aria-controls="topNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -161,6 +163,53 @@ discounting, higher approval rates and a reduction in approval inconsistencies a
   
 
 </footer>
+
+<div class="modal fade" id="fLoginForm" tabindex="-1" role="dialog" aria-labelledby="fModalLogin" aria-hidden="true">
+  <div class="modal-dialog cascading-modal" role="document">
+    <div class="modal-content">
+
+      <form action="/thanks" method="get">
+        <div class="modal-body mb-1">
+          <div>
+            <h3 class="h3-responsive mb-4">Let's get started</h3>
+          </div>
+
+          <div class="md-form form-sm">
+            <i class="fa fa-address-book-o prefix"></i>
+            <input type="text" id="firstName" class="form-control" autofocus>
+            <label for="fName">First name</label>
+          </div>
+
+          <div class="md-form form-sm">
+            <i class="fa fa-address-book-o prefix"></i>
+            <input type="text" id="lastName" class="form-control">
+            <label for="lastName">Last name</label>
+          </div>
+
+          <div class="md-form form-sm">
+            <i class="fa fa-bank prefix"></i>
+            <input type="text" id="companyName" class="form-control">
+            <label for="companyName">Company name</label>
+          </div>
+
+          <div class="md-form form-sm">
+            <i class="fa fa-envelope prefix"></i>
+            <input type="text" id="emailAddress" class="form-control">
+            <label for="emailAddress">Email</label>
+          </div>
+
+          <div class="text-center mt-2">
+            <button type="submit" class="btn btn-success">Sign Up</button>
+            <button type="button" class="btn btn-dark" data-dismiss="modal">Cancel</button>
+          </div>
+        </div>
+      </form>
+
+    </div>
+  </div>
+</div>
+
+
 
 
 

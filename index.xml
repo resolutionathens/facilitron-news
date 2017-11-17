@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Facilitron News</title>
+    <title>Facility Management, Evolved.</title>
     <link>https://resolutionathens.github.io/facilitron-news/</link>
-    <description>Recent content on Facilitron News</description>
+    <description>Recent content on Facility Management, Evolved.</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Tue, 14 Nov 2017 10:44:17 -0500</lastBuildDate>
@@ -55,6 +55,15 @@ As part of this move to a more efficient rental process, FSUSD is conducting an 
       
       <guid>https://resolutionathens.github.io/facilitron-news/case-studies/marin/</guid>
       <description>College of Marin slashes administrative costs while generating additional revenue. Client: College of Marin Challenge: Cut costs by optimizing facility management process College of Marin needed a tool for all their facility usage - from managing their course schedule to administering external facility requests and approvals. The Facilitron platform delivered that and more allowing administrators to consolidate campus data into a single, centralized place – saving significant time and money.</description>
+    </item>
+    
+    <item>
+      <title>Facilitron Overview</title>
+      <link>https://resolutionathens.github.io/facilitron-news/overview/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://resolutionathens.github.io/facilitron-news/overview/</guid>
+      <description></description>
     </item>
     
   </channel>
