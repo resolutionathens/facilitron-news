@@ -1,6 +1,5 @@
 backend:
-  name: github
-  repo: resolutionathens/facilitron-news
+  name: git-gateway
   branch: netlify # Branch to update (optional; defaults to master)
 
 media_folder: "static/images/uploads" # Media files will be stored in the repo under static/images/uploads
