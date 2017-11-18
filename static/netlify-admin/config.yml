@@ -13,10 +13,9 @@ collections:
     fields:
       - {label: "Title", name: "title", widget: "string"}
       - {label: "Publish Date", name: "date", widget: "datetime"}
+      - {label: "Show Date", name: "showdate", widget: "hidden", default: true}
       - {label: "Intro Blurb", name: "description", widget: "text"}
       - {label: "Custom Header Image", name: "custom_header_img", widget: "string", required: false}
-      - {label: "Body", name: "body", widget: "markdown"}
-      - {label: "Show Date", name: "showdate", widget: "boolean", default: true}
       - {label: "Partner Logo", name: "partner_logo", widget: "string"}
       - label: "Intro"
         name: "intro"
@@ -25,6 +24,7 @@ collections:
           - {label: "Heading", name: "heading", widget: "string"}
           - {label: "Client", name: "client", widget: "String"}
           - {label: "Challenge", name: "challenge", widget: "String"}
+      - {label: "Body", name: "body", widget: "markdown"}
 
   - name: "press"
     label: "Press"
