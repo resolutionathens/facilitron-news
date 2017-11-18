@@ -1,7 +1,7 @@
 ---
 title: 'Case Study: Napa Valley Unified School District'
 date: '2017-11-14 06:53:20 -0500'
-showdate: true
+showdate: false
 description: >-
   Facing budget reductions and layoffs, Napa Valley Unified School District
   turned to their facility use program in search of revenues and ways to
