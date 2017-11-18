@@ -22,8 +22,8 @@ collections:
         widget: "object"
         fields:
           - {label: "Heading", name: "heading", widget: "string"}
-          - {label: "Client", name: "client", widget: "String"}
-          - {label: "Challenge", name: "challenge", widget: "String"}
+          - {label: "Client", name: "client", widget: "string"}
+          - {label: "Challenge", name: "challenge", widget: "string"}
       - {label: "Body", name: "body", widget: "markdown"}
 
   - name: "press"
