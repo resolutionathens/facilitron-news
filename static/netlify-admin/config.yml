@@ -26,6 +26,13 @@ collections:
           - {label: "Heading", name: "heading", widget: "string"}
           - {label: "Challenge", name: "challenge", widget: "string"}
       - {label: "Body", name: "body", widget: "markdown"}
+      - label: "Quote"
+        name: "quote"
+        widget: object
+        required: false
+        fields:
+          - {label: "Quote", name: "quote", widget: "text"}
+          - {label: "Quotee", name: "quotee", widget: "string"}
 
   - name: "press"
     label: "Press"
