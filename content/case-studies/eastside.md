@@ -1,20 +1,29 @@
 ---
 title: 'Case Study: ESUHSD'
 date: '2017-11-13 14:46:23 -0500'
+showdate: true
 description: >-
   After an internal review, Marcus Battle, CBO of East Side Union High School
   District in San Jose, confirmed what he had suspected – the district’s schools
   weren’t following a number of district guidelines regarding external facility
   rentals.
 custom_header_img: eastside.jpg
-showdate: true
+heading: >-
+  Access to data drives policy changes and $1 million increase in facility
+  revenues
+client:
+  challenge: Schools weren't adhering to district guidelines for facility rentals
+  client_description: >-
+    East Side Union High School District consists of ?? schools in San Jose,
+    California
+  client_name: East Side Union High School District
+  partner_logo: east-side-high-school.png
+quote:
+  quote: >-
+    We’re extremely happy with the new system. We’ve saved so much time, it’s
+    really been amazing.
+  quotee: 'Marcus Battle, Chief Business Officer, ESUHSD'
 ---
-## ESUHSD takes control of their facility rentals
-#### Client: East Side Union High School District
-#### Challenge: Schools weren't adhering to district guidelines for facility rentals
-
----
-
 After an internal review, Marcus Battle, CBO of East Side Union High School District in San
 Jose, confirmed what he had suspected – the district’s schools weren’t following a number
 of district guidelines regarding external facility rentals. Facility rental pricing was inconsistent
@@ -36,7 +45,3 @@ extremely happy with the new system. We’ve saved so much time, it’s really b
 Including on-boarding and training time, ESUHSD was up and running quickly and thanks to
 their new partnership with Facilitron have one centralized place for total facility management
 – calendars, communications, reservation requests and more.
-
-> We’re extremely happy with the new system. We’ve saved so much time, it’s really been amazing.
->
-> <cite>&mdash;Marcus Battle, Chief Business Officer, ESUHSD</cite>
