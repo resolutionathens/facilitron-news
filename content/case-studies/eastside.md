@@ -8,13 +8,11 @@ description: >-
   weren’t following a number of district guidelines regarding external facility
   rentals.
 custom_header_img: eastside.jpg
-heading: >-
-  Access to data drives policy changes and $1 million increase in facility
-  revenues
+heading: ESUHSD takes control of their facility rentals
 client:
   challenge: Schools weren't adhering to district guidelines for facility rentals
   client_description: >-
-    East Side Union High School District consists of ?? schools in San Jose,
+    East Side Union High School District has 13 High Schools in San Jose,
     California
   client_name: East Side Union High School District
   partner_logo: east-side-high-school.png
