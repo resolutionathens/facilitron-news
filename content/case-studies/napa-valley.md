@@ -7,13 +7,9 @@ description: >-
   turned to their facility use program in search of revenues and ways to
   alleviate the crunch.
 custom_header_img: napa-valley.jpg
-partner_logo: college-of-marin.png
-intro:
-  challenge: Find ways to more effectively manage facility use amid budget crunch
+client:
   client: Napa Valley Unified School District
-  heading: >-
-    Napa Valley Unified unknowingly subsidized community programs through
-    facility use fees
+  partner_logo: napa-valley-united.png
 ---
 ## Napa Valley Unified unknowingly subsidized community programs through facility use fees
 #### Client: Napa Valley Unified School District
