@@ -1,23 +1,41 @@
 {{ partial "header-case-study.html" . }}
 <main id="main">
-  <div class="container-fluid px-5">
-      <article class="post">
-        <div>
-          {{ .Content }}
-        </div>
-      </article>
-      <!-- #post-## -->
-    <!-- /row post  -->
-    <div class="clearfix"></div>
+  <div class="container-fluid mt-5 px-5">
     <div class="row">
-      <div>
-        <div id="comments">
-          {{ if .Params.Comments }} {{ partial "disqus.html" . }} {{ end }}
-        </div>
+      <div class="col-md-3 px-3">
+        <img class="img-fluid pt-4 pb-5" src="{{ .Site.BaseURL }}images/logos/{{ .Params.client.partner_logo }}" alt="{{ .Params.client.client_name }}"><br>
+        <em>{{ .Params.client.client_description }}</em>
+      </div>
+      <div class="col-md-9" style="align-self:center">
+        <h2 class="h2-responsive">{{ .Params.heading }}</h2>
+        <h4 class="h4-responsive">Client: {{ .Params.client.client_name }}</h4>
+        <h4 class="h4-responsive mb-5">Challenge: {{ .Params.client.challenge }}</h4>
+        {{ .Content }}
       </div>
     </div>
-    <!-- /row comments -->
-    <div class="clearfix"></div>
+  </div>
+  <!-- /.overview-section -->
+
+  <!-- testimonial-section -->
+  <div class="container-fluid mb-5 p-5">
+    <div class="row">
+      <div class="col-lg-5">
+        <img class="img-fluid" src="{{ .Site.BaseURL}}images/case-study-img/marin-mockups.jpg" alt="College of Marin Case Study">
+      </div>
+      <div class="col-lg-7">
+        <h4 class="h4-responsive mb-5">We met the challenge and exceeded their expectations. Here's what they had to say:</h4>
+        <blockquote>
+          “{{ .Params.quote.quote }}” <br><br>- {{ .Params.quote.quotee }} <br>
+          <img src="{{ .Site.BaseURL }}images/logos/{{ .Params.client.partner_logo }}" alt="{{ .Params.client.client_name }}" style="width:200px; margin-top:20px;">
+        </blockquote>
+        <a href="https://facilitron.drift.com/getstarted?schedule" target="_blank" class="btn btn-primary my-4">Schedule A Demo</a>
+      </div>
+    </div>
+  </div>
+  <!-- /.testimonial-section -->
+  <!-- #post-## -->
+  <!-- /row post  -->
+  <div class="clearfix"></div>
   </div>
   <!-- /container -->
 </main>
