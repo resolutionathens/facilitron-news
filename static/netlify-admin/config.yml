@@ -20,7 +20,7 @@ collections:
         name: "client"
         widget: "object"
         fields:
-          - {label: "Client Name", name: "client", widget: "string"}
+          - {label: "Client Name", name: "client_name", widget: "string"}
           - {label: "Client Description", name: "client_description", widget: "string"}
           - {label: "Client Logo", name: "partner_logo", widget: "string"}
           - {label: "Heading", name: "heading", widget: "string"}
