@@ -16,13 +16,14 @@ collections:
       - {label: "Show Date", name: "showdate", widget: "hidden", default: true}
       - {label: "Intro Blurb", name: "description", widget: "text"}
       - {label: "Custom Header Image", name: "custom_header_img", widget: "string", required: false}
-      - {label: "Partner Logo", name: "partner_logo", widget: "string"}
-      - label: "Intro"
-        name: "intro"
+      - label: "Client"
+        name: "client"
         widget: "object"
         fields:
+          - {label: "Client Name", name: "client", widget: "string"}
+          - {label: "Client Description", name: "client_description", widget: "string"}
+          - {label: "Client Logo", name: "partner_logo", widget: "string"}
           - {label: "Heading", name: "heading", widget: "string"}
-          - {label: "Client", name: "client", widget: "string"}
           - {label: "Challenge", name: "challenge", widget: "string"}
       - {label: "Body", name: "body", widget: "markdown"}
 
