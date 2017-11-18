@@ -20,7 +20,7 @@
             <!--Title-->
             <h4 class="card-title">{{ .Title }}</h4>
             <!--Text-->
-            <p class="card-text">{{ .Summary | truncate 180 }}</p>
+            <p class="card-text">{{ .Params.description }}</p>
             <a href="{{ .Permalink }}" class="btn btn-sm btn-primary" rel="bookmark">Read More</a>
           </div>
         </div>

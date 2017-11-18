@@ -17,6 +17,8 @@ collections:
       - {label: "Custom Header Image", name: "custom_header_img", widget: "string", required: false}
       - {label: "Body", name: "body", widget: "markdown"}
       - {label: "Show Date", name: "showdate", widget: "boolean", default: true}
+      - {label: "Partner Logo", name: "partner_logo", widget: "text"}
+      - {label: Intro, name: intro, widget: object, fields: [{label: Heading, name: heading, widget: string}, {label: Client, name: client, widget: text}, {label: Challenge, name: challenge, widget: text}]
 
   - name: "press"
     label: "Press"

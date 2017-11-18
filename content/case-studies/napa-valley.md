@@ -4,10 +4,7 @@ date: '2017-11-14 06:53:20 -0500'
 description: >-
   Facing budget reductions and layoffs, Napa Valley Unified School District
   turned to their facility use program in search of revenues and ways to
-  alleviate the crunch. Utilization reports and cost analysis by Facilitron
-  using data from just one year on the reservation and scheduling platform
-  allowed the district to more clearly understand the actual cost of using
-  district’s facilities - whether by school programs or the community.
+  alleviate the crunch.
 custom_header_img: napa-valley.jpg
 showdate: true
 ---
