@@ -1,0 +1,12 @@
+{{ partial "header" . }}
+
+<ul>
+{{ range .Params.questions }}
+  {{ partial "question" . }}
+{{end}}
+</ul>
+
+{{ partial "footer" . }}
+<script type="text/javascript">
+  console.log("Template: layouts/support/single.html");
+</script>
