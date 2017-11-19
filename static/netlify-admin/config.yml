@@ -61,10 +61,11 @@ collections:
       - {label: "Show Date", name: "showdate", widget: "boolean", default: true}
       - {label: "Show Comments", name: "comments", widget: "boolean", default: true}
 
-  - name: "support pages"
-    label: "support Pages"
+  - name: "support_pages"
+    label: "Support Pages"
     files:
-      - file: "FAQ"
+      - file: "content/support/faq/faq.md"
+        label: "FAQ"
         name: "faq"
         fields:
           - {label: "Title", name: "title", widget: "string"}
