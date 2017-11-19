@@ -60,3 +60,19 @@ collections:
       - {label: "Body", name: "body", widget: "markdown"}
       - {label: "Show Date", name: "showdate", widget: "boolean", default: true}
       - {label: "Show Comments", name: "comments", widget: "boolean", default: true}
+
+  - name: "support pages"
+    label: "support Pages"
+    files:
+      - file: "FAQ"
+        name: "faq"
+        fields:
+          - {label: "Title", name: "title", widget: "string"}
+          - {label: "Type", name: "type", widget: "hidden", default: "faq"}
+          - {label: "Page", name: "page", widget: "hidden", default: "/support/faq/faq.html"}
+          - label: "Questions"
+            name: "questions"
+            widget: "list"
+            fields:
+              - {label: "Question", name: "question", widget: "string"}
+              - {label: "Answer", name: "answer", widget: "text"}
