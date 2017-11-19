@@ -71,9 +71,9 @@ collections:
           - {label: "Title", name: "title", widget: "string"}
           - {label: "Type", name: "type", widget: "hidden", default: "faq"}
           - {label: "Page", name: "page", widget: "hidden", default: "/support/faq/faq.html"}
-          - label: "Questions"
-            name: "questions"
-            widget: "list"
-            fields:
-              - {label: "Question", name: "question", widget: "string"}
-              - {label: "Answer", name: "answer", widget: "text"}
+          # - label: "Questions"
+          #   name: "questions"
+          #   widget: "list"
+          #   fields:
+          #     - {label: "Question", name: "question", widget: "string"}
+          #     - {label: "Answer", name: "answer", widget: "text"}
