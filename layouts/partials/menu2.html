@@ -1,0 +1,29 @@
+<nav class="navbar navbar-light fixed-top navbar-expand-md">
+  <a class="navbar-brand" href="{{ .Site.BaseURL }}"><img src="{{ .Site.BaseURL }}images/logos/facilitron-logo.svg" alt="Facilitron"></a>
+  <div class="collapse navbar-collapse" id="topNav">
+    <ul class="navbar-nav ml-auto">
+      {{ $currentNode := . }}
+      {{ range .Site.Menus.main }}
+        {{ if .HasChildren }}
+          <div class="dropdown dropdown-nav">
+            <a href="{{ .URL | absURL }}" class="nav-link {{ if $currentNode.HasMenuCurrent "main" . }} active{{ end }}" id="{{ .Name }}" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> {{ .Name }} </a>
+            <div class="dropdown-menu">
+            <!-- Only 1 level of dropdown permitted - create links for children. -->
+            {{ range .Children }}
+              <a class="dropdown-item{{if $currentNode.IsMenuCurrent "main" . }} active{{end}}" href="{{ .URL | absURL }}">{{ .Name }}</a>
+            {{ end }}
+            </div>
+          </div>
+        {{ else }}
+            <!-- No children so just add a link. -->
+          <a class="nav-link{{ if $currentNode.IsMenuCurrent "main" .  }} active{{ end }}" href="{{ .URL | absURL }}">{{ .Name }}</a>
+        {{ end }}
+      {{ end }}
+      <li class="nav-item"><a id="sign-up-free-btn" class="nav-link" data-toggle="modal" data-target="#fLoginForm">Sign Up</a></li>
+      <li class="nav-item"><a class="nav-link" href="#"><i class="fa fa-sign-in mr-1"></i>Log In</a></li>
+    </ul>
+  </div>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#topNav" aria-controls="topNav" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+</nav>

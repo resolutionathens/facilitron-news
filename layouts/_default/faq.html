@@ -1,12 +1,12 @@
 {{ partial "header" . }}
 
-<ul>
+<div class="my-5 px-5">
 {{ range .Params.questions }}
   {{ partial "question" . }}
 {{end}}
-</ul>
+</div>
 
 {{ partial "footer" . }}
 <script type="text/javascript">
-  console.log("Template: layouts/support/single.html");
+  console.log("Template: layouts/_default/faq.html");
 </script>

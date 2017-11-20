@@ -1,5 +1,13 @@
 ---
 title: Frequently Asked Questions
+type: faq
+layout: faq
+page: "support/faq.html"
+menu:
+  main:
+    name: "FAQ"
+    weight: 10
+    parent: "Support"
 questions:
   - answer: >-
       Contact us and our business analysts and solutions architects will get it
@@ -99,4 +107,3 @@ questions:
       booking record history.
     question: Can I modify the booking once it’s been submitted?
 ---
-

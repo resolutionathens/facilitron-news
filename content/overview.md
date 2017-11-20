@@ -1,10 +1,11 @@
 ---
 title: "Facilitron Overview"
-type: "Overview"
+type: "overview"
 page: "/overview.html"
+layout: overview
 menu:
   main:
-    name: About
+    name: Overview
     weight: -10
 
 ---

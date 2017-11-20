@@ -6582,52 +6582,52 @@ button:focus {
 }
 
 .navbar.navbar-dark .navbar-nav .nav-item .nav-link.disabled, .navbar.navbar-dark .navbar-nav .nav-item .nav-link.disabled:hover {
-  color: rgba(255, 255, 255, 0.5)
+  color: rgba(255, 255, 255, 0.5);
 }
 
 .navbar.navbar-light .navbar-nav .nav-item .nav-link.disabled, .navbar.navbar-light .navbar-nav .nav-item .nav-link.disabled:hover {
-  color: rgba(0, 0, 0, 0.5)
+  color: rgba(0, 0, 0, 0.5);
 }
 
 .navbar .nav-item .nav-link {
-  display: block
+  display: block;
 }
 
 .navbar .nav-item .nav-link.disabled:active {
-  pointer-events: none
+  pointer-events: none;
 }
 
 .navbar .nav-item .nav-link .fa {
   padding-left: 3px;
-  padding-right: 3px
+  padding-right: 3px;
 }
 
 @media (max-width: 992px) {
   .navbar .nav-item .nav-link {
     padding-left: 6px;
-    padding-right: 6px
+    padding-right: 6px;
   }
 }
 
 .navbar .dropdown-menu {
   position: absolute !important;
-  margin-top: 0
+  margin-top: 0;
 }
 
 .navbar .dropdown-menu a {
-  font-size: .9375rem;
+  /*font-size: .9375rem;
   font-weight: 300;
   padding: 10px;
-  color: #000 !important
+  color: #000 !important;*/
 }
 
 .navbar .dropdown-menu a:hover {
-  color: #fff !important
+  /*color: #fff !important;*/
 }
 
 @media (max-width: 600px) {
   .navbar .dropdown-menu.dropdown-menu-right {
-    right: auto !important
+    right: auto !important;
   }
 }
 
@@ -9025,7 +9025,20 @@ footer.page-footer nav a:hover {
   position: relative;
 }
 
+
+
 .nav-link:hover:after {
+  content: '';
+  width: 100%;
+  position: absolute;
+  left: 0;
+  bottom: 1px;
+  border-width: 0 0 2px;
+  border-style: solid;
+  border-color: #5D97F2;
+}
+
+.active:after {
   content: '';
   width: 100%;
   position: absolute;
@@ -9038,6 +9051,24 @@ footer.page-footer nav a:hover {
 
 .navbar-brand img {
   width: 160px;
+}
+
+.dropdown-menu {
+  border: 0;
+  background-color: #fff;
+}
+
+.navbar-light .navbar-nav .nav-link {
+  color: rgba(0,0,0,0.95);
+}
+
+.dropdown-item {
+  font-size: 0.8em;
+  font-weight: 300;
+}
+
+.dropdown-item:hover {
+
 }
 
 #head {
