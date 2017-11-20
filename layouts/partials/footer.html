@@ -59,22 +59,6 @@
   console.log("Kind: {{ .Kind }}");
   console.log("{{ printf "%#v" . }}")
 </script>
-<!-- custom preview testing -->
-<script src="https://unpkg.com/netlify-cms@^0.7.0/dist/cms.js"></script>
-<script>
-var PressPreview = createClass({
-  render: function() {
-    var entry = this.props.entry;
-    return h('div', {},
-      h('h1', {}, entry.getIn(['data', 'title'])),
-      h('img', {src: bg.toString()}),
-      h('div', {"className": "text"}, this.props.widgetFor('body'))
-    );
-  }
-});
-
-CMS.registerPreviewTemplate("press", PressPreview);
-</script>
 
 </body>
 </html>
