@@ -54,9 +54,29 @@
 <script src="{{ .Site.BaseURL }}js/template.js"></script>
 <script id="dsq-count-scr" src="//{{ .Site.Params.disqus.site }}/count.js" async></script>
 {{ partial "analyticstracking" . }}
+<!-- Hugo debugging script -->
 <script type="text/javascript">
   console.log("Kind: {{ .Kind }}");
   console.log("{{ printf "%#v" . }}")
 </script>
+<!-- custom preview testing -->
+<script src="https://unpkg.com/netlify-cms@^0.7.0/dist/cms.js"></script>
+<script>
+var FAQPreview = createClass({
+  render: function() {
+    var entry = this.props.entry;
+    var image = entry.getIn(['data', 'image']);
+    var bg = this.props.getAsset(image);
+    return h('div', {},
+      h('h1', {}, entry.getIn(['data', 'title'])),
+      h('img', {src: bg.toString()}),
+      h('div', {"className": "text"}, this.props.widgetFor('body'))
+    );
+  }
+});
+
+CMS.registerPreviewTemplate("faq", FAQPreview);
+</script>
+
 </body>
 </html>
