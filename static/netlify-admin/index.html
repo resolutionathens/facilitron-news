@@ -19,19 +19,14 @@
         var custom_header_img = entry.getIn(['data', 'custom_header_img']);
         return h('div', {},
           h('h1', {}, entry.getIn(['data', 'title'])),
+          h('h2', {}, this.props.widgetFor('heading')),
           h('img', {src: '/images/headers/' + custom_header_img}),
           h('div', {"className": "text"}, this.props.widgetFor('body')),
-          h('div', entry)
         );
       }
     });
 
     CMS.registerPreviewTemplate("case-studies", CaseStudyPreview);
-  </script>
-  <!-- Expose Hugo stuff -->
-  <script type="text/javascript">
-    console.log("Kind: {{ .Kind }}");
-    console.log("{{ printf "%#v" . }}")
   </script>
 
 </body>
