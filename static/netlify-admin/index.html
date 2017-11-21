@@ -10,6 +10,24 @@
 
 </head>
 <body>
+  <!-- Custom CMS previews -->
   <script src="https://unpkg.com/netlify-cms@^0.7.0/dist/cms.js"></script>
+  <script>
+    var CaseStudyPreview = createClass({
+      render: function() {
+        var entry = this.props.entry;
+        var image = entry.getIn(['data', 'custom_header_img']);
+        var bg = this.props.getAsset(image);
+        return h('div', {},
+          h('h1', {}, entry.getIn(['data', 'title'])),
+          h('img', {src: bg.toString()}),
+          h('div', {"className": "text"}, this.props.widgetFor('body'))
+        );
+      }
+    });
+
+    CMS.registerPreviewTemplate("case-studies", CaseStudyPreview);
+  </script>
+
 </body>
 </html>
