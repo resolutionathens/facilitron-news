@@ -21,7 +21,6 @@
           h('img', {src: '/images/headers/' + custom_header_img}),
           h('h1', {}, entry.getIn(['data', 'title'])),
           h('h2', {}, this.props.widgetFor('heading')),
-          h('img', {src: '/images/logos/' + this.props.widgetFor('partner_logo')}),
           h('p', {}, this.props.widgetFor('client_name')),
           h('p', {}, this.props.widgetFor('client_description')),
           h('div', {}, this.props.widgetFor('body'))
