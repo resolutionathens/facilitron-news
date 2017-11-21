@@ -19,8 +19,9 @@
         var image = entry.getIn(['data', 'custom_header_img']);
         return h('div', {},
           h('h1', {}, entry.getIn(['data', 'title'])),
-          h('img', {src: 'images/headers/' + image}),
-          h('div', {"className": "text"}, this.props.widgetFor('body'))
+          h('img', {src: '/images/headers/' + image}),
+          h('div', {"className": "text"}, this.props.widgetFor('body')),
+          h('blockquote', this.props.widgetFor('Quote.quote'))
         );
       }
     });
