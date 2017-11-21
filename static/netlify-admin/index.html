@@ -17,16 +17,20 @@
       render: function() {
         var entry = this.props.entry;
         var image = entry.getIn(['data', 'custom_header_img']);
-        var bg = this.props.getAsset(image);
         return h('div', {},
           h('h1', {}, entry.getIn(['data', 'title'])),
-          h('img', {src: bg.toString()}),
+          h('img', {src: 'images/headers/' + image}),
           h('div', {"className": "text"}, this.props.widgetFor('body'))
         );
       }
     });
 
     CMS.registerPreviewTemplate("case-studies", CaseStudyPreview);
+  </script>
+  <!-- Expose Hugo stuff -->
+  <script type="text/javascript">
+    console.log("Kind: {{ .Kind }}");
+    console.log("{{ printf "%#v" . }}")
   </script>
 
 </body>
