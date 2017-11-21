@@ -34,19 +34,6 @@ collections:
           - {label: "Quote", name: "quote", widget: "text"}
           - {label: "Quotee", name: "quotee", widget: "string"}
 
-  - name: "press"
-    label: "Press"
-    folder: "content/press"
-    create: true
-    fields:
-      - {label: "Title", name: "title", widget: "string"}
-      - {label: "Author", name: "author", widget: "string"}
-      - {label: "Publish Date", name: "date", widget: "datetime"}
-      - {label: "Intro Blurb", name: "description", widget: "text"}
-      - {label: "Original Publication", name: "original_publication", widget: "string", required: false}
-      - {label: "Original URL", name: "original_article_url", widget: "string", required: false}
-      - {label: "Body", name: "body", widget: "markdown"}
-
   - name: "news"
     label: "News"
     folder: "content/news"
@@ -56,6 +43,8 @@ collections:
       - {label: "Author", name: "author", widget: "string"}
       - {label: "Publish Date", name: "date", widget: "datetime"}
       - {label: "Intro Blurb", name: "description", widget: "text"}
+      - {label: "Original Publication", name: "original_publication", widget: "string", required: false}
+      - {label: "Original URL", name: "original_article_url", widget: "string", required: false}
       - {label: "Custom Header Image", name: "custom_header_img", widget: "string", required: false}
       - {label: "Body", name: "body", widget: "markdown"}
       - {label: "Show Date", name: "showdate", widget: "boolean", default: true}

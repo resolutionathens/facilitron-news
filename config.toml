@@ -15,3 +15,29 @@ year = 2017
 site = "facilitron.disqus.com"
 [params.google.analytics]
 trackerid = "UA-88933286-1"
+[[menu.main]]
+  name = "FAQ"
+  identifier = "faq"
+  url = "/support/faq"
+  parent = "Support"
+  weight = -10
+[[menu.main]]
+  name = "Application Support"
+  identifier = "application-support"
+  url = "/support/application-support"
+  parent = "Support"
+[[menu.main]]
+  name = "Platform Overview"
+  identifier = "overview"
+  url = "/overview/"
+  weight = -10
+[[menu.main]]
+  name = "Case Studies"
+  identifier = "case-studies"
+  url = "/case-studies/"
+  weight = 1
+[[menu.main]]
+  name = "News"
+  identifier = "news"
+  url = "/news/"
+  weight = 5

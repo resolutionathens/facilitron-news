@@ -2,6 +2,7 @@
 title: Frequently Asked Questions
 type: faq
 page: support/faq.html
+layout: faq
 questions:
   - answer: >-
       Contact us and our business analysts and solutions architects will get it
@@ -100,7 +101,5 @@ questions:
       record of renter approvals (or disapprovals) is permanently kept with the
       booking record history.
     question: Can I modify the booking once it’s been submitted?
-  - answer: It's blue.
-    question: What color is the sky?
----
 
+---
