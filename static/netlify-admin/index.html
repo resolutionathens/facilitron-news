@@ -16,6 +16,7 @@
     var CaseStudyPreview = createClass({
       render: function() {
         var entry = this.props.entry;
+        console.log(entry);
         var custom_header_img = entry.getIn(['data', 'custom_header_img']);
         return h('div', {},
           h('img', {src: '/images/headers/' + custom_header_img}),
