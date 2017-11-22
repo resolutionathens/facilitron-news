@@ -1,5 +1,6 @@
 ---
-title: News from Facilitron
-date: 2017-11-13 12:54:15 -0500
+title: Facilitron News
+date: 2017-11-15 11:44:12 -0500
+showdate: false
 
 ---

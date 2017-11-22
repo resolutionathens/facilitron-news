@@ -18,9 +18,9 @@
   <!--[if lt IE 9]> <script src="js/html5shiv.js"></script> <![endif]-->
   <style>
     #head {
-      background: url({{ $.Site.BaseURL }}images/headers/news.jpg) top center !important;
+      {{ with .Params.custom_header_img }}background: url({{ $.Site.BaseURL }}images/headers/{{ $.Params.custom_header_img }}) !important;  {{ end }}
     }
-    #head h2 {
+    #head h2{
       margin-top: 200px !important;
     }
   </style>

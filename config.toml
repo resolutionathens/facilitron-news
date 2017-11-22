@@ -15,29 +15,61 @@ year = 2017
 site = "facilitron.disqus.com"
 [params.google.analytics]
 trackerid = "UA-88933286-1"
+
 [[menu.main]]
-  name = "FAQ"
-  identifier = "faq"
-  url = "/support/faq"
-  parent = "Support"
-  weight = -10
-[[menu.main]]
-  name = "Application Support"
-  identifier = "application-support"
-  url = "/support/application-support"
-  parent = "Support"
-[[menu.main]]
-  name = "Platform Overview"
+  name = "Overview"
   identifier = "overview"
-  url = "/overview/"
-  weight = -10
-[[menu.main]]
-  name = "Case Studies"
-  identifier = "case-studies"
-  url = "/case-studies/"
+  url = "/platform-features/overview"
+  parent = "The Platform"
   weight = 1
+
+[[menu.main]]
+  name = "Scheduling"
+  identifier = "scheduling"
+  url = "/platform-features/scheduling"
+  parent = "The Platform"
+  weight = 1
+
+[[menu.main]]
+  name = "Work Orders"
+  identifier = "work-orders"
+  url = "/platform-features/work-orders"
+  parent = "The Platform"
+  weight = 1
+
+[[menu.main]]
+  name = "Pricing"
+  identifier = "pricing"
+  url = "/platform-features/pricing"
+  parent = "The Platform"
+  weight = 1
+
 [[menu.main]]
   name = "News"
   identifier = "news"
   url = "/news/"
   weight = 5
+[[menu.main]]
+  name = "Administrator Support"
+  identifier = "administrator-support"
+  url = "/support/administrator-support"
+  parent = "Support"
+  weight = 1
+[[menu.main]]
+  name = "Renter Support"
+  identifier = "renter-support"
+  url = "/support/renter-support"
+  parent = "Support"
+  weight = 5
+[[menu.main]]
+  name = "Contact Support"
+  identifier = "contact-support"
+  url = "/support/contact-support"
+  parent = "Support"
+  weight = 10
+[[menu.main]]
+  name = "Contact Sales"
+  identifier = "contact-sales"
+  url = "/support/contact-sales"
+  parent = "Support"
+  weight = 15
