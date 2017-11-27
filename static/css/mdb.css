@@ -9165,3 +9165,17 @@ article.post {
 .card img {
   min-height: 200px;
 }
+
+@media only screen and (max-width: 768px) {
+  .card-container .card {
+    flex-basis: 49%;
+    margin-bottom: 2em;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .card-container .card {
+    flex-basis: 100%;
+    margin-bottom: 2em;
+  }
+}
