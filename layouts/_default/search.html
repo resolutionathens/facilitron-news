@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Facilitron Search Example</title>
+  <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+  <script src="https://unpkg.com/vue"></script>
+  <script src="https://maps.googleapis.com/maps/api/js?v=3.exp&libraries=places&key=AIzaSyDeymCvE4ICfhpJTxg3Hmxe_IkVmrWMqUg"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.19.2/moment.min.js"></script>
+</head>
+
+<body>
+  <div id="app">
+    <form id="theSearch" name="theSearch" onSubmit="return doTheSearch();">
+      <input type="text" id="searchFacility" name="searchFacility" placeholder="facility" v-model="searchFacility"><br>
+      <input type="text" id="searchLocation" name="searchLocation" placeholder="location" v-model="searchLocation"><br>
+      <input type="text" id="searchDate" name="searchDate" placeholder="date" v-model="searchDate"><br>
+      <input type="submit">
+    </form>
+  </div>
+
+  <!-- let's say this is san jose, within twenty miles -->
+  <script>
+    var vm = new Vue({
+      el: '#app',
+      data: {
+        searchFacility: '',
+        searchLocation: '',
+        searchDate: '',
+        searchURL: 'https://facilitron.com/searchfacility/u:facilitron/',
+      }
+      // clean up and trim searchFacility
+
+      // convert searchLocation into lat:??/lng:??/dist:20
+
+      // convert searchDate into startDate:1509494400000/endDate:1512086400000
+
+      // put all pieces into URL
+      
+    })
+    function doTheSearch() {
+      // strUrlToCall hits the Facilitron APIs, we're going to build it up piece by piece
+      // first the user facilitron
+      var strUrlToCall = 'https://facilitron.com/searchfacility/u:facilitron';
+      // within 20 miles of location, hardcoded to san jose
+      strUrlToCall = strUrlToCall + '/lat:37.3382082/lng:-121.88632860000001/dist:20';
+      // this is the piece that isn't working
+      strUrlToCall = strUrlToCall + '/activities:-1/types:-1/namelike:' + document.getElementById('searchstring').value;
+      // add the start and end date, hardcoded to november
+      strUrlToCall = strUrlToCall + '/startDate:1509494400000/endDate:1512086400000';
+      // add the action to the form
+      document.getElementById('theSearch').action = strUrlToCall;
+    }
+  </script>
+
+</body>
+
+</html>

@@ -1,4 +1,4 @@
-(function() {
+(function () {
 
   // Localize jQuery variable
   var jQuery;
@@ -9,7 +9,7 @@
     script_tag.setAttribute("type", "text/javascript");
     script_tag.setAttribute("src", "https://cdnjs.cloudflare.com/ajax/libs/jquery/1.9.1/jquery.min.js");
     if (script_tag.readyState) {
-      script_tag.onreadystatechange = function() { // For old versions of IE
+      script_tag.onreadystatechange = function () { // For old versions of IE
         if (this.readyState == 'complete' || this.readyState == 'loaded') {
           scriptLoadHandler();
         }
@@ -41,7 +41,7 @@
     script_tag.setAttribute("src", src);
 
     if (script_tag.readyState) {
-      script_tag.onreadystatechange = function() {
+      script_tag.onreadystatechange = function () {
         if (this.readyState == 'complete' || this.readyState == 'loaded') {
           onLoad();
         }
@@ -60,7 +60,7 @@
     link_tag.setAttribute("href", href);
     (document.getElementsByTagName("head")[0] || document.documentElement).appendChild(link_tag);
   }
-  var initlocation = function() {
+  var initlocation = function () {
     var options = {
       componentRestrictions: {
         country: 'us'
@@ -69,22 +69,22 @@
     var input = document.getElementById('fa-location');
     var autocomplete = new google.maps.places.Autocomplete(input, options);
   }
-  var geolocate = function() {
+  var geolocate = function () {
     if (navigator.geolocation) {
-      navigator.geolocation.getCurrentPosition(function(position) {
+      navigator.geolocation.getCurrentPosition(function (position) {
         var lat = position.coords.latitude;
         var lng = position.coords.longitude;
         displayLocation(lat, lng);
       });
     }
   }
-  var displayLocation = function(latitude, longitude) {
+  var displayLocation = function (latitude, longitude) {
     var geocoder;
     geocoder = new google.maps.Geocoder();
     var latlng = new google.maps.LatLng(latitude, longitude);
     geocoder.geocode({
       'latLng': latlng
-    }, function(results, status) {
+    }, function (results, status) {
       if (status == google.maps.GeocoderStatus.OK) {
         if (results[0]) {
           var add = results[0].formatted_address;
@@ -100,12 +100,10 @@
   /******** Our main function ********/
   function main() {
     var baseurl = "https://www.facilitron.com";
-    loadCss("https://fonts.googleapis.com/css?family=Open+Sans:300,400,700");
-    loadCss("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css");
-    loadScript("https://maps.googleapis.com/maps/api/js?v=3.exp&libraries=places&key=AIzaSyDeymCvE4ICfhpJTxg3Hmxe_IkVmrWMqUg", function() {});
-    loadScript('https://cdnjs.cloudflare.com/ajax/libs/underscore.js/1.8.3/underscore-min.js', function() {});
-    loadScript('https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.18.1/moment.min.js', function() {});
-    var searchAndFilter = function(elm, elm2) {
+    loadScript("https://maps.googleapis.com/maps/api/js?v=3.exp&libraries=places&key=AIzaSyDeymCvE4ICfhpJTxg3Hmxe_IkVmrWMqUg", function () {});
+    loadScript('https://cdnjs.cloudflare.com/ajax/libs/underscore.js/1.8.3/underscore-min.js', function () {});
+    loadScript('https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.19.2/moment.min.js', function () {});
+    var searchAndFilter = function (elm, elm2) {
       var input,
         filter,
         ul,
@@ -125,14 +123,14 @@
         }
       }
     }
-    var showPosition = function(position) {
+    var showPosition = function (position) {
       var lat = position.coords.latitude;
       var lng = position.coords.longitude;
       displayLocation(lat, lng);
     }
-    var showMonthPicker = function() {}
+    var showMonthPicker = function () {}
 
-    jQuery(document).ready(function($) {
+    jQuery(document).ready(function ($) {
       var server = $('#facilitron-search-container').data('server');
       if (server)
         baseurl = server;
@@ -143,7 +141,7 @@
       /******* Load HTML *******/
       var jsonp_url = baseurl + "/search_parameter?callback=?";
 
-      $.getJSON(jsonp_url, function(data) {
+      $.getJSON(jsonp_url, function (data) {
         var html = '<div class="facilitron-search-bar-wrapper">';
         html += '<div class="facilitron-search-input-wrapper-sm">';
         html += '<div class="search-box facilitron-pull-left facilitron-search-sm">Search Facility</div>'
@@ -204,16 +202,20 @@
         $('#facilitron-search-container').empty();
         $('#facilitron-search-container').html(html);
         var arr = JSON.parse(data);
-        var aOwners = $.map(arr[0].owner, function(obj) {
+        var aOwners = $.map(arr[0].owner, function (obj) {
           if (obj.u_id !== "facilitron")
             return {
               value: obj.name + " - " + obj.city + ", " + obj.state,
               data: obj.u_id,
               type: "owner"
             }
-          });
-        var activitiesArr = $.map(arr[0].activities, function(item) {
-          return {value: item.name, data: item._id, type: "activity"};
+        });
+        var activitiesArr = $.map(arr[0].activities, function (item) {
+          return {
+            value: item.name,
+            data: item._id,
+            type: "activity"
+          };
         });
         var mergedObj = $.merge(aOwners, activitiesArr)
         var dd = '<ul class="facilitron-search-list" id="dd-activity">';
@@ -226,15 +228,15 @@
         var today = moment().format("MM/DD/YYYY");
         var month_dd = '<ul class="facilitron-search-list" id="dd-month">';
         for (var i = 1; i < 36; i++) {
-          month_dd += '<li><a href="javascript:void(0)" class="month-list-li" data-date="' + moment(today).add(i, "month").format("MMMM, YYYY") + '">' + moment(today).add(i, "month").format("MMMM, YYYY") + '</a></li>';
+          month_dd += '<li><a href="javascript:void(0)" class="month-list-li" data-date="' + moment().add(i, "month").format("MMMM, YYYY") + '">' + moment().add(i, "month").format("MMMM, YYYY") + '</a></li>';
         }
         month_dd += '</ul>';
         $('#date-dd').empty();
         $('#date-dd').html(month_dd);
-        $('#fa-date').val(moment(today).format("MMMM, YYYY"));
+        $('#fa-date').val(moment().format("MMMM, YYYY"));
         initlocation();
 
-        $('body').on('click', '#fa-search', function() {
+        $('body').on('click', '#fa-search', function () {
           var search = $.trim($('#fa-activity').val());
           if (search.indexOf("<script>") >= 0 || search.indexOf("</script>") >= 0)
             search = "";
@@ -244,11 +246,11 @@
             return;
           }
           var a = search.toLowerCase().split(' ');
-          var activityMap = _.groupBy(arr[0].activities, function(obj) {
+          var activityMap = _.groupBy(arr[0].activities, function (obj) {
             return obj.name.toLowerCase()
           });
           if (activityMap[search.toLowerCase()] == undefined) {
-            var arrActivity = $.map(arr[0].activities, function(obj) {
+            var arrActivity = $.map(arr[0].activities, function (obj) {
               return obj.name.toLowerCase()
             });
             var temp = _.intersection(a, arrActivity);
@@ -294,7 +296,7 @@
           geocoder = new google.maps.Geocoder();
           geocoder.geocode({
             'address': address
-          }, function(results, status) {
+          }, function (results, status) {
             if (status == google.maps.GeocoderStatus.OK) {
               var latitude = results[0].geometry.location.lat();
               var longitude = results[0].geometry.location.lng();
@@ -305,24 +307,33 @@
             }
           });
         });
-        $('body').on('click', '#fa-date', function() {
-          $('#activity-dd').css({"display": "none"});
-          $('#date-dd').css({"display": "block"});
+        $('body').on('click', '#fa-date', function () {
+          $('#activity-dd').css({
+            "display": "none"
+          });
+          $('#date-dd').css({
+            "display": "block"
+          });
         });
-        $('body').on('click', '#fa-location', function() {
-          $('#activity-dd').css({"display": "none"});
+        $('body').on('click', '#fa-location', function () {
+          $('#activity-dd').css({
+            "display": "none"
+          });
           if (!$('#fa-location').val())
             geolocate();
-          }
-        );
-        $('body').on('click', '#fa-activity', function() {
-          $('#activity-dd').css({"display": "block"});
-          $('#date-dd').css({"display": "none"});
         });
-        $('body').on('keyup', '#fa-activity', function() {
+        $('body').on('click', '#fa-activity', function () {
+          $('#activity-dd').css({
+            "display": "block"
+          });
+          $('#date-dd').css({
+            "display": "none"
+          });
+        });
+        $('body').on('keyup', '#fa-activity', function () {
           searchAndFilter("fa-activity", "activity-dd");
         });
-        $('body').on('click', '.list-li', function() {
+        $('body').on('click', '.list-li', function () {
           var id = $(this).data('id');
           var type = $(this).data('type');
           var name = $(this).data('name');
@@ -330,20 +341,24 @@
             var url = baseurl + "/" + id;
             window.location.href = url;
           } else {
-            $('#activity-dd').css({"display": "none"});
+            $('#activity-dd').css({
+              "display": "none"
+            });
             $('#fa-activity').val(name);
             $('#fa-activity').data("id", id);
           }
         });
-        $('body').on('click', '.month-list-li', function() {
+        $('body').on('click', '.month-list-li', function () {
           var d = $(this).data('date');
-          $('#date-dd').css({"display": "none"});
+          $('#date-dd').css({
+            "display": "none"
+          });
           $('#fa-date').val(d);
         });
-        $('body').on('keyup', '#fa-date', function() {
+        $('body').on('keyup', '#fa-date', function () {
           searchAndFilter("fa-date", "date-dd");
         });
-        $('body').on('click', '.facilitron-search-sm', function() {
+        $('body').on('click', '.facilitron-search-sm', function () {
           $("#searchModal").slideToggle("slow");
           $("#facilitron-seacrh-small").slideToggle("slow");
         });
