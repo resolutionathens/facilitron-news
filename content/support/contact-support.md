@@ -1,10 +1,10 @@
 ---
 title: Contact Support
 type: contact-support
-layout: single
+layout: contact-support
 page: "support/contact-support.html"
 ---
 
-# Contact Support
+Call us at [(800) 272-2962](tel:+8002722962) or email us at <GetStarted@facilitron.com> and we'll contact you right away.
 
-Voluptas explicabo voluptas labore hic velit pariatur deleniti. Iusto qui laborum et vel voluptatum harum voluptas dolor. Omnis non nihil repellendus velit non accusantium numquam aspernatur. In nesciunt eos corrupti earum facilis earum nihil occaecati. Corrupti laudantium doloribus vel dolorum.
+You may also fill out and submit the form below:

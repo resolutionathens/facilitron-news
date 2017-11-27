@@ -4,10 +4,17 @@ type: "platform-features"
 page: "/platform-features/scheduling.html"
 layout: single
 ---
+# The heart of the Facilitron platform
 
-# Scheduling
-Est et et ducimus repudiandae illo qui nobis. Assumenda non perspiciatis et dolores. Corporis est quae non. Deleniti mollitia deserunt. Voluptates vel libero odio et itaque hic temporibus harum est. Sunt quibusdam assumenda qui autem asperiores. Quaerat non asperiores sint. Dolor ex dolorem eius. Ducimus eaque enim vero qui omnis voluptate est ullam.
+Recusandae iure dolor tempora ut voluptatum et fugit soluta cupiditate. Excepturi corporis doloremque laborum. Fugiat est recusandae odit molestiae rerum asperiores numquam. Officia eum pariatur vel praesentium dolore inventore nulla.
 
-Qui qui quia natus dignissimos pariatur omnis beatae voluptatem tempore. Dolore sint molestiae. Natus iusto laudantium praesentium eum.
+# Manage your calendars from one place
 
-Expedita explicabo eligendi dolor totam et nostrum. Reiciendis quis provident omnis optio aliquid. Repellendus et minus non et qui.
+Facilitron gives facility owners unprecedented control and dramatically simplifies the way they manage and rent their facilities.
+
+With Facilitron’s calendar management tools, you can manage event calendars from one place and easily integrate with those already using Google, Apple, MS Outlook or nearly any other calendar.
+
+
+# Easily manage the most complex workflows
+
+The Facilitron® platform provides to facility owners a rich set of features designed to accommodate the full spectrum of internal processes required by institutional facility owners. From very simple to most complex workflows requiring multiple levels of approval and pre-approval hierarchies - we will set up the right workflows to suit the exact needs of your organization.

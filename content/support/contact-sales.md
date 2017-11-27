@@ -1,10 +1,10 @@
 ---
 title: Contact Sales
 type: contact-sales
-layout: single
+layout: contact-sales
 page: "support/contact-sales.html"
 ---
 
-# Contact Sales
+Call us at [(800) 272-2962](tel:+8002722962) or email us at <GetStarted@facilitron.com> and we'll contact you right away.
 
-Id non facere exercitationem. Ullam minima laboriosam molestiae odit. Temporibus at alias. Vel corrupti non. Voluptatem inventore reprehenderit iure voluptatem quis non sed.
+You may also fill out and submit the form below:
