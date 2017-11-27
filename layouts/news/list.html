@@ -15,11 +15,13 @@
           <div class="card-body">
             <header class="entry-header">
               <div class="entry-meta">
-                <span class="posted-on"><time class="entry-date published" date="{{ .Date }}">{{ dateFormat .Site.Params.DateForm .Date }}</time></span>
+                <span class="posted-on">
+                  <time class="entry-date published" date="{{ .Date }}">{{ dateFormat .Site.Params.DateForm .Date }}</time>
+                </span>
               </div>
             </header>
             <!--Title-->
-            <h4 class="card-title">{{ .Title }}</h4>
+            <h4 class="card-title"><a href="{{ .Permalink }}">{{ .Title }}</a></h4>
             <!--Text-->
             <p class="card-text">{{ .Params.description }}</p>
             <a href="{{ .Permalink }}" class="btn btn-sm btn-primary" rel="bookmark">Read More</a>

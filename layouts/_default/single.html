@@ -6,15 +6,7 @@
   <div class="container-fluid px-5">
     <div class="row topspace">
       <article class="post">
-        <header>
-          <div class="entry-meta">
-            <span class="posted-on"><time class="entry-date published" date="{{ .Date }}">{{ dateFormat .Site.Params.DateForm .Date }}</time></span>
-          </div>
-          <h1 class="entry-title"><a href="{{ .Permalink }}" rel="bookmark">{{ .Title }}</a></h1>
-        </header>
-        <div>
-          {{ .Content }}
-        </div>
+        {{ .Content }}
       </article>
       <!-- #post-## -->
     </div>

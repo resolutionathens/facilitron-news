@@ -49,24 +49,28 @@ trackerid = "UA-88933286-1"
   identifier = "news"
   url = "/news/"
   weight = 5
+
 [[menu.main]]
   name = "Administrator Support"
   identifier = "administrator-support"
   url = "/support/administrator-support"
   parent = "Support"
   weight = 1
+
 [[menu.main]]
   name = "Renter Support"
   identifier = "renter-support"
   url = "/support/renter-support"
   parent = "Support"
   weight = 5
+
 [[menu.main]]
   name = "Contact Support"
   identifier = "contact-support"
   url = "/support/contact-support"
   parent = "Support"
   weight = 10
+
 [[menu.main]]
   name = "Contact Sales"
   identifier = "contact-sales"

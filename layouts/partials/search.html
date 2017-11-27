@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+  
+</head>
+<body>
+
+  <form id="theSearch" name="theSearch" onSubmit="return doTheSearch();">
+    <input type="text" id="u_id" name="u_id" value="facilitron">
+    <input type="text" id="searchstring" name="searchstring" value="gym">
+    <input type="submit">
+  </form>
+
+  <!-- let's say this is san jose, within twenty miles -->
+  <script type=text/javascript>
+    function doTheSearch() {
+      var strUrlToCall = 'https://facilitron.com/searchfacility/u:';
+      strUrlToCall = strUrlToCall + document.getElementById('u_id').value;
+      // within 20 miles of san jose
+      strUrlToCall = strUrlToCall + '/lat:37.3382082/lng:-121.88632860000001/dist:20';
+      // this is the piece that isn't working
+      strUrlToCall = strUrlToCall + '/activities:-1/types:-1/namelike:' + document.getElementById('searchstring').value;
+      // october
+      strUrlToCall = strUrlToCall + '/startDate:1506816000000/endDate:1509408000000';
+      // give it a go
+      document.getElementById('theSearch').action = strUrlToCall;
+    }
+  </script>
+
+</body>
+
+</html>
