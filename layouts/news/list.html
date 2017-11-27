@@ -21,7 +21,9 @@
               </div>
             </header>
             <!--Title-->
-            <h4 class="card-title"><a href="{{ .Permalink }}">{{ .Title }}</a></h4>
+            <h4 class="card-title">
+              <a href="{{ .Permalink }}">{{ .Title }}</a>
+            </h4>
             <!--Text-->
             <p class="card-text">{{ .Params.description }}</p>
             <a href="{{ .Permalink }}" class="btn btn-sm btn-primary" rel="bookmark">Read More</a>
@@ -32,19 +34,14 @@
 
       </div>
     </div>
-
     <center class="">
       <ul class="pagination">
         {{ template "_internal/pagination.html" . }}
       </ul>
     </center>
-
-
   </div>
   <!-- /container -->
-
 </main>
-
 {{ partial "footer.html" . }}
 <script type="text/javascript">
   console.log("Template: layouts/news/list.html");

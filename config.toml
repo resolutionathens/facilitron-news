@@ -17,31 +17,36 @@ site = "facilitron.disqus.com"
 trackerid = "UA-88933286-1"
 
 [[menu.main]]
+  name = "The Platform"
+  identifier = "platform"
+  weight = -5
+
+[[menu.main]]
   name = "Overview"
   identifier = "overview"
   url = "/platform-features/overview"
-  parent = "The Platform"
+  parent = "platform"
   weight = 1
 
 [[menu.main]]
   name = "Scheduling"
   identifier = "scheduling"
   url = "/platform-features/scheduling"
-  parent = "The Platform"
+  parent = "platform"
   weight = 1
 
 [[menu.main]]
   name = "Work Orders"
   identifier = "work-orders"
   url = "/platform-features/work-orders"
-  parent = "The Platform"
+  parent = "platform"
   weight = 1
 
 [[menu.main]]
   name = "Pricing"
   identifier = "pricing"
   url = "/platform-features/pricing"
-  parent = "The Platform"
+  parent = "platform"
   weight = 1
 
 [[menu.main]]
