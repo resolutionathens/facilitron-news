@@ -8,7 +8,7 @@ public_folder: "images/" # The src attribute for uploaded media will begin with 
 collections:
   - name: "case-studies"
     label: "Case Studies"
-    folder: "content/case-studies"
+    folder: "content/news"
     create: true
     fields:
       - {label: "Title", name: "title", widget: "string"}
@@ -96,7 +96,7 @@ collections:
           - {label: "Seo Description", name: "description", widget: "text"}
           - {label: "Type", name: "type", widget: "hidden", default: "about-facilitron"}
       - file: "content/privacy.md"
-        label: "Privacy"
+        label: "Privacy Policy"
         name: "privacy"
         fields:
           - {label: "Title", name: "title", widget: "string"}
