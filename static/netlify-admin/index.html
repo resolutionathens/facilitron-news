@@ -28,8 +28,8 @@
           h('p', {}, client.toJSON().client_name),
           h('p', {}, client.toJSON().client_description),
           h('div', {}, this.props.widgetFor('body')),
-          h('blockquote', {}, quote.toJSON().quote);
-          h('cite', {}, quote.toJSON().quotee);
+          h('blockquote', {}, quote.toJSON().quote),
+          h('cite', {}, quote.toJSON().quotee),
         );
       }
     });
