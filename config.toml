@@ -33,28 +33,28 @@ trackerid = "UA-88933286-1"
   identifier = "scheduling"
   url = "/platform-features/scheduling"
   parent = "platform"
-  weight = 1
+  weight = 5
 
 [[menu.main]]
   name = "Work Management"
   identifier = "work-orders"
   url = "/platform-features/work-orders"
   parent = "platform"
-  weight = 1
+  weight = 10
 
 [[menu.main]]
   name = "Business Insights"
   identifier = "business-insights"
   url = "/platform-features/business-insights"
   parent = "platform"
-  weight = 1
+  weight = 15
 
 [[menu.main]]
   name = "Pricing"
   identifier = "pricing"
   url = "/platform-features/pricing"
   parent = "platform"
-  weight = 1
+  weight = 20
 
 [[menu.main]]
   name = "News"
