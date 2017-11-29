@@ -1,8 +1,9 @@
 ---
-title: "About Facilitron"
-type: "about-facilitron"
-page: "/about-facilitron.html"
-layout: single 
+title: About Facilitron
+layout: single
+page: /about-facilitron.html
+description: This is the Facilitron about page. We'll fix it up once we have content.
+type: about-facilitron
 ---
 
 ## About Facilitron
