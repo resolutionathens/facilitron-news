@@ -52,6 +52,7 @@ collections:
       - {label: "Show Date", name: "showdate", widget: "boolean", default: true}
       - {label: "Show Comments", name: "comments", widget: "boolean", default: true}
       - {label: "Type", name: "type", widget: "hidden", default: "post"}
+      - {label: "Layout", name: "layout", widget: "hidden", default: "post"}
 
   - name: "support_pages"
     label: "Support Pages"

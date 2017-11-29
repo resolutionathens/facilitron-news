@@ -13,6 +13,7 @@ original_article_url: >-
 showdate: true
 comments: true
 type: post
+layout: post
 ---
 Fairfield-Suisun Unified School District is pleased to announce a new online facility request and rental system designed to provide our community with an improved user experience. With Facilitron, reservation requests can be submitted easily and will be handled more efficiently. Renters will be able to access photos and descriptions of FSUSD facilities, see real-time availability, get estimated quotes, upload documentation, and
 pay fees online.
