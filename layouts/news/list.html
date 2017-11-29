@@ -10,7 +10,9 @@
         <!--Card-->
         <div class="card">
           <!--Card image-->
+          {{ if .Params.custom_header_img }}
           <img class="img-fluid" src="{{ .Site.BaseURL }}images/headers/{{ .Params.custom_header_img }}" alt="{{ .Title }}">
+          {{ end }}
           <!--Card content-->
           <div class="card-body">
             <header class="entry-header">
