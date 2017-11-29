@@ -17,28 +17,35 @@ site = "facilitron.disqus.com"
 trackerid = "UA-88933286-1"
 
 [[menu.main]]
-  name = "The Platform"
+  name = "Overview"
   identifier = "platform"
   weight = -5
 
 [[menu.main]]
-  name = "Overview"
+  name = "District OS"
   identifier = "overview"
   url = "/platform-features/overview"
   parent = "platform"
   weight = 1
 
 [[menu.main]]
-  name = "Scheduling"
+  name = "Scheduling & Reservations"
   identifier = "scheduling"
   url = "/platform-features/scheduling"
   parent = "platform"
   weight = 1
 
 [[menu.main]]
-  name = "Work Orders"
+  name = "Work Management"
   identifier = "work-orders"
   url = "/platform-features/work-orders"
+  parent = "platform"
+  weight = 1
+
+[[menu.main]]
+  name = "Business Insights"
+  identifier = "business-insights"
+  url = "/platform-features/business-insights"
   parent = "platform"
   weight = 1
 

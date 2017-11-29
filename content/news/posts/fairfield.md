@@ -2,7 +2,8 @@
 title: Fairfield-Suisun Unified School District Plans Changes in Facility Use Process
 author: Tim Goree
 date: '2017-10-04 11:56:02 -0500'
-type: news
+type: post
+
 description: >-
   Fairfield-Suisun Unified School District is pleased to announce a new online
   facility request and rental system designed to provide our community with an

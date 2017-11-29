@@ -3,6 +3,7 @@ title: 'Case Study: ESUHSD Data'
 date: '2017-11-14 10:44:17 -0500'
 showdate: false
 type: case-study
+layout: case-study
 description: >-
   Like many districts across the country, East Side Union High School District
   and its CBO Marcus Battle were facing challenging budget cuts and were looking

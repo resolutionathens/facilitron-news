@@ -18,6 +18,7 @@ collections:
       - {label: "Custom Header Image", name: "custom_header_img", widget: "string", required: false}
       - {label: "Heading", name: "heading", widget: "string"}
       - {label: "Type", name: "type", widget: "hidden", default: "case-study"}
+      - {label: "Layout", name: "layout", widget: "hidden", default: "case-study"}
       - label: "Client"
         name: "client"
         widget: "object"
@@ -50,7 +51,7 @@ collections:
       - {label: "Body", name: "body", widget: "markdown"}
       - {label: "Show Date", name: "showdate", widget: "boolean", default: true}
       - {label: "Show Comments", name: "comments", widget: "boolean", default: true}
-      - {label: "Type", name: "type", widget: "hidden", default: "posts"}
+      - {label: "Type", name: "type", widget: "hidden", default: "post"}
 
   - name: "support_pages"
     label: "Support Pages"
