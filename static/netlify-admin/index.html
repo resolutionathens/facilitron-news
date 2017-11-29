@@ -23,7 +23,7 @@
           h('img', {src: '/images/headers/' + custom_header_img}),
           h('h1', {}, entry.getIn(['data', 'title'])),
           h('h2', {}, this.props.widgetFor('heading')),
-          h('img', {src: '/images/logos/' + clientWidgets.getIn(['data', 'partner_logo']) || '')}),
+          h('img', {src: '/images/logos/' + (clientWidgets.getIn(['data', 'partner_logo']) || '')}),
           h('p', {}, clientWidgets.getIn(['data', 'client_name']) || 'None'),
           h('p', {}, clientWidgets.getIn(['data', 'client_description']) || 'None'),
           h('div', {}, this.props.widgetFor('body')),
