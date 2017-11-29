@@ -95,4 +95,24 @@ collections:
           - {label: "Body", name: "body", widget: "markdown"}
           - {label: "Seo Description", name: "description", widget: "text"}
           - {label: "Type", name: "type", widget: "hidden", default: "about-facilitron"}
+      - file: "content/privacy.md"
+        label: "Privacy"
+        name: "privacy"
+        fields:
+          - {label: "Title", name: "title", widget: "string"}
+          - {label: "Layout", name: "layout", widget: "hidden", default: "single"}
+          - {label: "Page", name: "page", widget: "hidden", default: "/privacy.html"}
+          - {label: "Body", name: "body", widget: "markdown"}
+          - {label: "Seo Description", name: "description", widget: "text"}
+          - {label: "Type", name: "type", widget: "hidden", default: "privacy"}
+      - file: "content/terms.md"
+        label: "Terms of Use"
+        name: "terms-of-use"
+        fields:
+          - {label: "Title", name: "title", widget: "string"}
+          - {label: "Layout", name: "layout", widget: "hidden", default: "single"}
+          - {label: "Page", name: "page", widget: "hidden", default: "/terms.html"}
+          - {label: "Body", name: "body", widget: "markdown"}
+          - {label: "Seo Description", name: "description", widget: "text"}
+          - {label: "Type", name: "type", widget: "hidden", default: "terms"}
  
