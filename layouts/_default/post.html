@@ -1,0 +1,24 @@
+<!-- template: case-studies/single.html -->
+{{ partial "header-press.html" . }}
+<main id="main">
+  <div class="container-fluid mt-5 px-5">
+    <div class="row">
+      <div class="col">
+        <p>by: {{ .Params.author }} <br>
+        original article: <a href={{ .Params.original_article_url }}>{{ .Params.original_publication }}</a></p>
+        {{ .Content }}
+      </div>
+    </div>
+  </div>
+  <!-- /.overview-section -->
+
+  <!-- #post-## -->
+  <!-- /row post  -->
+  <div class="clearfix"></div>
+  </div>
+  <!-- /container -->
+</main>
+{{ partial "footer.html" . }}
+<script type="text/javascript">
+  console.log("Template: layouts/news/single.html");
+</script>
