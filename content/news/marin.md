@@ -2,6 +2,7 @@
 title: 'Case Study: College of Marin'
 date: '2017-04-04 08:03:00 -0400'
 showdate: false
+type: case-study
 description: >-
   College of Marin needed a tool for all their facility usage - from managing
   their course schedule to administering external facility requests and

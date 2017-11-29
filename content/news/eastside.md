@@ -2,6 +2,7 @@
 title: 'Case Study: ESUHSD'
 date: '2017-11-13 14:46:23 -0500'
 showdate: false
+type: case-study
 description: >-
   After an internal review, Marcus Battle, CBO of East Side Union High School
   District in San Jose, confirmed what he had suspected – the district’s schools
