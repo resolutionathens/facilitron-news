@@ -2,8 +2,6 @@
 title: Fairfield-Suisun Unified School District Plans Changes in Facility Use Process
 author: Tim Goree
 date: '2017-10-04 11:56:02 -0500'
-type: post
-
 description: >-
   Fairfield-Suisun Unified School District is pleased to announce a new online
   facility request and rental system designed to provide our community with an
@@ -12,6 +10,9 @@ description: >-
 original_publication: Daily Republic
 original_article_url: >-
   http://www.dailyrepublic.com/solano-news/community-news-and-views/press-release-fairfield-suisun-unified-school-district-plans-changes-in-facility-use-process/
+showdate: true
+comments: true
+type: post
 ---
 Fairfield-Suisun Unified School District is pleased to announce a new online facility request and rental system designed to provide our community with an improved user experience. With Facilitron, reservation requests can be submitted easily and will be handled more efficiently. Renters will be able to access photos and descriptions of FSUSD facilities, see real-time availability, get estimated quotes, upload documentation, and
 pay fees online.
