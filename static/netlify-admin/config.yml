@@ -115,4 +115,13 @@ collections:
           - {label: "Body", name: "body", widget: "markdown"}
           - {label: "Seo Description", name: "description", widget: "text"}
           - {label: "Type", name: "type", widget: "hidden", default: "terms"}
- 
+      - file: "content/press-kit.md"
+        label: "Press Kit"
+        name: "press-kit"
+        fields:
+          - {label: "Title", name: "title", widget: "string"}
+          - {label: "Layout", name: "layout", widget: "hidden", default: "single"}
+          - {label: "Page", name: "page", widget: "hidden", default: "/press-kit.html"}
+          - {label: "Body", name: "body", widget: "markdown"}
+          - {label: "Seo Description", name: "description", widget: "text"}
+          - {label: "Type", name: "type", widget: "hidden", default: "terms"}
