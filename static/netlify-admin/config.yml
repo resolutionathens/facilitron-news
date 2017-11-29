@@ -8,7 +8,7 @@ public_folder: "images/" # The src attribute for uploaded media will begin with 
 collections:
   - name: "case-studies"
     label: "Case Studies"
-    folder: "content/news"
+    folder: "content/news/case-studies"
     create: true
     fields:
       - {label: "Title", name: "title", widget: "string"}
@@ -35,9 +35,9 @@ collections:
           - {label: "Quote", name: "quote", widget: "text"}
           - {label: "Quotee", name: "quotee", widget: "string"}
 
-  - name: "news"
-    label: "News"
-    folder: "content/news"
+  - name: "posts"
+    label: "Blog Posts"
+    folder: "content/news/posts"
     create: true
     fields:
       - {label: "Title", name: "title", widget: "string"}
@@ -50,7 +50,7 @@ collections:
       - {label: "Body", name: "body", widget: "markdown"}
       - {label: "Show Date", name: "showdate", widget: "boolean", default: true}
       - {label: "Show Comments", name: "comments", widget: "boolean", default: true}
-      - {label: "Type", name: "type", widget: "hidden", default: "news"}
+      - {label: "Type", name: "type", widget: "hidden", default: "posts"}
 
   - name: "support_pages"
     label: "Support Pages"
