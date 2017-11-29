@@ -16,12 +16,12 @@
     var CaseStudyPreview = createClass({
       render: function() {
         var entry = this.props.entry;
-        console.log("entry: " + entry);
+        console.log("entry: " + entry.toJSON());
         var custom_header_img = entry.getIn(['data', 'custom_header_img']);
         var client = entry.getIn(['data', 'client']);
-        console.log("client: " + client);
+        console.log("client: " + client.toJSON());
         return h('div', {},
-          h('img', {src: '/images/headers/' + custom_header_img}),
+          h('img', {src: '/images/headers/' + custom_header_img, style: 'width: 100vw'}),
           h('h1', {}, entry.getIn(['data', 'title'])),
           h('h2', {}, this.props.widgetFor('heading')),
           // h('img', {src: '/images/logos/' + this.props.widgetFor('partner_logo')}),
