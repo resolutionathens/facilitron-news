@@ -81,3 +81,18 @@ collections:
             fields:
               - {label: "Question", name: "question", widget: "string"}
               - {label: "Answer", name: "answer", widget: "text"}
+
+  - name: "top_level_pages"
+    label: "Top Level Pages"
+    files:
+      - file: "content/about-facilitron.md"
+        label: "About Facilitron"
+        name: "about-facilitron"
+        fields:
+          - {label: "Title", name: "title", widget: "string"}
+          - {label: "Layout", name: "layout", widget: "hidden", default: "single"}
+          - {label: "Page", name: "page", widget: "hidden", default: "/about-facilitron.html"}
+          - {label: "Body", name: "body", widget: "markdown"}
+          - {label: "Seo Description", name: "description", widget: "text"}
+          - {label: "Type", name: "type", widget: "hidden", default: "about-facilitron"}
+ 
