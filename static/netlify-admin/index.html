@@ -17,19 +17,18 @@
       render: function() {
         var entry = this.props.entry;
         var custom_header_img = entry.getIn(['data', 'custom_header_img']);
-        var client = entry.getIn(['data', 'client']);
-        var quote = entry.getIn(['data', 'quote']);
+        var clientWidgets = this.props.widgetsFor('client');
+        var quoteWidgets = this.props.widgetsFor('quote');
         return h('div', {},
           h('img', {src: '/images/headers/' + custom_header_img}),
           h('h1', {}, entry.getIn(['data', 'title'])),
           h('h2', {}, this.props.widgetFor('heading')),
           h('img', {src: '/images/logos/' + client.toJSON().partner_logo}),
-          h('h1', {color: 'red'}, this.props.widgetsFor('client').getIn(['data', 'client_name']) || 'None'),
-          h('p', {}, client.toJSON().client_name),
-          h('p', {}, client.toJSON().client_description),
+          h('p', {}, clientWidgets.getIn(['data', 'client_name']) || 'None'),
+          h('p', {}, clientWidgets.getIn(['data', 'client_description']) || 'None'),
           h('div', {}, this.props.widgetFor('body')),
-          h('blockquote', {}, quote.toJSON().quote),
-          h('cite', {}, quote.toJSON().quotee),
+          h('blockquote', {}, quoteWidgets.getIn(['data', 'quote']) || 'None'),
+          h('cite', {}, quoteWidgets.getIn(['data', 'quoteee']) || 'None'),
         );
       }
     });
