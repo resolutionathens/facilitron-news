@@ -1,0 +1,25 @@
+{
+  "name": "facilitron-news",
+  "version": "1.0.0",
+  "description": "facilitron.com",
+  "main": "index.js",
+  "dependencies": {
+    "eslint": "^4.12.0"
+  },
+  "devDependencies": {
+    "eslint-config-google": "^0.9.1"
+  },
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/resolutionathens/facilitron-news.git"
+  },
+  "author": "Ian Kennedy",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/resolutionathens/facilitron-news/issues"
+  },
+  "homepage": "https://github.com/resolutionathens/facilitron-news#readme"
+}
