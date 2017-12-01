@@ -1,7 +1,7 @@
 baseURL = "https://facilitron.netlify.com/"
 disqusShortname = "disqus_ygr6wmlEnU"
 languageCode = "en-us"
-title = "Facility Management, Evolved."
+title = "Facility Management, Evolved"
 [params]
 address = "485 Alberto Way, Suite 230, Los Gatos, CA 95032"
 dateform = "January 2, 2006"

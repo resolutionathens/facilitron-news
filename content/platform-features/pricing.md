@@ -17,13 +17,13 @@ No Cost Support includes all and ongoing training, technical support, dedicated 
 
 __Facilitron charges service fees of 6-12% on all approved, external rentals with a dollar value greater than zero.__
 
-Reservations such as internal use reservations with no associated dollar amount are fully supported like any other reservation and incur no service fees.  Reservations subject to charges but waived by authorized administrators also incur no service fees.  Only the final adjusted and administrator approved dollar amounts are subject to service fees.  
+Reservations such as internal use reservations with no associated dollar amount are fully supported like any other reservation and incur no service fees.  Reservations subject to charges but waived by authorized administrators also incur no service fees.  Only the final adjusted and administrator approved dollar amounts are subject to service fees.
 
 To see Facilitron’s 6%-12% sliding scale, click here.
 
-We pay you!
+__We pay you!__
 
-Facilitron issues payments to facility owners each month.  Facility owners can choose to absorb service fees (deducted as a commission in Facilitron’s monthly payment), pass fees onto the external renters, or split fees between the two. 
+Facilitron issues payments to facility owners each month.  Facility owners can choose to absorb service fees (deducted as a commission in Facilitron’s monthly payment), pass fees onto the external renters, or split fees between the two.
 
 
 

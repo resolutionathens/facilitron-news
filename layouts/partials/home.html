@@ -2,26 +2,31 @@
   <!-- list-rent-manage section -->
   <div class="container-fluid my-5 px-3">
     <div class="row">
-      <div class="col-md-4 text-center my-2">
-        <h2 class="h2-responsive">List Facilities</h2>
+      <div class="col-md-4 text-center my-2 p-3">
+        <img class="icon--homepage" src="{{ .Site.BaseURL }}images/other/list.svg" alt="list facilities">
+        <h2 class="h2-responsive font-weight-bold">LIST <br><span class="font-weight-light">Facilities</span></h2>
         <p>Sign up today to list your facilities and earn money for your organization.</p>
-        <a href="#sign-up" class="btn btn-primary">Sign Up</a>
+        <a id="sign-up-btn" data-toggle="modal" data-target="#fGetStartedForm" class="btn btn-primary">Sign Up</a>
       </div>
-      <div class="col-md-4 text-center my-2">
-        <h2 class="h2-responsive">Rent Facilities</h2>
+      <div class="col-md-4 text-center my-2 p-3 border border-primary border-top-0 border-bottom-0">
+        <img class="icon--homepage" src="{{ .Site.BaseURL }}images/other/rent.svg" alt="list facilities">
+        <h2 class="h2-responsive font-weight-bold">RENT <br><span class="font-weight-light">Facilities</span></h2>
         <p>Search with ease to find and book the perfect venue for your events.</p>
-        <a href="#sign-up" class="btn btn-primary">Search</a>
+        <a href="#search" class="btn btn-primary">Search</a>
       </div>
-      <div class="col-md-4 text-center my-2">
-        <h2 class="h2-responsive">Manage Facilities</h2>
+      <div class="col-md-4 text-center my-2 p-3">
+        <img class="icon--homepage" src="{{ .Site.BaseURL }}images/other/manage.svg" alt="list facilities">
+        <h2 class="h2-responsive font-weight-bold">MANAGE <br><span class="font-weight-light">Facilities</span></h2>
         <p>Already a partner? Log in or request an account through your organization.</p>
-        <a href="#sign-up" class="btn btn-primary">Log In</a>
+        <a id="log-in-button" href="#" data-toggle="modal" data-target="#fLoginForm" class="btn btn-primary">Log In</a>
       </div>
     </div>
   </div>
   <!-- /list-rent-manage -->
-  <div class="embed-responsive embed-responsive-16by9 my-5">
-    <iframe class="embed-responsive-item" src="https://fast.wistia.net/embed/iframe/m7q3m288wq?videoFoam=true" allowfullscreen></iframe>
+  <div class="row bg-primary text-center">
+    <div class="text-white w-75 mx-auto p-4">
+      <em>“Facilitron has significantly reduced our administrative costs while allowing us to better monetize our facilities.” — Greg Nelson, College of Marin</em>
+    </div>
   </div>
   <!-- overview-section -->
   <div class="container-fluid my-5 py-5" id="facilitron-overview">
@@ -43,6 +48,9 @@
     </div>
   </div>
   <!-- /.overview-section -->
+  <div class="embed-responsive embed-responsive-16by9 my-5">
+    <iframe class="embed-responsive-item" src="https://fast.wistia.net/embed/iframe/m7q3m288wq?videoFoam=true" allowfullscreen></iframe>
+  </div>
 
   <!-- scheduling-section -->
   <div id="facilitron-scheduling" class="img-l container-fluid my-5 py-5">
@@ -63,7 +71,7 @@
   </div>
   <!-- /.scheduling-section -->
 
-  <section class="fdb-block bg-dark py-5 text-center">
+  <section class="fdb-block bg-primary py-5 text-center">
     <h3 class="h3-responsive text-white">A Few of our Partners</h3>
     <div class="partners">
       <a href="https://facilitron.com/esuhsd95133"><img alt="ESUHSD" class="partner-icon" src="{{ $.Site.BaseURL }}images/partners/eastside.png"></a>

@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="719px" height="37px" viewBox="0 0 719 37" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 47.1 (45422) - http://www.bohemiancoding.com/sketch -->
+    <title>search bar</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <rect id="path-1" x="0" y="0" width="239" height="37"></rect>
+        <rect id="path-2" x="237" y="0" width="239" height="37"></rect>
+        <rect id="path-3" x="475" y="0" width="148" height="37"></rect>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Renter-Home-Page-Copy" transform="translate(-361.000000, -366.000000)">
+            <g id="search-bar" transform="translate(361.000000, 366.000000)">
+                <g id="Rectangle-2">
+                    <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-1"></use>
+                    <rect stroke="#D8D8D8" stroke-width="1" x="0.5" y="0.5" width="238" height="36"></rect>
+                </g>
+                <g id="Rectangle-2-Copy-2">
+                    <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-2"></use>
+                    <rect stroke="#D8D8D8" stroke-width="1" x="237.5" y="0.5" width="238" height="36"></rect>
+                </g>
+                <g id="Rectangle-2-Copy-3">
+                    <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-3"></use>
+                    <rect stroke="#D8D8D8" stroke-width="1" x="475.5" y="0.5" width="147" height="36"></rect>
+                </g>
+                <rect id="Rectangle-2-Copy-2" fill="#42A5F5" x="622" y="0" width="97" height="37" rx="2"></rect>
+                <g id="Material/Icons-black/arrow-drop-down" opacity="0.54" transform="translate(449.000000, 10.000000)" fill="#000000">
+                    <polygon id="Shape" points="6.5 10 11.5 15 16.5 10"></polygon>
+                </g>
+                <text id="City-or-ZIP" font-family="Roboto-Regular, Roboto" font-size="12" font-weight="normal" line-spacing="20" fill="#4A4A4A">
+                    <tspan x="251" y="22">City or ZIP</tspan>
+                </text>
+                <text id="December,-2017" font-family="Roboto-Regular, Roboto" font-size="12" font-weight="normal" line-spacing="20" fill="#4A4A4A">
+                    <tspan x="488" y="22">December, 2017</tspan>
+                </text>
+                <text id="Search" font-family="Roboto-Regular, Roboto" font-size="14" font-weight="normal" line-spacing="20" fill="#FFFFFF">
+                    <tspan x="647.507812" y="22">Search</tspan>
+                </text>
+                <text id="Enter-Facility-or-Ac" font-family="OpenSans, Open Sans" font-size="12" font-weight="normal" fill="#4A4A4A">
+                    <tspan x="11" y="24">Enter Facility or Activity</tspan>
+                </text>
+                <g id="calendar" transform="translate(597.000000, 10.000000)" opacity="0.502728714">
+                    <g>
+                        <g id="group" transform="translate(1.200000, 1.260000)" stroke="#1D1D26">
+                            <rect id="shape" x="0.5" y="0.5" width="16.6" height="17.48" rx="4"></rect>
+                            <path d="M3.79259259,4.4154902 L13.7007407,4.4154902" id="line" stroke-width="2" stroke-linecap="square"></path>
+                            <rect id="oval" stroke-width="2" x="4.05333333" y="8.56" width="1" height="1" rx="0.5"></rect>
+                            <rect id="oval" stroke-width="2" x="8.45333333" y="8.56" width="1" height="1" rx="0.5"></rect>
+                            <rect id="oval" stroke-width="2" x="12.8533333" y="8.56" width="1" height="1" rx="0.5"></rect>
+                            <rect id="oval" stroke-width="2" x="4.05333333" y="13.145" width="1" height="1" rx="0.5"></rect>
+                            <rect id="oval" stroke-width="2" x="8.45333333" y="13.145" width="1" height="1" rx="0.5"></rect>
+                            <rect id="oval" stroke-width="2" x="13" y="13.145" width="1" height="1" rx="0.5"></rect>
+                        </g>
+                        <rect id="bounds" x="0" y="0" width="20" height="21"></rect>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
