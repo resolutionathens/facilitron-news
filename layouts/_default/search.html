@@ -41,17 +41,16 @@
       
     });
     function doTheSearch() {
-      // strUrlToCall hits the Facilitron APIs, we're going to build it up piece by piece
-      // first the user facilitron
-      var strUrlToCall = 'https://facilitron.com/searchfacility/u:facilitron';
-      // within 20 miles of location, hardcoded to san jose
-      strUrlToCall = strUrlToCall + '/lat:37.3382082/lng:-121.88632860000001/dist:20';
-      // this is the piece that isn't working
-      strUrlToCall = strUrlToCall + '/activities:-1/types:-1/namelike:' + document.getElementById('searchstring').value;
-      // add the start and end date, hardcoded to november
-      strUrlToCall = strUrlToCall + '/startDate:1509494400000/endDate:1512086400000';
-      // add the action to the form
-      document.getElementById('theSearch').action = strUrlToCall;
+      const testSearch = {
+        user: 'facilitron',
+        lat: 'lat:37.3382082',
+        lng: 'lng:-121.88632860000001',
+        dist: 'dist:20',
+        activity: '/activities:-1/types:-1/namelike:gym',
+        date: '/startDate:1509494400000/endDate:1512086400000'
+      }
+      var searchEndpoint = `https://facilitron.com/searchfacility/u:${testSearch.user}/${testSearch.lat}/${testSearch.lng}/${testSearch.dist}/${testSearch.activity}/${testSearch.date}`;
+      document.getElementById('theSearch').action = searchEndpoint;
     }
   </script>
 
