@@ -1,5 +1,5 @@
 baseURL = "https://facilitron.netlify.com/"
-disqusShortname = "disqus_ygr6wmlEnU"
+# disqusShortname = "disqus_ygr6wmlEnU"
 languageCode = "en-us"
 title = "Facility Management, Evolved"
 [params]
@@ -11,8 +11,8 @@ favicon = "images/favicon.ico"
 name = "Facilitron"
 phone = "800.272.2962"
 year = 2017
-[params.disqus]
-site = "facilitron.disqus.com"
+# [params.disqus]
+# site = "facilitron.disqus.com"
 [params.google.analytics]
 trackerid = "UA-88933286-1"
 
