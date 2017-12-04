@@ -16,14 +16,6 @@
   <link rel="stylesheet" href="{{ .Site.BaseURL }}css/mdb.css">
 
   <!--[if lt IE 9]> <script src="js/html5shiv.js"></script> <![endif]-->
-  <style>
-    #head {
-      {{ with .Params.custom_header_img }}background: url({{ $.Site.BaseURL }}images/headers/{{ $.Params.custom_header_img }}) !important;  {{ end }}
-    }
-    #head h2{
-      margin-top: 200px !important;
-    }
-  </style>
 </head>
 
 <body class="home">

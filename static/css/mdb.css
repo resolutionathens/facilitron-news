@@ -9079,6 +9079,18 @@ footer.page-footer nav a:hover {
   margin-top: 200px;
 }
 
+#custom_head {
+  background: #f4f4f4 url(../images/headers/basketball-court.jpg) top center;
+  background-size: cover;
+  color: #7C7C7C;
+  padding: 30px 0 35px 0;
+  min-height: 280px;
+}
+
+#custom_head h2{
+  margin-top: 120px;
+}
+
 #head img.img-circle {
   display: block;
   width: 140px;

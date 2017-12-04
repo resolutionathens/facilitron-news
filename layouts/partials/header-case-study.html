@@ -18,11 +18,8 @@
 
   <!--[if lt IE 9]> <script src="js/html5shiv.js"></script> <![endif]-->
   <style>
-    #head {
+    #custom_head {
       {{ with .Params.custom_header_img }}background: url({{ $.Site.BaseURL }}images/headers/{{ $.Params.custom_header_img }}) !important;  {{ end }}
-    }
-    #head h2{
-      margin-top: 200px !important;
     }
   </style>
 </head>
@@ -30,7 +27,7 @@
 <body class="home">
   <header id="header">
     {{ partial "menu2.html" . }}
-    <div id="head">
+    <div id="custom_head">
       <h2 class="h1-responsive font-bold text-uppercase white-text text-center header-shadow">{{ .Title }}</h2>
       {{ if .Params.showdate }}
       <p class="h3-responsive white-text text-center mb-5 header-shadow"><time class="entry-date published" date="{{ .Date }}">{{ dateFormat .Site.Params.DateForm .Date }}</time></p>
