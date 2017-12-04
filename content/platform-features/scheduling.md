@@ -3,7 +3,7 @@ title: "Scheduling & Reservations"
 type: "platform-features"
 page: "/platform-features/scheduling.html"
 layout: single
-custom_header_img: "auditorium.jpg"
+custom_header_img: "cafeteria.jpg"
 ---
 
 <!-- overview-section -->

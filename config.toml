@@ -38,7 +38,7 @@ trackerid = "UA-88933286-1"
 [[menu.main]]
   name = "Business Insights"
   identifier = "business-insights"
-  url = "/platform-features/business-insights"
+  url = "/platform-features/reporting"
   parent = "platform"
   weight = 15
 
