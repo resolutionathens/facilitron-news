@@ -4,27 +4,36 @@
     <div class="row">
       <div class="col-md-4 text-center my-2 p-3">
         <img class="icon--homepage" src="{{ .Site.BaseURL }}images/other/list.svg" alt="list facilities">
-        <h2 class="h2-responsive font-weight-bold">LIST <br><span class="font-weight-light">Facilities</span></h2>
+        <h2 class="h2-responsive font-weight-bold">LIST
+          <br>
+          <span class="font-weight-light">Facilities</span></h2>
         <p>Sign up today to list your facilities and earn money for your organization.</p>
         <a id="sign-up-btn" data-toggle="modal" data-target="#fGetStartedForm" class="btn btn-primary">Sign Up</a>
       </div>
       <div class="col-md-4 text-center my-2 p-3 border border-primary border-top-0 border-bottom-0">
         <img class="icon--homepage" src="{{ .Site.BaseURL }}images/other/rent.svg" alt="list facilities">
-        <h2 class="h2-responsive font-weight-bold">RENT <br><span class="font-weight-light">Facilities</span></h2>
+        <h2 class="h2-responsive font-weight-bold">RENT
+          <br>
+          <span class="font-weight-light">Facilities</span></h2>
         <p>Search with ease to find and book the perfect venue for your events.</p>
         <a href="#search" class="btn btn-primary">Search</a>
       </div>
       <div class="col-md-4 text-center my-2 p-3">
         <img class="icon--homepage" src="{{ .Site.BaseURL }}images/other/manage.svg" alt="list facilities">
-        <h2 class="h2-responsive font-weight-bold">MANAGE <br><span class="font-weight-light">Facilities</span></h2>
+        <h2 class="h2-responsive font-weight-bold">MANAGE
+          <br>
+          <span class="font-weight-light">Facilities</span></h2>
         <p>Already a partner? Log in or request an account through your organization.</p>
         <a id="log-in-button" href="#" data-toggle="modal" data-target="#fLoginForm" class="btn btn-primary">Log In</a>
       </div>
     </div>
   </div>
   <!-- /list-rent-manage -->
-  <div class="row bg-primary text-center">
-    <div class="text-white w-75 mx-auto p-4">
+  <div class="row bg-primary">
+    <div class="col-md-2 p-4 offset-md-1">
+      <img class="w-75" src="{{ .Site.BaseURL }}images/logos/college-of-marin.png" alt="College of Marin">
+    </div>
+    <div class="col-md-8 text-white p-4">
       <em>“Facilitron has significantly reduced our administrative costs while allowing us to better monetize our facilities.” — Greg Nelson, College of Marin</em>
     </div>
   </div>
@@ -38,7 +47,7 @@
           “Facilitron doesn’t cost the system one penny, organizes the paperwork and monies for auditing purposes, allows us to be consistent across the board taking responsibility off board and admins AND income helps offset expensive upgrades on facilities….HOMERUN!!!”
           <br><br>- Jay Brinson, Superintendent
           <br>
-          <img src="{{ $.Site.BaseURL }}images/logos/wayne-county.png" alt="Wayne County School System" class="testimonial-icon" >
+          <img src="{{ $.Site.BaseURL }}images/logos/wayne-county.png" alt="Wayne County School System" class="testimonial-icon">
         </blockquote>
         <a id="read-an-overview-btn" href="{{ $.Site.BaseURL }}overview" class="btn btn-primary my-4">Read an Overview</a>
       </div>
@@ -49,7 +58,7 @@
   </div>
   <!-- /.overview-section -->
   <div class="embed-responsive embed-responsive-16by9 my-5">
-    <iframe class="embed-responsive-item" src="https://fast.wistia.net/embed/iframe/m7q3m288wq?videoFoam=true" allowfullscreen></iframe>
+    <iframe class="embed-responsive-item" src="https://fast.wistia.net/embed/iframe/m7q3m288wq?videoFoam=true" allowfullscreen="allowfullscreen"></iframe>
   </div>
 
   <!-- scheduling-section -->
@@ -60,9 +69,13 @@
       </div>
       <div class="col-sm-7 homepage-text-r">
         <h2 class="h2-responsive">Powerful scheduling and reservation tools.</h2>
-        <p>The Facilitron platform accommodates both internal and external reservation requests and transforms how facility owners manage their facilities by organizing all facility scheduling, calendars and communications into one place. A streamlined online application and approval process <strong>saves administrators valuable time and makes any work flow easy</strong> and manageable.</p>
+        <p>The Facilitron platform accommodates both internal and external reservation requests and transforms how facility owners manage their facilities by organizing all facility scheduling, calendars and communications into one place. A streamlined online application and approval process
+          <strong>saves administrators valuable time and makes any work flow easy</strong>
+          and manageable.</p>
         <blockquote>
-          “Facilitron has significantly reduced our administrative costs while allowing us to better monetize our facilities. The benefit really hits the bottom line.” <br><br>- Greg Nelson, VP Finance &amp; College Operations <br>
+          “Facilitron has significantly reduced our administrative costs while allowing us to better monetize our facilities. The benefit really hits the bottom line.”
+          <br><br>- Greg Nelson, VP Finance &amp; College Operations
+          <br>
           <img class="testimonial-icon" style="width:150px;" src="{{ $.Site.BaseURL }}images/logos/college-of-marin.png" alt="College of Marin">
         </blockquote>
         <a id="read-case-study-marin-btn" href="{{ .Site.BaseURL }}case-studies/marin/" class="btn btn-primary my-4">College of Marin Case Study</a>
@@ -88,9 +101,12 @@
     <div class="row">
       <div class="col-sm-7 homepage-text-l">
         <h2 class="h2-responsive">Work management.<br/>Made simple.</h2>
-        <p>Powerfully integrated with the Scheduling &amp; Reservation system, Facilitron’s Work Management System <strong>transforms the way schools manage work tasks</strong> by providing a centralized platform for intelligently creating and automating requests – from complex projects to simple work orders.</p>
+        <p>Powerfully integrated with the Scheduling &amp; Reservation system, Facilitron’s Work Management System
+          <strong>transforms the way schools manage work tasks</strong>
+          by providing a centralized platform for intelligently creating and automating requests – from complex projects to simple work orders.</p>
         <blockquote>
-          “We were looking for a system that tackled complex facility projects in a simplified manner. Facilitron delivered.” <br><br>- Brett McFadden, Associate Superintendent<br>
+          “We were looking for a system that tackled complex facility projects in a simplified manner. Facilitron delivered.”
+          <br><br>- Brett McFadden, Associate Superintendent<br>
           <img src="{{ $.Site.BaseURL }}images/logos/monterey-peninsula.png" alt="Monterey Peninsula Unified School District" class="testimonial-icon">
         </blockquote>
         <a id="schedule-demo-work-management-btn" href="https://facilitron.drift.com/getstarted?schedule" target="_blank" class="btn btn-primary my-4">Schedule A Demo</a>
@@ -110,10 +126,13 @@
       </div>
       <div class="col-sm-7 homepage-text-r">
         <h2 class="h2-responsive">Harness the power of data.</h2>
-        <p><strong>Better reporting means better insights.</strong></p>
+        <p>
+          <strong>Better reporting means better insights.</strong>
+        </p>
         <p>Data systems monitoring facility use allow Facilitron to provide valuable business insights that have helped districts save millions of dollars spent unknowingly subsidizing community programs and giving them the data required to support policy and procedure changes—which drive additional revenue and better leverage district assets.</p>
         <blockquote>
-          “Access to the data allowed us to change our policies for administering community rental requests… so we could drive more revenue.” <br><br>- Marcus Battle, Chief Business Officer<br>
+          “Access to the data allowed us to change our policies for administering community rental requests… so we could drive more revenue.”
+          <br><br>- Marcus Battle, Chief Business Officer<br>
           <img src="{{ $.Site.BaseURL }}images/logos/east-side-high-school.png" alt="East Side High School District" class="testimonial-icon">
         </blockquote>
         <a id="read-case-study-napa-btn" href="{{ .Site.BaseURL }}case-studies/napa-valley" class="btn btn-primary my-4">Napa Valley Case Study</a>
@@ -133,63 +152,43 @@
   </div>
   <!-- /.call-to-action -->
 
-  <!-- white-paper-section -->
-  <div class="container my-5 py-5">
-    <div class="row">
-      <div class="col">
-        <h2 class="h2-responsive">Expert Perspective: How public schools can better manage the balance between school and community use.</h2>
-      </div>
-    </div>
-    <div class="row my-4">
-      <div class="col">
-        <p>Dr. Philip Lanoue, 2015 AASA National Superintendent of the Year, one of the nation’s top 50 educational innovators in digital learning, and head of PDL Consultants writes about the challenges which school districts face and how <strong>Facilitron helps school districts develop systems to effectively monitor their total operations</strong> in their use of facilities to meet both the school and community needs.</p>
-      </div>
-    </div>
-    <div class="row">
-      <div class="col">
-        <blockquote>
-          “The use of data-driven systems in decision making ensures a new level of understanding and transparency for the community.” <br><br>- Dr. Philip Lanoue, head of PDL Consultants<br>
-          <img class="pt-5" src="{{ $.Site.BaseURL }}images/other/philip-lanoue.png" alt="Philip Lanoue">
-        </blockquote>
-        <a id="download-white-paper-btn" href="{{ $.Site.BaseURL }}images/pdf/Balancing-School-and-Community-Use-WhitePaperV5.pdf" class="btn btn-primary my-4">Download White Paper</a>
-      </div>
-    </div>
-  </div>
-  <!-- ./white-paper -->
-
-  <!-- school-community-section -->
-  <div class="container-fluid my-5 py-5">
-    <div class="row">
-      <div class="col-sm-7 homepage-text-l">
-        <h2 class="h2-responsive">Needed systems with<br>less resources.</h2>
-        <p>Facilitron automates data gathering and relieves district personnel from record keeping and other tasks of manual systems. And with Facilitron’s customer support team, <strong>the responsibility of supporting community requests with customer service, bill collection, verifying insurance and organization status, or even repurposing declined requests is shifted away from district personnel</strong> so they can focus on performing other needed tasks.</p>
-        <blockquote>
-          “As for Facilitron, LIFE SAVER. I did facilities use for three years without them and my entire job has changed because of them. It’s like having my own staff. Seriously, best decision I’ve made.” <br><br>- Cheryl Galloway, Community Engagement
-          Manager<br>
-          <img src="{{ $.Site.BaseURL }}images/logos/gilroy-unified.png" alt="East Side High School District" style="width:150px; margin-top:20px;">
-        </blockquote>
-      </div>
-      <div class="col-sm-5 pr-0 homepage-img-r">
-        <img class="img-fluid" align="right" src="{{ $.Site.BaseURL }}images/screens/search-results-mockup.png" alt="Facilitron Overview">
-      </div>
-    </div>
-  </div>
-  <!-- /.school-community-section -->
-
   <!-- no-setup-fees-section -->
   <div class="container mb-5 pb-5">
     <div class="row">
       <div class="col">
         <img src="{{ $.Site.BaseURL }}images/screens/search-results-all-devices.png" alt="Facilitron Search Results" class="img-fluid"><br>
         <h2 class="h2-responsive">Facilitron uses a unique partnership strategy to provide software, setup and support at no costs to districts.</h2>
-        <p>Through a unique partnership strategy which provides <strong>software and support at no cost</strong>, Facilitron helps school districts find solutions to optimizing building use, building rentals, and facility maintenance – all while saving costs, generating additional revenue and providing needed services for the local community.</p>
-        <p style="font-size:0.85em;"><em>* Service fees of 6-12% applied only to approved, external rental requests. Internal reservations or no fee reservations are fully supported with no cost.</em></p>
+        <p>Through a unique partnership strategy which provides
+          <strong>software and support at no cost</strong>, Facilitron helps school districts find solutions to optimizing building use, building rentals, and facility maintenance – all while saving costs, generating additional revenue and providing needed services for the local community.</p>
+        <p style="font-size:0.85em;">
+          <em>* Service fees of 6-12% applied only to approved, external rental requests. Internal reservations or no fee reservations are fully supported with no cost.</em>
+        </p>
       </div>
     </div>
   </div>
   <!-- ./no-setup-fees -->
-  {{ partial "cta-demo" . }}
+
+  <div class="row">
+    <div class="col-sm-7 homepage-text-l">
+      <h2 class="h2-responsive">Meeting school &amp; community needs with less resources.</h2>
+      <p>Facilitron automates data gathering and relieves district personnel from record keeping and other tasks of manual systems. And with Facilitron’s customer support team,
+        <strong>the responsibility of supporting community requests with customer service, bill collection, verifying insurance and organization status, or even repurposing declined requests is shifted away from district personnel</strong>
+        so they can focus on performing other needed tasks.</p>
+      <blockquote>
+        “As for Facilitron, LIFE SAVER. I did facilities use for three years without them and my entire job has changed because of them. It’s like having my own staff. Seriously, best decision I’ve made.”
+        <br><br>- Cheryl Galloway, Community Engagement Manager<br>
+        <img src="{{ $.Site.BaseURL }}images/logos/gilroy-unified.png" alt="East Side High School District" style="width:150px; margin-top:20px;">
+      </blockquote>
+    </div>
+    <div class="col-sm-5 pr-0 homepage-img-r">
+      <img class="img-fluid" align="right" src="{{ $.Site.BaseURL }}images/screens/search-results-mockup.png" alt="Facilitron Overview">
+    </div>
+  </div>
+</div>
+<!-- /.school-community-section -->
+
+{{ partial "cta-demo" . }}
 </div>
 <!--/.Main layout-->
 
-<script src="https://fast.wistia.net/assets/external/E-v1.js" async></script>
+<script src="https://fast.wistia.net/assets/external/E-v1.js" async="async"></script>

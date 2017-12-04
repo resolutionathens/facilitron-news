@@ -22,13 +22,6 @@ trackerid = "UA-88933286-1"
   weight = -5
 
 [[menu.main]]
-  name = "District OS"
-  identifier = "overview"
-  url = "/platform-features/overview"
-  parent = "platform"
-  weight = 1
-
-[[menu.main]]
   name = "Scheduling & Reservations"
   identifier = "scheduling"
   url = "/platform-features/scheduling"
