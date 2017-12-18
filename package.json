@@ -3,15 +3,7 @@
   "version": "1.0.0",
   "description": "facilitron.com",
   "main": "index.js",
-  "dependencies": {
-    "eslint": "^4.12.1"
-  },
-  "devDependencies": {
-    "eslint-config-google": "^0.9.1"
-  },
-  "scripts": {
-    "test": "jest"
-  },
+  "dependencies": {},
   "repository": {
     "type": "git",
     "url": "git+https://github.com/resolutionathens/facilitron-news.git"

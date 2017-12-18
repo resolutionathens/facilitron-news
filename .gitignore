@@ -1,3 +1,4 @@
 node_modules
 .eslintrc.yml
 .vscode/settings.json
+static/js/scratch.js
