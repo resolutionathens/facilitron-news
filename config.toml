@@ -29,9 +29,9 @@ trackerid = "UA-88933286-1"
   weight = 5
 
 [[menu.main]]
-  name = "Work Management"
-  identifier = "work-orders"
-  url = "/platform-features/work-orders"
+  name = "How it Works"
+  identifier = "how-it-works"
+  url = "/platform-features/how-it-works"
   parent = "platform"
   weight = 10
 
@@ -68,13 +68,6 @@ trackerid = "UA-88933286-1"
   url = "/support/renter-support"
   parent = "Support"
   weight = 5
-
-[[menu.main]]
-  name = "Contact Support"
-  identifier = "contact-support"
-  url = "/support/contact-support"
-  parent = "Support"
-  weight = 10
 
 [[menu.main]]
   name = "Contact Sales"
