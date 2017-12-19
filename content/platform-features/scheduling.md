@@ -7,13 +7,14 @@ custom_header_img: "cafeteria.jpg"
 ---
 
 <!-- overview-section -->
+
 <div class="container-fluid my-5">
   <div class="row">
     <div class="col-md-6">
       <img class="img-fluid" src="/images/overview/overview-01.jpg" alt="Facilitron Overview">
     </div>
     <div class="col-md-6" style="align-self:center">
-      <h2 class="h2-responsive">Generate much needed funds for your district… at no cost.</h2>
+      <h2 class="h2-responsive">Manage the recovery costs from community use of school facilities… at no cost.</h2>
       <h4 class="h4-responsive mb-3">Reservation Request Portal</h4>
       <ul>
         <li>Sites for each individual school with parent sites for clusters/areas and the district</li>
@@ -27,7 +28,7 @@ custom_header_img: "cafeteria.jpg"
 </div>
 <!-- /.overview-section -->
 
-<p>At the heart of Facilitron’s District Operating System is the scheduling and reservation system. It’s the core of the District OS and is designed to help districts maximize building use and manage schedules as well as reservation requests - whether from school users, school associated groups or community requesters.</p>
+<p>Not only is a Facilitron partnership designed to help colleges and school districts track and manage recovery costs with no expense, it actually reduces costs by reducing admin time, streamlining requests and offloading burdens such as insurance and organization verifications, payments and refunds.</p>
 
 <h3 class="h3-responisve">Allocating Limited Resources</h3>
 <p>Even though community use at most districts is considerable, internal staff to manage requests isn’t. Duties such as non-profit status and insurance verifications, tracking down payment and issuing refunds are burdens that are always lower in priority than day-to-day school business.</p>
@@ -35,6 +36,7 @@ custom_header_img: "cafeteria.jpg"
 <p>Community use of district facilities is often an obligation that creates additional burdens for districts and for various reasons is usually poorly tracked. With decision-making often pushed to individual schools, district oversight regarding which requests are being approved or declined, whether board policies and pricing are being followed, and even whether community partnerships are being overly subsidized by school funds doesn’t exist and can even expose districts to unnecessary liability.</p>
 
 <!-- front-end-back-end-section -->
+
 <div class="container-fluid my-5">
   <div class="row mb-5">
     <div class="col">
@@ -48,8 +50,7 @@ custom_header_img: "cafeteria.jpg"
         <img class="img-fluid" src="/images/overview/overview-02.jpg" alt="Facilitron Front End">
         <div class="card-body">
           <h2 class="h2-responsive mb-3 text-center">Reservation Request Portal</h2>
-          <p><strong>With custom school sites</strong> which link right off your own school website, Facilitron creates a place where the community can come to find photos, pricing and information on the availability of school facilities for rent - without
-            calling or emailing school administrators.</p>
+          <p><strong>With custom school sites</strong> which link right off your own school website, Facilitron creates a place where the community can come to find photos, pricing and information on the availability of school facilities for rent - without calling or emailing school administrators.</p>
         </div>
       </div>
     </div>
@@ -59,8 +60,7 @@ custom_header_img: "cafeteria.jpg"
         <img class="img-fluid" src="/images/overview/overview-03.jpg" alt="Facilitron Back End">
         <div class="card-body">
           <h2 class="h2-responsive mb-3 text-center">Administrative Portal</h2>
-          <p><strong>Now, in one place,</strong> district and school administrators can preview the events and activities that are going on in their gyms, theaters and classrooms all over the district - as well as manage both internal (school) use requests
-            AND public rental requests to use school facilities.</p>
+          <p><strong>Now, in one place,</strong> district and school administrators can preview the events and activities that are going on in their gyms, theaters and classrooms all over the district - as well as manage both internal (school) use requests AND public rental requests to use school facilities.</p>
         </div>
       </div>
     </div>
@@ -70,20 +70,21 @@ custom_header_img: "cafeteria.jpg"
 <!-- /.fb-section -->
 
 <!-- front-end-section -->
+
 <div class="container-fluid mb-5">
   <div class="row align-items-end">
     <div class="col-lg-7">
       <img class="img-fluid" src="/images/overview/overview-04.jpg" alt="Facilitron Front End iPad">
     </div>
     <div class="col-lg-5">
-      <h2 class="h1-responsive text-uppercase py-3">Front End</h2>
-      <p class="h2-responsive">Search results allow the public to view facility details, configure requests, upload documents and more.</p>
+      <h2 class="h1-responsive text-uppercase py-3">Community Facing Front End</h2>
+      <p class="h2-responsive">Search results allow community groups to view facility details, configure and submit requests, upload documents and more.</p>
       <h4 class="h4-responsive">Facilities Search Results</h4>
       <ul>
-        <li>Shows district facilities</li>
-        <li>See each facility and real-time availability</li>
-        <li>View photos, information, location, pricing</li>
-        <li>Select dates and times and submit</li>
+        <li>Features district facilities</li>
+        <li>View facilities and see real-time availability</li>
+        <li>Browse photos, information, location, and pricing</li>
+        <li>Select dates and times and submit requests</li>
       </ul>
     </div>
   </div>
@@ -133,20 +134,21 @@ custom_header_img: "cafeteria.jpg"
 <!-- /.front-end-section -->
 
 <!-- back-end-section -->
+
 <div class="container-fluid mb-5">
   <div class="row mb-5 align-items-end">
     <div class="col-lg-7">
       <img class="img-fluid" src="/images/overview/overview-07.jpg" alt="Facilitron Back End Laptop">
     </div>
     <div class="col-lg-5">
-      <h2 class="h1-responsive text-uppercase py-3">Back End</h2>
+      <h2 class="h1-responsive text-uppercase py-3">Administrative Back End</h2>
       <p class="h2-responsive">Command central for administering reservations.</p>
-      <h4 class="h4-responsive">Dashboard Control Center</h4>
+      <h4 class="h4-responsive">Administrative Control Center</h4>
       <ul>
-        <li>Facilities Calendars - for district/ cluster or specific school</li>
-        <li>Alert Center</li>
-        <li>Pending Reservations</li>
-        <li>Approving and Declining Requests</li>
+        <li>Facilities Calendars - multiple views including agenda view</li>
+        <li>Dashboard Alert Center - quickly review current items</li>
+        <li>Quickly view internal and community use schedules</li>
+        <li>View pending requests and approve or decline</li>
       </ul>
     </div>
   </div>
@@ -161,15 +163,15 @@ custom_header_img: "cafeteria.jpg"
           <h2 class="h2-responsive mb-3 text-center">Reservation Detail Page</h2>
           <p>The Reservation Detail Page is the centralized location for information, documents, communications and more for a specific reservation. Items here include:</p>
           <ul>
-            <li>School insurance requirements presented</li>
+            <li>Renter Organization Contact and Details</li>
+            <li>Facility use permits</li>
             <li>Insurance documents</li>
-            <li>Photos/documents (damage, floor plan, setup)</li>
-            <li>Fees including any configured amounts (utilities, custodial services, equipment, application fees, etc) are estimated at checkout</li>
-            <li>All payments and refunds are handled by Facilitron</li>
-            <li>Internal and external comments</li>
-            <li>Reservation time slots with service and equipment detail</li>
-            <li>Calendar syncing</li>
-            <li>Work Order dispatch and more</li>
+            <li>Attach photos or documents (floor plan, setup, damage)</li>
+            <li>Fee details including any secondary fees (i.e. utilities, custodial, equipment, application fees, et al)</li>
+            <li>Payment and refund history (handled by Facilitron)</li>
+            <li>Internal and external comments and reservation history</li>
+            <li>Calendar links</li>
+            <li>Work order dispatch and more</li>
           </ul>
         </div>
       </div>
