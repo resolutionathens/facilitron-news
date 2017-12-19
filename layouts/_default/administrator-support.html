@@ -1,9 +1,14 @@
 {{ partial "header" . }}
 
-<div class="my-5 px-5">
-{{ range .Params.questions }}
-  {{ partial "question" . }}
-{{end}}
+<div class="row">
+  <div class="col-md-7 my-5 px-5">
+    {{ range .Params.questions }}
+      {{ partial "question" . }}
+    {{end}}
+  </div>
+  <div class="col-md-5">
+    FORM GOES HERE
+  </div>
 </div>
 
 {{ partial "footer" . }}

@@ -1,9 +1,25 @@
 {{ partial "header" . }}
 
-<div class="my-5 px-5">
-{{ range .Params.questions }}
-  {{ partial "question" . }}
-{{end}}
+<div class="row my-5 px-5">
+  <div class="col-lg-7">
+    <h2 class="h2-responsive">Frequently Asked Questions</h2>
+    {{ range .Params.questions }}
+      {{ partial "question" . }}
+    {{end}}
+  </div>
+  <div class="col-lg-5">
+    <div class="card p-5">
+      <h2 class="h2-responsive">Contact Support</h2>
+      <p>
+        Call us at
+        <a href="tel:+8002722962">(800) 272-2962</a>
+        or email us at
+        <a href="mailto:support@facilitron.com">support@facilitron.com</a>
+        and we'll contact you right away.
+      </p>
+    </div>
+    <!-- <p> You may also fill out and submit the form below: </p> <form action="get"> <div class="form-group"> <label for="name">Name:</label> <input type="text" class="form-control" id="contact-name" placeholder="Your name"> </div> <div class="form-group"> <label for="email">Email address:</label> <input type="email" class="form-control" id="contact-email" placeholder="Your email"> </div> <div class="form-group"> <label for="thing">Message:</label> <textarea class="form-control" id="contact-message" rows="5" placeholder="Your message"></textarea> </div> <button type="submit" class="btn btn-primary">Send</button> </form> -->
+  </div>
 </div>
 
 {{ partial "footer" . }}
