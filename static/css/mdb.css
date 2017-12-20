@@ -9198,3 +9198,35 @@ article.post {
   margin-bottom: 1em;
   max-height: 50px;
 }
+
+.vertical-callout {
+  height: 80px;
+  border-left: 3px solid #269AD5;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-left: 20px;
+  margin-bottom: 50px;
+  margin-top: 75px;
+}
+ 
+.h3-responsive {
+  color: #269AD5; 
+}
+
+.f-ul {
+  list-style: none;
+}
+
+.f-ul li::before {
+  font-size: 1.25em;
+  display: inline-block;
+  width: 1em;
+  margin-left: -1em;
+  content: "\25AA";
+  color: #269AD5;
+}
+
+.f-ul li {
+  margin-bottom: 20px;
+}
