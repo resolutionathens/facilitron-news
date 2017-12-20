@@ -9210,8 +9210,9 @@ article.post {
   margin-top: 75px;
 }
  
-.h3-responsive {
+.h3-responsive, .h4-responsive, .h5-responsive{
   color: #269AD5; 
+  margin-bottom: 1em;
 }
 
 .f-ul {
@@ -9229,4 +9230,15 @@ article.post {
 
 .f-ul li {
   margin-bottom: 20px;
+}
+
+.f-table {
+  width: 100%;
+  background: rgba(91, 152, 211, 0.2);
+}
+
+.f-table td, th {
+  padding: 5px;
+  border: 1px solid #ccc;
+  border-collapse: collapse;
 }
