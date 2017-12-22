@@ -4,6 +4,7 @@ type: "platform-features"
 page: "/platform-features/scheduling.html"
 layout: single
 custom_header_img: "cafeteria.jpg"
+description:
 ---
 
 <!-- overview-section -->

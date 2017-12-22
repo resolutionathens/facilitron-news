@@ -9090,7 +9090,7 @@ footer.page-footer nav a:hover {
   background-size: cover;
   color: #7C7C7C;
   padding: 30px 0 35px 0;
-  min-height: 280px;
+  min-height: 360px;
 }
 
 #custom_head h2{
@@ -9209,9 +9209,9 @@ article.post {
   margin-bottom: 50px;
   margin-top: 75px;
 }
- 
+
 .h3-responsive, .h4-responsive, .h5-responsive{
-  color: #269AD5; 
+  color: #269AD5;
   margin-bottom: 1em;
 }
 

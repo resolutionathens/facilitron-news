@@ -1,8 +1,10 @@
 ---
-title: "Facilitron Reporting"
+title: "Business Insights"
 type: "platform-features"
 page: "/platform-features/reporting.html"
 layout: single
+description:
+custom_header_img: "business-insights.jpg"
 ---
 
 <!-- data-reporting-section -->
