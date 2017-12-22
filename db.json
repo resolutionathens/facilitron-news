@@ -1,22 +1,57 @@
 {
-  "schools": [
-    { "_id": 1, "name": "abc elementary" }
+  "schools": [{
+    "_id": 1,
+    "name": "abc elementary"
+  }],
+  "domains": [{
+      "_id": 1,
+      "domain": "sjusd.edu"
+    },
+    {
+      "_id": 2,
+      "domain": "abcd.edu"
+    }
   ],
-  "domains": [
-    { "_id": 1, "domain": "sjusd.edu" }
+  "activities": [{
+      "_id": 6,
+      "name": "Art Exhibit"
+    },
+    {
+      "_id": 2,
+      "name": "Concert"
+    },
+    {
+      "_id": 3,
+      "name": "Dance Competition"
+    },
+    {
+      "_id": 4,
+      "name": "Performance"
+    },
+    {
+      "_id": 5,
+      "name": "Recital"
+    }
   ],
-  "activities": [
-    { "_id": 6, "name": "Art Exhibit" },
-    { "_id": 2, "name": "Concert" },
-    { "_id": 3, "name": "Dance Competition" },
-    { "_id": 4, "name": "Performance" },
-    { "_id": 5, "name": "Recital" }
-  ],
-  "activityTypes": [
-      { "_id": 1, "name": "Arts" },
-      { "_id": 2, "name": "Business" },
-      { "_id": 3, "name": "Education" },
-      { "_id": 4, "name": "Entertainment" },
-      { "_id": 5, "name": "Fitness" }
+  "activityTypes": [{
+      "_id": 1,
+      "name": "Arts"
+    },
+    {
+      "_id": 2,
+      "name": "Business"
+    },
+    {
+      "_id": 3,
+      "name": "Education"
+    },
+    {
+      "_id": 4,
+      "name": "Entertainment"
+    },
+    {
+      "_id": 5,
+      "name": "Fitness"
+    }
   ]
 }

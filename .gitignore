@@ -2,3 +2,12 @@ node_modules
 .eslintrc.yml
 .vscode/settings.json
 static/js/scratch.js
+data/activities-responseText.json
+data/activities.js
+data/owners-responseText.json
+data/owners.js
+static/API-notes.txt
+static/API-notes.txt
+static/API-notes.txt
+static/js/current-home.js
+static/js/facilitron-search.js

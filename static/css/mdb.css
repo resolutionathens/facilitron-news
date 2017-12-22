@@ -9215,6 +9215,10 @@ article.post {
   margin-bottom: 1em;
 }
 
+.bg-primary .h4-responsive {
+  color: #fff;
+}
+
 .f-ul {
   list-style: none;
 }
