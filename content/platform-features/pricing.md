@@ -4,7 +4,7 @@ type: "platform-features"
 page: "/platform-features/pricing.html"
 layout: single
 description:
-custom_header_img: "business-insights.jpg"
+custom_header_img: "sports.jpg"
 ---
 
 <h2 class="h2-responsive">Facilitron's unique business strategy allows us to provide our cloud-based software, setup and support with NO COST to districts.</h2>

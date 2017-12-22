@@ -9069,41 +9069,35 @@ footer.page-footer nav a:hover {
 #head {
   background: #f4f4f4 url(../images/headers/basketball-court.jpg) top center;
   background-size: cover;
-  color: #7C7C7C;
+  background-repeat: no-repeat;
   padding: 30px 0 35px 0;
   min-height: 500px;
 }
 
 #head h2{
   margin-top: 200px;
-  /* background: rgba(255,255,255, 0.75);
-  width: 75%; */
   margin-left: auto;
   margin-right: auto;
   color: #fff;
-  text-shadow: 2px 2px #666;
-  /* padding: 0.5em 0; */
+  text-shadow: 2px 2px 4px #333;
 }
 
 #custom_head {
-  background: #f4f4f4 url(../images/headers/basketball-court.jpg) top center;
+  background-image: url(../images/headers/basketball-court.jpg);
+  background-position: top center;
   background-size: cover;
-  color: #7C7C7C;
+  background-repeat: no-repeat;
   padding: 30px 0 35px 0;
   min-height: 360px;
 }
 
 #custom_head h2{
   margin-top: 120px;
-  /* background: rgba(255,255,255, 0.75);
-  width: 75%; */
   margin-left: auto;
   margin-right: auto;
   color: #ffffff;
-  text-shadow: 2px 2px #666;
-  /* padding: 0.5em 0; */
+  text-shadow: 2px 2px 4px #333;
 }
-
 
 .article-meta {
   font-size: 0.85em;
@@ -9127,7 +9121,7 @@ article.post {
 }
 
 .header-shadow {
-  text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.75);
+  text-shadow: 2px 2px 1px rgba(0, 0, 0, 0.75);
   letter-spacing: 1px;
 }
 

@@ -3,6 +3,7 @@ title: "How It Works"
 type: "platform-features"
 page: "/platform-features/how-it-works.html"
 layout: single
+custom_header_img: "pool.jpg"
 ---
 
 <h2 class="h2-responsive">You May Be Wondering</h2>
@@ -44,7 +45,7 @@ layout: single
 
 <p>Depending on the size of a district and how fast it wants to move, the implementation process takes approximately 1 month for a 100 campus district. </p>
 
-<h4 class="h4-responsive">Implementation Milestones:</h4> 
+<h4 class="h4-responsive">Implementation Milestones:</h4>
 
 <ul class="f-ul">
   <li>Kick Off Meeting – Meeting or call to review process, coordinate site visits and photo schedule, request any remaining materials needed</li>
