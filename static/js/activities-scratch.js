@@ -72,8 +72,10 @@ const activities = [
   { _id: 65, type: "Sports", name: "Wrestling" }
 ];
 
-const names = activities.map(activity => `"_id": ${activity._id}, "name": "${activity.name}"`);
+const names = activities.map(activity => `${activity.name}`);
 const types = activities.map(activity => `${activity.type}`);
-console.log(names);
+// console.log(names);
 const uniqueTypes = [...new Set(types)];
-console.log(uniqueTypes);
+// console.log(uniqueTypes);
+const uniqueNames = [...new Set(names)]
+console.log(uniqueNames)

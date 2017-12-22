@@ -46,8 +46,7 @@
   <!--Copyright-->
   <div class="footer-copyright">
     <div class="container-fluid">
-      ©2017<a href="https://www.facilitron.com">
-        Facilitron, inc.</a>
+      ©2017<a href="https://www.facilitron.com"> Facilitron, inc.</a>
     </div>
   </div>
   <!--/.Copyright-->
@@ -60,12 +59,14 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js"></script>
 <script src="{{ .Site.BaseURL }}js/template.js"></script>
-<script id="dsq-count-scr" src="//{{ .Site.Params.disqus.site }}/count.js" async="async"></script>
 {{ partial "analyticstracking" . }}
 <!-- Hugo debugging script -->
-<script type="text/javascript">
+<!-- <script type="text/javascript">
   console.log("Kind: {{ .Kind }}");
   console.log("{{ printf " % #v " . }}")
-</script>
+</script> -->
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDeymCvE4ICfhpJTxg3Hmxe_IkVmrWMqUg&libraries=places&callback=initMap" async defer></script>
+<script src="{{ .Site.BaseURL }}js/fSearch.js"></script>
+<script>initSearch();</script>
 </body>
 </html>

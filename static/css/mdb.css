@@ -9240,3 +9240,55 @@ article.post {
   border: 1px solid #ccc;
   border-collapse: collapse;
 }
+
+/* search form */
+#fSearch {
+  position: relative;
+  background: pink;
+}
+
+#fSearch input {
+  height: 35px;
+  padding: 0 5px;
+  border-top: none;
+  border-bottom: none;
+  border-left: 1px solid #ddd;
+  font-size: 13px;
+  background: #fff
+}
+#fSearch p {
+  margin: 20px;
+}
+
+#fActivity {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 300px;
+}
+
+#fLocation {
+  position: absolute;
+  top: 0;
+  left: 311px;
+  width: 300px;
+}
+
+#fDate {
+  position: absolute;
+  top: 0;
+  left: 622px;
+  width: 100px;
+}
+
+#fSearchBtn {
+  position: absolute;
+  background-color: #269AD5;
+  border: none;
+  color: #fff;
+  font-size: 14px;
+  top: 0;
+  left: 734px;
+  height: 35px;
+  width: 75px;
+}

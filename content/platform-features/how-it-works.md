@@ -6,7 +6,7 @@ layout: single
 custom_header_img: "pool.jpg"
 ---
 
-<h2 class="h2-responsive">You May Be Wondering</h2>
+<h2 class="h2-responsive">You may be wondering…</h2>
 
 <p>Your district just decided to move forward with Facilitron so they can streamline receiving and managing reservation requests and start tracking valuable data on how, when and by whom facilities are being used. Now what?</p>
 
@@ -63,7 +63,7 @@ custom_header_img: "pool.jpg"
 </ul>
 
 <!-- timeline & photo section -->
-<div class="row m-5">
+<div class="row m-5 align-items-center">
   <div class="col-md-6">
     <table class="f-table">
     <tr>
