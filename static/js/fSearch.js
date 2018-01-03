@@ -6,9 +6,6 @@ activityInput.addEventListener('change', displayMatches);
 activityInput.addEventListener('keyup', displayMatches);
 activityInput.addEventListener('blur', clearSuggestions);
 
-//datepicker
-flatpickr("#fDate", {});
-
 // json endpoint for facilities/activities
 const endpoint = '/js/activities-scratch.js';
 
