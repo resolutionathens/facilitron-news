@@ -9235,6 +9235,10 @@ article.post {
 }
 
 /* search form */
+.search-container {
+  width: 700px;
+}
+
 #fSearch {
   position: relative;
   background: pink;
@@ -9249,6 +9253,7 @@ article.post {
   font-size: 13px;
   background: #fff
 }
+
 #fSearch p {
   margin: 20px;
 }
@@ -9267,13 +9272,6 @@ article.post {
   width: 300px;
 }
 
-#fDate {
-  position: absolute;
-  top: 0;
-  left: 622px;
-  width: 100px;
-}
-
 #fSearchBtn {
   position: absolute;
   background-color: #269AD5;
@@ -9281,7 +9279,7 @@ article.post {
   color: #fff;
   font-size: 14px;
   top: 0;
-  left: 734px;
+  left: 622px;
   height: 35px;
   width: 75px;
 }
