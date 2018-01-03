@@ -6614,17 +6614,6 @@ button:focus {
   margin-top: 0;
 }
 
-.navbar .dropdown-menu a {
-  /*font-size: .9375rem;
-  font-weight: 300;
-  padding: 10px;
-  color: #000 !important;*/
-}
-
-.navbar .dropdown-menu a:hover {
-  /*color: #fff !important;*/
-}
-
 @media (max-width: 600px) {
   .navbar .dropdown-menu.dropdown-menu-right {
     right: auto !important;
@@ -8863,7 +8852,7 @@ footer.page-footer nav a:hover {
   width: 250px;
   background-color: #fff;
   overflow: hidden;
-  overflow--webkit-box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+  --webkit-box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
   box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2)
 }
 
