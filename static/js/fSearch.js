@@ -1,3 +1,10 @@
+// import fetch from 'node-fetch';
+const endpoint = './activities.js';
+
+const activities = [];
+fetch(endpoint)
+  .then(blob => blob.json())
+  .then(data => activities.push(...data));
 
 function initMap(){
   var options = {

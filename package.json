@@ -3,7 +3,9 @@
   "version": "1.0.0",
   "description": "facilitron.com",
   "main": "index.js",
-  "dependencies": {},
+  "dependencies": {
+    "node-fetch": "^2.0.0-alpha.9"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/resolutionathens/facilitron-news.git"
