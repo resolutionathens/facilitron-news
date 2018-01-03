@@ -1,11 +1,13 @@
-// import fetch from 'node-fetch';
-
 // grab the fields and listen
 const activityInput = document.querySelector('#fActivity');
 const suggestions = document.querySelector('.suggestions');
 
 activityInput.addEventListener('change', displayMatches);
 activityInput.addEventListener('keyup', displayMatches);
+activityInput.addEventListener('blur', clearSuggestions);
+
+//datepicker
+flatpickr("#fDate", {});
 
 // json endpoint for facilities/activities
 const endpoint = '/js/activities-scratch.js';
@@ -24,6 +26,10 @@ function findMatches(wordToMatch, activities) {
   });
 }
 
+function clearSuggestions() {
+  suggestions.innerHTML = '';
+}
+
 // add first five matches to suggestions list
 function displayMatches() {
   // get the matches and slice the top five
@@ -38,8 +44,9 @@ function displayMatches() {
     `;
   }).join('');
   suggestions.innerHTML = html;
+  // if they've deleted everything from the field, remove the list
   if (this.value === '') {
-    suggestions.innerHTML = '';
+    clearSuggestions();
   }
 }
 
