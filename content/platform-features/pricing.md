@@ -4,7 +4,7 @@ type: "platform-features"
 page: "/platform-features/pricing.html"
 layout: single
 description:
-custom_header_img: "sports.jpg"
+custom_header_img: "football-field.jpg"
 ---
 
 <div class="row mb-5 px-5 align-items-end">
