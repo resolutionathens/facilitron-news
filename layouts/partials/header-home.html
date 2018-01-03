@@ -25,6 +25,8 @@
         <div id="fSearch">
           <form>
             <input id="fActivity" v-model="activity" type="text" placeholder="Enter facility or activity">
+            <ul class="suggestions">
+            </ul>
             <input id="fLocation" v-model="location" type="text" placeholder="City or zip">
             <input id="fDate" v-model="date" type="text" placeholder="date">
             <button type="submit" id="fSearchBtn" onclick="getLocation()" class="searchBtn">Search</button>
