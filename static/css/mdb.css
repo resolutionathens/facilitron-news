@@ -9087,14 +9087,18 @@ footer.page-footer nav a:hover {
   background-position: top center;
   background-size: cover;
   background-repeat: no-repeat;
-  padding: 30px 0 35px 0;
-  min-height: 320px;
+  height: 0;
+  padding-top: 30%;
+  position: relative;
 }
 
 #custom_head h2{
-  margin-top: 120px;
-  margin-left: auto;
-  margin-right: auto;
+  position: absolute;
+  font-size: 3.5vw;
+  top: 50%;
+  left: 0;
+  right: 0;
+  margin: auto;
   color: #ffffff;
   text-shadow: 2px 2px 4px #333;
 }
