@@ -9299,14 +9299,18 @@ article.post {
 }
 
 .suggestions li {
-  background:white;
+  background: white;
   list-style: none;
   border: 1px solid #D8D8D8;
   border-top: none;
-  margin:0;
-  padding:5px;
-  transition:background 0.2s;
-  display:flex;
-  justify-content:space-between;
+  margin: 0;
+  padding: 5px;
+  transition: background 0.2s;
+  display: flex;
+  justify-content: space-between;
   text-transform: capitalize;
+}
+
+.hl {
+  background: rgba(91, 152, 211, 0.2);
 }

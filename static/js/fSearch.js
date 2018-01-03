@@ -1,4 +1,13 @@
 // import fetch from 'node-fetch';
+
+// grab the fields and listen
+const activityInput = document.querySelector('#fActivity');
+const suggestions = document.querySelector('.suggestions');
+
+activityInput.addEventListener('change', displayMatches);
+activityInput.addEventListener('keyup', displayMatches);
+
+// json endpoint for facilities/activities
 const endpoint = '/js/activities-scratch.js';
 
 const activities = [];
@@ -6,20 +15,8 @@ fetch(endpoint)
   .then(blob => blob.json())
   .then(data => activities.push(...data));
 
-function initMap(){
-  var options = {
-    componentRestrictions: {
-      country: 'us'
-    }
-  }
-  var fLocation = document.getElementById('fLocation')
-  var autocomplete = new google.maps.places.Autocomplete(fLocation, options)
-}
-
-function initSearch() {
-  console.log('initSearch fired and all else was loaded.')
-}
-
+// type ahead functions for activities field
+// match on activity name
 function findMatches(wordToMatch, activities) {
   return activities.filter(activity => {
     const regex = new RegExp(wordToMatch, 'gi');
@@ -27,7 +24,9 @@ function findMatches(wordToMatch, activities) {
   });
 }
 
+// add first five matches to suggestions list
 function displayMatches() {
+  // get the matches and slice the top five
   const matchArray = findMatches(this.value, activities).slice(0,5);
   const html = matchArray.map(activity => {
     const regex = new RegExp(this.value, 'gi');
@@ -44,8 +43,17 @@ function displayMatches() {
   }
 }
 
-const searchInput = document.querySelector('#fActivity');
-const suggestions = document.querySelector('.suggestions');
+// map stuff
+function initMap(){
+  var options = {
+    componentRestrictions: {
+      country: 'us'
+    }
+  }
+  var fLocation = document.getElementById('fLocation')
+  var autocomplete = new google.maps.places.Autocomplete(fLocation, options)
+}
 
-searchInput.addEventListener('change', displayMatches);
-searchInput.addEventListener('keyup', displayMatches);
+function initSearch() {
+  console.log('initSearch fired and all else was loaded.')
+}
