@@ -9118,19 +9118,6 @@ article.post {
   letter-spacing: 1px;
 }
 
-/*********************************************************************
-
-
-                                 COMMENTS
-
-
- **********************************************************************/
-
-#disqus_thread {
-  width: 95%;
-  margin: 3em auto;
-}
-
 .partners {
   display: flex;
   justify-content: space-around;

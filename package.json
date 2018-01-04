@@ -3,10 +3,7 @@
   "version": "1.0.0",
   "description": "facilitron.com",
   "main": "index.js",
-  "dependencies": {
-    "node-fetch": "^2.0.0-alpha.9",
-    "pikaday": "^1.7.0"
-  },
+  "dependencies": {},
   "repository": {
     "type": "git",
     "url": "git+https://github.com/resolutionathens/facilitron-news.git"

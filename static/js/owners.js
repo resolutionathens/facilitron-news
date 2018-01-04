@@ -65485,13 +65485,18 @@ const owners = [{
   "status": 5
 }]
 
+const fs = require('fs');
 const names = owners.map(owner => `"name": "${owner.name}"`);
 // console.log(names);
-// console.log(Object.keys(owners));
 const landingPages = owners.filter(owner => (owner.landingpage === "yes"));
-console.log(owners.length);
-console.log(landingPages.length);
+// console.log(landingPages);
+// console.log(owners.length);
+// console.log(landingPages.length);
 const uniquelandingPages = [...new Set(landingPages)];
 const uniqueNames = [...new Set(names)];
-console.log(uniquelandingPages.length);
-console.log(uniqueNames.length);
+// console.log(uniquelandingPages.length);
+// console.log(uniqueNames.length);
+// fs.appendFile('ownersWithPages.js', uniquelandingPages, function (err) {
+//   if (err) throw err;
+//   console.log('saved');
+// })
