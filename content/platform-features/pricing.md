@@ -19,7 +19,7 @@ custom_header_img: "football-field.jpg"
 <div class="row mb-5 px-5 align-items-center">
   <div class="col-md-6">
     <h2 class="h2-responsive vertical-callout">No cost software</h2>
-    <p>No Cost Software means <b>no licensing fees</b> for use of Facilitron Scheduling &amp; Reservation platform AND newly released Facilitron Work Management System.</p>
+    <p>No Cost Software means <b>no licensing fees</b> for use of our Scheduling &amp; Reservation platform AND newly released Work Management System.</p>
   </div>
   <div class="col-md-6">
     <img src="/images/overview/overview-02.jpg" alt="Facilitron Overview" class="img-fluid">
@@ -30,7 +30,7 @@ custom_header_img: "football-field.jpg"
   <div class="col-md-7">
     <h2 class="h2-responsive vertical-callout">No cost setup</h2>
     <p>No Cost Setup includes <b>creation and setup of accounts</b> and community facing storefronts for district and district schools including <b>digitally cataloging all facilities</b> (pictures, descriptions, geolocations), creating unlimited fee schedules, calendars, role-based users and more as well as <b>pre-loading all existing facility schedules and events</b> &mdash; both school and community uses.</p>
-    <p>Setup includes:</p>
+    <p class="f-bullet-title">Setup includes:</p>
     <ul class="f-ul">
       <li>Digital catalog of facilities &mdash; capacities, square footage, amenities and more</li>
       <li>Facility photos &mdash; Drone/360</li>
@@ -49,8 +49,8 @@ custom_header_img: "football-field.jpg"
 <div class="row mb-5 px-5 align-items-center">
   <div class="col-md-7">
     <h2 class="h2-responsive vertical-callout">No cost support</h2>
-    <p>No Cost Support includes Account Managers and Customer Support Teams providing ongoing training, technical assistance and more.</p>
-    <p>Account Managers and Customer Support assist with:</p>
+    <p>No Cost Support includes Account Managers and Customer Support Teams providing <b>ongoing training, technical assistance and more</b>.</p>
+    <p class="f-bullet-title">Account Managers and Customer Support assist with:</p>
     <ul class="f-ul">
       <li>Onsite training and support for admins</li>
       <li>Reservation adjustments and management assistance </li>
@@ -69,10 +69,10 @@ custom_header_img: "football-field.jpg"
 </div>
 
 <div class="row mb-5 px-5 align-items-center">
-  <h3 class="h3-responsive">Facilitron charges service fees of 6-12% on all approved, external rentals with a dollar value greater than zero.</h2>
+  <h2 class="h2-responsive vertical-callout">Facilitron charges service fees of 6-12% on all approved, external rentals with a dollar value greater than zero.</h2>
   <div class="col-md-6">
-    <p>Reservations such as internal use reservations with no associated dollar amount are fully supported like any other reservation and incur no service fees.  Reservations subject to charges but waived by authorized administrators also incur no service fees.  Only the final adjusted and administrator approved dollar amounts are subject to service fees.</p>
-    <p>Facilitron collects all payments/refunds and issues disbursements directly to facility owners each month.  Facility owners can choose to absorb service fees (deducted as a commission in Facilitron’s monthly payment), pass fees onto the external renters, or split fees between the two.</p>
+    <p>Reservations such as internal use reservations with no associated dollar amount are fully supported like any other reservation and incur no service fees.  Reservations subject to charges but waived by authorized administrators also incur no service fees. <b>Only the final adjusted and administrator approved dollar amounts are subject to service fees</b>.</p>
+    <p>Facilitron collects all payments/refunds and issues disbursements directly to facility owners each month.  Facility owners can choose to absorb service fees (deducted as a commission from Facilitron’s monthly payment), pass fees onto the external renters, or split fees between the two.</p>
   </div>
   <div class="col-md-6">
     <table class="f-table">
