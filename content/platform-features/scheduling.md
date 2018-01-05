@@ -25,9 +25,9 @@ description:
 </div>
 
 <div class="row align-items-end px-5 mb-5">
-  <div class="col-md-6">
+  <div class="col-md-7">
     <h2 class="h2-responsive vertical-callout">Organize facility schedules and requests, approvals, permits and more</h2>
-    <p>Now, in one place, district and school administrators can <b>preview the events and activities</b> that are going on in their gyms, theaters and classrooms all over the district - as well as manage both <b>internal (school) use requests</b> AND public rental requests to use school facilities.</p>
+    <p>Now, in one place, district and school administrators can <b>preview the events and activities</b> that are going on in their gyms, theaters and classrooms all over the district - as well as manage both <b>internal (school) requests AND public rental requests</b> to use school facilities.</p>
     <ul class="f-ul">
       <li>Dashboard Alert Center - quickly review pending reservations, upcoming events</li>
       <li>District Calendar - sort and view all activities at any school or any facility in the district</li>
@@ -37,14 +37,14 @@ description:
     </ul>
     <a href="https://facilitron.drift.com/getstarted?schedule?schedule" target="_blank" class="btn btn-primary my-4 mx-auto">Schedule A Demo</a>
   </div>
-  <div class="col-md-6"><img src="/images/overview/calendar-ipad.jpg" alt="East Side Union Calendar" class="img-fluid"></div>
+  <div class="col-md-5"><img src="/images/overview/calendar-ipad.jpg" alt="East Side Union Calendar" class="img-fluid"></div>
 </div>
 
 <div class="row align-items-end mb-5">
   <div class="col-md-6 pl-0 homepage-img-l"><img src="/images/overview/bibb-storefront-desktop.jpg" alt="Bibb County Front" class="img-fluid"></div>
   <div class="col-md-6 pr-5">
     <h2 class="h2-responsive vertical-callout">Community request portal streamlines facility use application process</h2>
-    <p><b>Custom school sites</b> which link right off school websites create a place where the community can come to find photos, pricing and information on the availability of school facilities for rent &mdash; <b>without calling or emailing school administrators.</b> Search results allow community groups to view facility details, configure and submit requests, upload documents, and more.</p>
+    <p><b>Custom school sites</b> which link right off school websites create a place where the community can come to find photos, pricing and information on the availability of school facilities for rent &mdash; <b>without needing to call or email school administrators.</b> Search results allow community groups to view facility details, configure and submit requests, upload documents, and more.</p>
     <ul class="f-ul">
       <li>Sites for each individual school with parent sites for clusters/areas and the district</li>
       <li>Search and view facilities and see real-time availability</li>
@@ -58,9 +58,9 @@ description:
 <div class="row align-items-end px-5 mb-5">
   <div class="col-md-6">
     <h2 class="h2-responsive vertical-callout">Online application with Facilitron support simplifies requests and reduces admin time</h2>
-    <p>Managing facility schedules and requests and other burdens such as answering questions from community requesters can take up significant time for district employees. Combining the online request system with Facilitron’s first-rate support team <b>allows districts to save significant time and money</b> by offloading such duties as non-profit status and insurance verifications, tracking down payment, issuing refunds and more.</p>
-    <p>
-      Account Managers and Customer Support Teams assist districts with...
+    <p>Managing facility schedules and requests and other burdens such as answering questions from community requesters can take up significant time for district employees. Combining the online request system with our account and support teams <b>allows districts to save significant time and money</b> by offloading such duties as non-profit status and insurance verifications, tracking down payment, issuing refunds and more.</p>
+    <p class="f-bullet-title">
+      Account Managers and Customer Support teams assist districts with...
     </p>
     <ul class="f-ul">
       <li>Reservation adjustments and management </li>
@@ -80,11 +80,11 @@ description:
 <div class="row align-items-end px-5 mb-5">
   <div class="col-md-6"><img src="/images/overview/sr-reservation-detail-ipad.jpg" alt="" class="img-fluid"></div>
   <div class="col-md-6">
-    <h2 class="h2-responsive vertical-callout">Reservation details become consolidated and accessible to key stakeholders</h2>
+    <h2 class="h2-responsive vertical-callout">Reservation details &mdash; consolidated and accessible to key stakeholders</h2>
     <p><b>Facilitron tracks all requests</b> whether approved or declined and consolidates communications, reservation history and changes as well as important documents such as insurance, permits and organization details.</p>
     <p>Reservation detail pages include:</p>
     <ul class="f-ul">
-      <li>Renter Organization Contact and Details</li>
+      <li>Renter organization contact and details</li>
       <li>Facility use permits</li>
       <li>Insurance documents</li>
       <li>Attach photos or documents (floor plan, setup, damage)</li>

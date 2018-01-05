@@ -9299,3 +9299,9 @@ article.post {
 .hl {
   background: rgba(91, 152, 211, 0.2);
 }
+
+.f-bullet-title {
+  font-size: 16px;
+  font-weight: 500;
+  color: #269AD5;
+}
