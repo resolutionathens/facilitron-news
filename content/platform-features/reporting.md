@@ -30,7 +30,7 @@ custom_header_img: "business-insights.jpg"
       </ul>
   </div>
   <div class="col-md-5">
-    <img src="/images/overview/bi-reports-ipad.jpg" alt="Facilitron reporting" class="img-fluid">
+    <img src="/images/overview/bi-reports-ipad-iphone.png" alt="Facilitron reporting" class="img-fluid">
   </div>
 </div>
 

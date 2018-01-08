@@ -37,7 +37,7 @@ description:
     </ul>
     <a href="https://facilitron.drift.com/getstarted?schedule?schedule" target="_blank" class="btn btn-primary my-4 mx-auto">Schedule A Demo</a>
   </div>
-  <div class="col-md-5"><img src="/images/overview/calendar-ipad.jpg" alt="East Side Union Calendar" class="img-fluid"></div>
+  <div class="col-md-5"><img src="/images/overview/calendar-ipad.png" alt="East Side Union Calendar" class="img-fluid"></div>
 </div>
 
 <div class="row align-items-end mb-5">
@@ -78,7 +78,7 @@ description:
 </div>
 
 <div class="row align-items-end px-5 mb-5">
-  <div class="col-md-6"><img src="/images/overview/sr-reservation-detail-ipad.jpg" alt="" class="img-fluid"></div>
+  <div class="col-md-6"><img src="/images/overview/sr-reservation-detail-ipad.png" alt="" class="img-fluid"></div>
   <div class="col-md-6">
     <h2 class="h2-responsive vertical-callout">Reservation details &mdash; consolidated and accessible to key stakeholders</h2>
     <p><b>Facilitron tracks all requests</b> whether approved or declined and consolidates communications, reservation history and changes as well as important documents such as insurance, permits and organization details.</p>
