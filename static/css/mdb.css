@@ -9367,4 +9367,5 @@ article.post {
   float: right;
   background-color: #fff;
   border: none;
+  cursor: pointer;
 }
