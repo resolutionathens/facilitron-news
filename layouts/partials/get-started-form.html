@@ -1,34 +1,37 @@
 <!-- views/partials/get-started-form.ejs -->
-<div class="modal fade" id="fGetStartedForm" tabindex="-1" role="dialog" aria-labelledby="fModalGetStarted" aria-hidden="true">
+<div class="modal fade f-modal" id="fGetStartedForm" tabindex="-1" role="dialog" aria-labelledby="fModalGetStarted" aria-hidden="true">
   <div class="modal-dialog cascading-modal" role="document">
     <div class="modal-content">
 
       <form action="/thanks" method="get">
         <div class="modal-body mb-1">
+          <img src="/images/logos/facilitron-logo.svg" width="174px" height="40px" alt="Facilitron">
+          <hr>
+
           <div>
-            <h3 class="h3-responsive mb-4">Let's get started</h3>
+            <h3 class="h4-responsive mb-4 text-dark">Create Renter Account</h3>
           </div>
 
-          <div class="md-form form-sm">
-            <i class="fa fa-envelope prefix" aria-hidden="true"></i>
-            <input type="text" id="emailAddress" class="form-control">
-            <label for="emailAddress">Email</label>
+          <input type="text" id="emailAddress" placeholder="Email address">
+          <input type="text" placeholder="First name">
+          <input type="text" placeholder="Last name">
+          <input type="password" placeholder="Password (at least 5 characters)">
+          <input type="tel" placeholder="Phone">
+          <div>
+            <input type="checkbox" value="mobilePhone" id="mobilePhone">
+            <label for="mobilePhone">Mobile Phone</label>
           </div>
-
-          <div class="form-group">
-            <input name="signUpGroup" type="radio" id="radioBtnOwner">
-            <label for="radioBtnOwner">Sign up as a facility owner.</label>
+          <div>
+            <input type="checkbox" value="registerOrganization" id="registerOrganization">
+            <label for="registerOrganization">Register Your Organization</label>
           </div>
-
-          <div class="form-group">
-            <input name="signUpGroup" type="radio" id="radioBtnRenter">
-            <label for="radioBtnRenter">Sign up as a renter.</label>
-          </div>
+          <p class="small-text">By clicking "Create Account" I agree to Facilitron's <a href="/terms">Terms and Conditions</a> and <a href="/privacy">Privacy Policy</a>.</p>
 
           <div class="text-center mt-2">
-            <button type="submit" class="btn btn-sm btn-primary">Sign Up</button>
-            <button type="button" class="btn btn-sm btn-dark" data-dismiss="modal">Cancel</button>
+            <button type="submit" class="btn btn-primary">Create Account</button>
           </div>
+          <hr>
+          <p>Already have an account? <a href="#">Log In</a>.</p>
         </div>
       </form>
 

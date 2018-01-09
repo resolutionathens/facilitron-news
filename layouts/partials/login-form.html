@@ -1,33 +1,26 @@
 <!-- login-form -->
-<div class="modal fade" id="fLoginForm" tabindex="-1" role="dialog" aria-labelledby="fModalLogin" aria-hidden="true">
+<div class="modal fade f-modal" id="fLoginForm" tabindex="-1" role="dialog" aria-labelledby="fModalLogin" aria-hidden="true">
   <div class="modal-dialog cascading-modal" role="document">
     <div class="modal-content">
-
       <form action="/thanks" method="get">
         <div class="modal-body mb-1">
+          <img src="/images/logos/facilitron-logo.svg" width="174px" height="40px" alt="Facilitron">
+          <hr>
           <div>
-            <h3 class="h3-responsive mb-4">Log in</h3>
+            <h3 class="h4-responsive mb-4 text-dark">Log in</h3>
           </div>
-
-          <div class="md-form form-sm">
-            <i class="fa fa-envelope prefix" aria-hidden="true"></i>
-            <input type="text" id="emailAddress" class="form-control">
-            <label for="emailAddress">Email</label>
+          <input type="text" id="emailAddress" placeholder="Email address">
+          <input type="text" id="password" placeholder="Password">
+          <a href="#" id="fForgotPasswordLink">Forgot password?</a>
+          <div class="mt-2">
+            <button type="submit" class="btn btn-primary" id="fLoginBtn">Log in</button>
           </div>
-
-          <div class="md-form form-sm">
-            <i class="fa fa-key prefix" aria-hidden="true"></i>
-            <input type="text" id="password" class="form-control">
-            <label for="password">Password</label>
-          </div>
-
-          <div class="text-center mt-2">
-            <button type="submit" class="btn btn-sm btn-primary">Log in</button>
-            <button type="button" class="btn btn-sm btn-dark" data-dismiss="modal">Cancel</button>
-          </div>
+          <hr>
+          <p>Don't have an account? <a href="#">Create Account</a>.</p>
+          <p>Need an account associated with an existing organization?<br>
+          <a href="#" id="fRequestAccessLink">Request Access</a></p>
         </div>
       </form>
-
     </div>
   </div>
 </div>
