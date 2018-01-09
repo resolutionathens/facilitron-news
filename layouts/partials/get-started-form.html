@@ -12,7 +12,7 @@
             <h3 class="h4-responsive mb-4 text-dark">Create Renter Account</h3>
           </div>
 
-          <input type="text" id="emailAddress" placeholder="Email address">
+          <input type="text" id="gsEmailAddress" placeholder="Email address">
           <input type="text" placeholder="First name">
           <input type="text" placeholder="Last name">
           <input type="password" placeholder="Password (at least 5 characters)">
@@ -22,8 +22,11 @@
             <label for="mobilePhone">Mobile Phone</label>
           </div>
           <div>
-            <input type="checkbox" value="registerOrganization" id="registerOrganization">
-            <label for="registerOrganization">Register Your Organization</label>
+            <input type="checkbox" value="registerOrganization" id="registerOrganizationCheckbox">
+            <label for="registerOrganizationCheckbox">Register Your Organization</label>
+          </div>
+          <div id="registerOrganizationFields" class="d-none">
+            <input type="text" placeholder="Organization name">
           </div>
           <p class="small-text">By clicking "Create Account" I agree to Facilitron's <a href="/terms">Terms and Conditions</a> and <a href="/privacy">Privacy Policy</a>.</p>
 
@@ -39,3 +42,17 @@
   </div>
 </div>
 <!--/getStartedForm-->
+<script>
+  var registerOrganizationCheckbox = document.querySelector('#registerOrganizationCheckbox');
+  var registerOrganizationFields = document.querySelector('#registerOrganizationFields');
+  registerOrganizationCheckbox.addEventListener('change', toggleOrg);
+  function toggleOrg(e){
+    if (registerOrganizationCheckbox.checked){
+      //remove d-none from class
+      registerOrganizationFields.classList.remove('d-none');
+    } else {
+      //add d-none to class
+      registerOrganizationFields.classList.add('d-none');
+    }
+  }
+</script>
