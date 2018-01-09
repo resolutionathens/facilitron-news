@@ -9354,3 +9354,17 @@ article.post {
 .f-modal input:-moz-placeholder{
   color: #dddddd;
 }
+
+.f-modal select{
+  font-size: 14px;
+}
+
+#form-descriptions p{
+  font-size: 14px;
+}
+
+.f-modal .modal-close{
+  float: right;
+  background-color: #fff;
+  border: none;
+}
