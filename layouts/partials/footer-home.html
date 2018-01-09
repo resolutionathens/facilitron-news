@@ -59,6 +59,9 @@
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js"></script>
 <script src="{{ .Site.BaseURL }}js/template.js"></script>
 {{ partial "analyticstracking" . }}
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDeymCvE4ICfhpJTxg3Hmxe_IkVmrWMqUg&libraries=places&callback=initMap" async defer></script>
+<script src="{{ .Site.BaseURL }}js/fSearch.js"></script>
+<script>initSearch();</script>
 <!-- Hugo debugging script -->
 <!-- <script type="text/javascript">
   console.log("Kind: {{ .Kind }}");
