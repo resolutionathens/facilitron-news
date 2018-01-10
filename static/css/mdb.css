@@ -9355,6 +9355,11 @@ article.post {
   color: #dddddd;
 }
 
+.f-modal input:invalid{
+  border-bottom: 1px solid #d02201;
+  box-shadow: 0 1px 0 0 #d02201;
+}
+
 .f-modal select{
   font-size: 14px;
 }

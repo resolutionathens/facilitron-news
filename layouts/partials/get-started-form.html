@@ -111,7 +111,7 @@
 
   /** listens for changes to organization dropdown and displays correct form*/
   orgSelect.addEventListener('change', function(e){
-    console.log('organization changed to ' + e.target.value);
+    //console.log('organization changed to ' + e.target.value);
     var formDescriptions = document.querySelector('#form-descriptions');
     var formIndividual = document.querySelector('#form-individual');
     var formNonprofit = document.querySelector('#form-nonprofit');
@@ -120,7 +120,7 @@
     var formAdministrator = document.querySelector('#form-administrator');
     var formAccept = document.querySelector('#form-accept');
     // hide all forms
-    console.log('hiding all forms');
+    //console.log('hiding all forms');
     hideElement(formDescriptions);
     hideElement(formCommercial);
     hideElement(formNonprofit);
