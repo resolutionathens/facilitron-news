@@ -6,21 +6,40 @@
         <img src="/images/logos/facilitron-logo.svg" width="174px" height="40px" alt="Facilitron">
         <button class="modal-close" data-dismiss="modal" aria-hidden="true">x</button>
         <hr>
-            <div>
-              <h3 class="h4-responsive mb-4 text-dark">Create Account</h3>
-            </div>
-            <select name="signup_org_type" id="signup-org-type" class="form-control modal-field">
-              <option value="">Select Organization Type</option>
-              <option value="8">Commercial</option>
-              <option value="1">Individual</option>
-              <option value="2">Non-Profit</option>
-              <option value="99">New Partner</option>
-              <option value="0">Administrator</option>
-            </select>
-          <div id="fGetStartedContent">
-            <div id="form-descriptions"> <h5 class="h5-responsive">Organization Types:</h5> <p> <b>Commercial</b> &mdash; My organization is a business</p> <p> <b>Individual</b> &mdash; I'm looking to rent facilities for myself.</p> <p> <b>Non-profit</b> &mdash; My organization is a registered non-profit (EIN required) or receives a special rate. <sup>*</sup> </p> <p> <b>New Partner</b> &mdash; I have facilities I would like to list.</p> <p> <b>Administrator</b> &mdash; I need access to my organization's Facilitron account.</p> <p> <sup>*</sup>Reservations will be assigned a commercial rate until your organization is verified.</p> </div>
+        <div>
+          <h3 class="h4-responsive mb-4 text-dark">Create Account</h3>
+        </div>
+        <select name="signup_org_type" id="signup-org-type" class="form-control modal-field">
+          <option value="">Select Organization Type</option>
+          <option value="8">Commercial</option>
+          <option value="1">Individual</option>
+          <option value="2">Non-Profit</option>
+          <option value="99">New Partner</option>
+          <option value="0">Administrator</option>
+        </select>
+        <div id="fGetStartedContent">
+          <div id="form-descriptions">
+            <h5 class="h5-responsive">Organization Types:</h5>
+            <p>
+              <b>Commercial</b> &mdash; My organization is a business</p>
+            <p>
+              <b>Individual</b> &mdash; I'm looking to rent facilities for myself.</p>
+            <p>
+              <b>Non-profit</b> &mdash; My organization is a registered non-profit (EIN required) or receives a special rate.
+              <sup>*</sup>
+            </p>
+            <p>
+              <b>New Partner</b> &mdash; I have facilities I would like to list.</p>
+            <p>
+              <b>Administrator</b> &mdash; I need access to my organization's Facilitron account.</p>
+            <p>
+              <sup>*</sup>Reservations will be assigned a commercial rate until your organization is verified.</p>
           </div>
-          <!-- /fGetStartedContent -->
+        </div>
+        <!-- /fGetStartedContent -->
+        <div>
+          <p>Already have an account? <a href="javascript:void()" onclick="openLoginModal()">Login here</a>.</p>
+        </div>
       </div>
     </div>
   </div>
