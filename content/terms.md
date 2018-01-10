@@ -14,7 +14,7 @@ In order to rent or otherwise schedule time in a “Facility” from another Use
 
 In connection with registering for, using or participating in the Service (whether as a Member or a Facility Owner), you agree (i) to provide accurate, current and complete information about you and your organization as requested by Facilitron ("Registration Data"); (ii) to maintain the confidentiality of your password and other information related to the security of your account; (iii) to maintain and promptly update the Registration Data and any other information you provide to Facilitron, to keep such information accurate, current and complete; and (iv) to be fully responsible for all use of your account and for any actions that take place through your account.
 
-__Rental Transactions Between Members and Facility Owners__ 
+__Rental Transactions Between Members and Facility Owners__
 
 As a Member, you agree to abide by the following Member policies:
 
@@ -35,10 +35,10 @@ __Privacy__
 Use of the Service is also governed by our Privacy Policy, a copy of which is located at [facilitron.com/privacy](http://facilitron.com/privacy). By using the Service, you are consenting to the terms of the Privacy Policy.
 
 __Proprietary Rights in Site Content; Limited License__
- 
+
 All content on the Site and otherwise available through the Service, including designs, text, graphics, images, video, information, software, audio and other files, and their selection and arrangement (the "Site Content"), are the proprietary property of Facilitron, its users or its licensors. No Site Content may be modified, copied, distributed, framed, reproduced, republished, downloaded, scraped, displayed, posted, transmitted, or sold in any form or by any means, in whole or in part, other than as expressly permitted in these Terms of Use. Authorized Users may access and use the Service and the Site Content and download or print a reasonable number of copies of portions of the Site Content to which the User has properly gained access solely for the User's personal, non-commercial use, provided that the User maintains all copyright or other proprietary notices on all copies of such Site Content. Except for your own User Content, you may not publish or otherwise distribute Site Content, including via the Internet or any intranet or extranet site, or incorporate the Site Content in any other database or compilation. You may not use any data mining, robots, scraping or similar data gathering or extraction methods to obtain Site Content. Any use of the Site or the Site Content other than as specifically authorized herein is prohibited and will automatically terminate your rights with respect to use of the Service and the Site Content granted herein. All rights of Facilitron or its licensors that are not expressly granted in these Terms of Use are reserved to Facilitron and its licensors.
 
-__User Content Posted on the Service__ 
+__User Content Posted on the Service__
 
 You may be able to display certain information on designated portions of the Site or otherwise through the Service regarding you or your company or organization including, if you are a Facility Owner, your Facility (a "Profile"). Your Profile will display to other Users certain of your Registration Data and other content about you or your company or your organization including, if you are a Facility Owner, your Facility, that you upload or otherwise provide to Facilitron for use in your Profile (collectively the "Profile Content"). You agree to provide accurate and current information in your Profile and to promptly update the Profile Content to keep it accurate and current.
 
@@ -46,42 +46,42 @@ You are solely responsible for the Profile Content, messages, notes, text, infor
 
 Facilitron does not verify the accuracy or authenticity of any User Content, including any Facility descriptions or Facility availability information provided by Facility Owners, and makes no representations or warranties with respect to any User Content. When you post User Content to the Site, you grant to Facilitron an irrevocable, perpetual, non-exclusive, transferable, fully paid, worldwide license (with the right to sublicense) to use, reproduce, publicly perform, publicly display, modify, translate, excerpt (in whole or in part), publish and distribute such User Content. Subject to the rights granted to us in these Terms of Use, you retain ownership of your User Content.
 
-__Trademarks__ 
+__Trademarks__
 
 "Facilitron" is a registered trademark of Facilitron, Inc. "Facilitron" together with the other graphics, logos, designs, page headers, button icons, scripts and service names on the Site are the trademarks or trade dress of Facilitron in the U.S. and other countries ("Facilitron Marks"). You may not use the Facilitron Marks, including as part of trademarks and/or as part of domain names, in connection with any product or service in any manner that is likely to cause confusion or create the impression that Facilitron endorses any product or service. You may not reproduce or use the Facilitron Marks without the prior written permission of Facilitron.
 
-__User Conduct__ 
+__User Conduct__
 
 You agree not to do any of the following in connection with your use of the Service and to otherwise use the Service in compliance with these Terms of Use. use automated scripts to collect information from or otherwise interact with the Service; impersonate any person or entity, or falsely state or otherwise misrepresent you or your affiliation with any person or entity; upload, post, transmit, distribute or otherwise make available any unsolicited or unauthorized advertising, solicitations, promotional materials, "junk mail," "spam," "chain letters," "pyramid schemes," or any other prohibited form of solicitation; upload, post, transmit, distribute, store or otherwise make publicly available on the Site any private information of any third party, including, addresses, phone numbers, email addresses, Social Security numbers and credit card numbers; upload, post, transmit, distribute or otherwise make available any material that contains software viruses or any other computer code, files or programs designed to interrupt, destroy or limit the functionality of any computer software or hardware or telecommunications equipment; intimidate or harass another; upload, post, transmit, distribute, store or otherwise make available content that would constitute, encourage or provide instructions for a criminal offense; use or attempt to use another's account, service or system without authorization from Facilitron, or create a false identity on the Service; use the Service in a manner that may create a conflict of interest or undermine the purposes of the Service, such as trading reviews with other Users or writing or soliciting shill reviews; or upload, post, transmit, distribute, store or otherwise make available any answers, responses, comments, opinions, analysis or recommendations that you are not properly licensed or otherwise qualified to provide; upload, post, transmit, distribute, store or otherwise make available content that, in the sole judgment of Facilitron, is objectionable or which restricts or inhibits any other person from using the Site, or which may expose Facilitron or its users to any harm or liability of any type.
 
-__No High Risk Use__ 
+__No High Risk Use__
 
 You may not use the Service in any situation where failure or fault of any kind of the Service could lead to death or serious bodily injury of any person, or to physical or environmental damage ("High Risk Use"). High Risk Use is STRICTLY PROHIBITED. High Risk Use includes, for example, the following: aircraft or other modes of human mass transportation, nuclear or chemical facilities, and Class III medical devices under the Federal Food, Drug and Cosmetic Act.
 
-__Additional Representations and Warranties__ 
+__Additional Representations and Warranties__
 
-In addition to any other representations and warranties in these Terms of Use, you represent and warrant that:  
+In addition to any other representations and warranties in these Terms of Use, you represent and warrant that:
 the User Content and all other content submitted to the Service through your account or otherwise posted, transmitted, or distributed by you on or through the Service: (i) does not violate or infringe upon the rights of any third party (including copyright, trademark, privacy, publicity or other personal or proprietary rights), (ii) does not contain libelous, defamatory or otherwise unlawful material, and (iii) is truthful and accurate; you are not located in a country that is subject to a U.S. government embargo or that has been designated by the U.S. government as a "terrorist supporting" country, and you are not listed on any U.S. government list of prohibited or restricted parties;
 
 __Third Party Websites and Content__
-  
+
 The Site may contain (or you may be sent through the Service) links to other web sites ("Third Party Sites") as well as articles, photographs, text, graphics, pictures, designs, sound, video, information, and other content or items belonging to or originating from third parties (the "Third Party Content"). Such Third Party Sites and Third Party Content are not investigated, monitored or checked for accuracy, appropriateness, or completeness by us, and we are not responsible for any Third Party Sites accessed through the Site or any Third Party Content posted on, available through the Site, including the content, accuracy, offensiveness, opinions, reliability, privacy practices or other policies of or contained in the Third Party Sites or the Third Party Content. Inclusion of, linking to or permitting the use of any Third Party Site or any Third Party Content does not imply approval or endorsement thereof by Facilitron. If you decide to leave the Site and access the Third Party Sites or to access or use any Third Party Content, you do so at your own risk and you should be aware that our terms and policies no longer govern. You should review the applicable terms and policies, including privacy and data gathering practices, of any site to which you navigate from the Site or relating to any applications you use or install from the site.
 
-__Eligibility__  
+__Eligibility__
 
 This Service is intended solely for users who are 18 years of age or older. Any registration by, use of or access to the Service by anyone under 18 is unauthorized and in violation of these Terms of Use. By using the Service, you represent and warrant that you are 18 years of age or older.
 
-__Disclaimers__  
+__Disclaimers__
 
 Facilitron is not responsible or liable in any manner for any User Content or Third Party Content posted on the Site or displayed in connection with the Service, including the accuracy of any Facility descriptions, Facility availability information or Member information. Although we provide rules for user conduct and postings, we do not control and are not responsible for what users post, transmit or distribute on the Site and are not responsible for any offensive, inappropriate, obscene, unlawful or otherwise objectionable content you may encounter on the Site or in connection with any User Content or Third Party Content. Facilitron is not responsible for the conduct, whether online or offline, of any User, including any Member's non-compliance with any terms, conditions and policies relating to the use of any Facility. The Service may be temporarily unavailable from time to time for maintenance or other reasons. Facilitron shall have no responsibility for any interruption, delay in operation or transmission, theft or destruction of, unauthorized access to, or alteration of, User communications or any other content made available via the Service. Under no circumstances will Facilitron be responsible for any personal injury or death resulting from the use of the Service, any User Content or Third Party Content, or any use of Facilitys, products or services provided by Users. FACILITRON PROVIDES THE SERVICE, INCLUDING ALL CONTENT THEREIN, TO FACILITY OWNERS AND MEMBERS "AS IS," AND, EXCEPT AS PROVIDED HEREIN AND IN ANY FACILITY POLICIES, THE FACILITY OWNERS PROVIDE THEIR FACILITIES TO MEMBERS "AS IS," AND FACILITRON AND ITS SUPPLIERS (AND FACILITY OWNERS WITH RESPECT MEMBERS THAT USE THEIR FACILITIES) DISCLAIM ANY AND ALL OTHER REPRESENTATIONS AND WARRANTIES WITH RESPECT TO THE SERVICE AND THE FACILITIES, WHETHER EXPRESS OR IMPLIED, INCLUDING IMPLIED WARRANTIES OF TITLE, MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE OR NON-INFRINGEMENT. FACILITRON CANNOT GUARANTEE AND DOES NOT PROMISE TO FACILITY OWNERS AND MEMBERS, AND FACILITY OWNERS CANNOT GUARANTEE AND DO NOT PROMISE TO MEMBERS, ANY SPECIFIC RESULTS FROM USE OF THE SERVICE OR A FACILITY. WITHOUT LIMITING THE FOREGOING, FACILITRON DOES NOT REPRESENT OR WARRANT THAT THE SOFTWARE, CONTENT OR MATERIALS MADE AVAILABLE THROUGH THE SERVICE ARE ACCURATE, COMPLETE, RELIABLE, CURRENT OR ERROR-FREE; FACILITRON AND FACILITY OWNERS DO NOT REPRESENT OR WARRANT THAT THE SERVICE OR ANY FACILITY RENTAL WILL MEET YOUR REQUIREMENTS; AND FACILITRON DOES NOT REPRESENT OR WARRANT THAT THE SERVICE WILL BE AVAILABLE AT ANY PARTICULAR TIME OR LOCATION, UNINTERRUPTED OR SECURE, THAT ANY DEFECTS OR ERRORS WILL BE CORRECTED, OR THAT THE SERVICE, OR ITS SERVERS, ARE FREE OF VIRUSES OR OTHER HARMFUL COMPONENTS. FACILITY OWNERS ARE EXPRESS THIRD PARTY BENEFICIARIES OF THE PROVISIONS OF THIS SECTION THAT ARE APPLICABLE TO FACILITY OWNERS.
 
 THE DISCLAIMERS SET FORTH ABOVE IN THIS SECTION APPLY TO THE MAXIMUM EXTENT PERMITTED BY APPLICABLE LAW.
 
-__Limitation on Liability__  
+__Limitation on Liability__
 
 IN NO EVENT (I) WILL FACILITRON OR ITS SUPPLIERS, OR THEIR DIRECTORS, EMPLOYEES, AGENTS, AFFILIATES OR SUPPLIERS, BE LIABLE TO YOU OR ANY THIRD PERSON, OR (II) WILL FACILITY OWNERS OR THEIR DIRECTORS, EMPLOYEES, AGENTS, AFFILIATES OR SUPPLIERS BE LIABLE TO MEMBERS, IN EACH CASE FOR ANY INDIRECT, CONSEQUENTIAL, EXEMPLARY, INCIDENTAL, SPECIAL OR PUNITIVE DAMAGES, INCLUDING FOR ANY LOST PROFITS, LOST DATA, PERSONAL INJURY OR PROPERTY DAMAGE, OF ANY NATURE WHATSOEVER, ARISING FROM YOUR USE OF THE SERVICE, ANY CONTENT OR OTHER MATERIALS ON, ACCESSED THROUGH OR DOWNLOADED FROM THE SERVICE, OR A MEMBER'S USE OF A FACILITY, EVEN IF FACILITRON (OR THE FACILITY OWNER AS APPLICABLE) IS AWARE OR HAS BEEN ADVISED OF THE POSSIBILITY OF SUCH DAMAGES. NOTWITHSTANDING ANYTHING TO THE CONTRARY CONTAINED HEREIN, AND TO THE MAXIMUM EXTENT PERMITTED BY APPLICABLE LAW, (A) FACILITRON'S LIABILITY TO YOU OR ANY PARTY CLAIMING THROUGH YOU, AND (B) EACH FACILITY OWNER'S LIABILITY TO A MEMBER OR ANY PARTY CLAIMING THROUGH SUCH MEMBER, IN EACH CASE FOR ANY CAUSE WHATSOEVER, AND REGARDLESS OF THE FORM OF THE ACTION, IS LIMITED TO THE AMOUNT PAID, IF ANY, BY YOU TO FACILITRON FOR THE SERVICE, OR, WITH RESPECT TO FACILITY OWNERS, THE AMOUNT PAID FOR THE APPLICABLE FACILITY, IN THE 12 MONTHS PRIOR TO THE INITIAL ACTION GIVING RISE TO LIABILITY. THIS IS AN AGGREGATE LIMIT. THE EXISTENCE OF MORE THAN ONE CLAIM HEREUNDER WILL NOT INCREASE THIS LIMIT. FACILITY OWNERS ARE EXPRESS THIRD PARTY BENEFICIARIES OF THE PROVISIONS OF THIS SECTION THAT ARE APPLICABLE TO FACILITY OWNERS.
 
-__Termination__  
+__Termination__
 
 Facilitron may terminate or suspend your account or ability to use the Service, in whole or in part, without notice in the event that (i) you violate the Terms of Use or violate any other rules that govern the use of the Service, (ii) your conduct may harm Facilitron or others or cause Facilitron or others to incur liability, (iii) you receive negative feedback from other Users, or (iv) as otherwise determined by Facilitron in its sole discretion.
 
@@ -89,14 +89,14 @@ Facilitron may modify the Service, and all content, software and other items use
 
 You may terminate your Facilitron account at any time by providing Facilitron with notice of termination in accordance with the instructions available through the Service. Your access to, use of, or participation in the Service, including any content therein, may be prevented by Facilitron at any time after your termination of your account. Notwithstanding anything herein to the contrary, upon termination of your account, Facilitron will remove your Profile and cease displaying your Profile Content, including your Facility listings if you are a Facility Owner, on or through the Service.
 
-__Governing Law; Arbitration__  
+__Governing Law; Arbitration__
 
 The laws of the State of California will govern these Terms of Use and any dispute that might arise between you and Facilitron without regard to any principles of conflicts of law. Any dispute arising between you and Facilitron will be resolved by binding arbitration. The arbitration shall be conducted by a single arbitrator in the County of Santa Clara, California, U.S.A. Unless otherwise expressly required by applicable law, each party shall bear its own attorneys fees without regard to which party is deemed the prevailing party in the arbitration proceeding.
 
-__Indemnity__  
+__Indemnity__
 
 You agree to indemnify and hold Facilitron harmless from and against any loss, liability, claim, demand, damages, costs and expenses, including reasonable attorney's fees, arising out of or in connection with any User Content you post or distribute on or through the Service, your use of or participation in the Service, your interactions with other Users of the Service, or any violation of these Terms of Use or of any law or the rights of any third party.
 
-__Miscellaneous__  
+__Miscellaneous__
 
 These Terms of Use and the Privacy Policy constitute the entire agreement between you and Facilitron regarding the use of the Service and supersede any prior agreements between you and Facilitron relating to your use of the Service. The failure of Facilitron to exercise or enforce any right or provision of these Terms of Use shall not constitute a waiver of such right or provision in that or any other instance. If any provision of these Terms of Use is determined to be unlawful, void or for any reason unenforceable, such determination shall not affect the validity and enforceability of any of the remaining provisions.

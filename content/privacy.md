@@ -1,9 +1,9 @@
 ---
-title: "Privacy Policy"
-type: "privacy"
-page: "/privacy.html"
+title: Privacy Policy
+type: privacy
+page: /privacy.html
 layout: single
-description: 
+description:
 ---
 
 This privacy policy describes how Facilitron, Inc (Facilitron) collects and uses the personal information you provide on our web site Facilitron.com. It also describes the choices available to you regarding our use of your personal information and how you can access and update this information. By using, accessing or participating in the Service, you agree to the terms of this Privacy Policy. Capitalized terms not defined in this Privacy Policy have the meanings set forth in the Terms of Use (located at facilitron.com/terms). We reserve the right to change our Privacy Policy at any time. If you do not agree to abide by this or any future Privacy Policy, do not use, access or participate in (or continue to use, access or participate in) the Service. We encourage you to periodically review this page for the latest information on our privacy practices.
@@ -56,4 +56,4 @@ __Data Transfer__ <br>The data protection laws in the United States differ from 
 
 Contacting Facilitron__ <br>If you have any questions about this Privacy Policy or Facilitron's privacy practices in general, please contact us as provided for below. You may also contact us to require that we provide you with a copy of your Non-Public Information within our control, to have us correct any erroneous information, to discontinue receipt of certain types of communications or to ask us to delete any of your Non-Public Information we have stored that is no longer required for the purpose for which it was collected. We will respond to your request to access non public information within 30 days.
 
-Email : <a href="mailto:support@facilitron.com">support@facilitron.com</a> 
+Email : <a href="mailto:support@facilitron.com">support@facilitron.com</a>
