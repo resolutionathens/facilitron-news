@@ -38,10 +38,39 @@ orgSelect.addEventListener("change", function(e) {
       //show descriptions
       replaceFormContent(signupDescriptions);
   }
-})
+});
 
 /** replaces formContent */
 function replaceFormContent(form) {
   formContent.innerHTML = form;
 }
 
+/** opens create account form and selects new-partner */
+function openGetStartedTo(theForm) {
+  var getStartedModal = $('#fGetStartedForm');
+  getStartedModal.modal('show');
+  replaceFormContent(theForm);
+}
+
+/** opens sign up modal and populates administrator form */
+function administratorSignup(){
+  $("#signup-org-type").val(0);
+  openGetStartedTo(administratorForm);
+}
+
+/** opens sign up modal and populates newPartner form */
+function newPartnerSignup(){
+  $("#signup-org-type").val(99);
+  openGetStartedTo(newPartnerForm);
+}
+
+function resetGetStarted(){
+  $("#signup-org-type").val('');
+  replaceFormContent(signupDescriptions);
+}
+
+function closeGetStarted(){
+  var getStartedModal = $('#fGetStartedForm');
+  getStartedModal.modal('hide');
+  resetGetStarted();
+}

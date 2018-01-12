@@ -9,7 +9,7 @@
           <span class="font-weight-light">Facilities</span>
         </h2>
         <p>Sign up for a Facilitron partnership to list facilities and manage schedules.</p>
-        <a id="sign-up-btn" data-toggle="modal" data-target="#fGetStartedForm" class="btn btn-primary">Get Started</a>
+        <a id="sign-up-btn" href="javascript:void(0)" onclick="newPartnerSignup()" class="btn btn-primary">Get Started</a>
       </div>
       <div class="col-md-4 text-center my-2 p-3 border border-primary border-top-0 border-bottom-0">
         <img class="icon--homepage" src="{{ .Site.BaseURL }}images/other/rent.svg" alt="list facilities">
@@ -18,7 +18,7 @@
           <span class="font-weight-light">Facilities</span>
         </h2>
         <p>Create an account and easily make requests to rent public facilities for your events.</p>
-        <a href="#search" class="btn btn-primary">Create Account</a>
+        <a id="sign-up-btn" data-toggle="modal" data-target="#fGetStartedForm" class="btn btn-primary">Create Account</a>
       </div>
       <div class="col-md-4 text-center my-2 p-3">
         <img class="icon--homepage" src="{{ .Site.BaseURL }}images/other/manage.svg" alt="list facilities">
@@ -27,7 +27,7 @@
           <span class="font-weight-light">Facilities</span>
         </h2>
         <p>Already a partner? Log in or request an account through your organization.</p>
-        <a id="log-in-button" href="#" data-toggle="modal" data-target="#fLoginForm" class="btn btn-primary">Log In</a>
+        <a id="log-in-button" href="javascript:void(0)" onclick="administratorSignup()" class="btn btn-primary">Log In</a>
       </div>
     </div>
   </div>
