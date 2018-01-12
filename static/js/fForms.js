@@ -50,6 +50,7 @@ function replaceFormContent(form) {
 /** opens create account form and selects new-partner */
 function openGetStartedTo(theForm) {
   var getStartedModal = $('#fGetStartedForm');
+  closeAllModals();
   getStartedModal.modal('show');
   replaceFormContent(theForm);
 }
@@ -77,10 +78,25 @@ function closeGetStarted(){
   resetGetStarted();
 }
 
+function openGetStartedModal(){
+  var getStartedModal = $('#fGetStartedForm');
+  var loginModal = $('#fLoginForm')
+  closeAllModals();
+  resetGetStarted();
+  getStartedModal.modal('show');
+}
+
 function openLoginModal(){
   var getStartedModal = $('#fGetStartedForm');
   var loginModal = $('#fLoginForm')
-  getStartedModal.modal('hide');
+  closeAllModals();
   resetGetStarted();
   loginModal.modal('show');
+}
+
+function closeAllModals(){
+  var getStartedModal = $('#fGetStartedForm');
+  var loginModal = $('#fLoginForm')
+  getStartedModal.modal('hide');
+  loginModal.modal('hide');
 }
