@@ -18,21 +18,10 @@
   <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
   <!--[if lt IE 9]> <script src="js/html5shiv.js"></script> <![endif]-->
   <style>
-    #custom_head {
-        {
-          {
-          with .Params.custom_header_img
-        }
+      #custom_head {
+        {{ with .Params.custom_header_img }}background-image: url({{ $.Site.BaseURL }}images/headers/{{ $.Params.custom_header_img }}) !important;  {{ end }}
       }
-      background-image: url({{ $.Site.BaseURL }}images/headers/{{ $.Params.custom_header_img }}) !important;
-        {
-          {
-          end
-        }
-      }
-    }
-  </style>
-
+    </style>
   <!-- Optimize Page-hiding snippet  -->
   <style>
     .async-hide {
