@@ -22,7 +22,7 @@ quote:
   quote: >-
     We’re extremely happy with the new system. We’ve saved so much time, it’s
     really been amazing.
-  quotee: 'Marcus Battle, Chief Business Officer, ESUHSD'
+  quotee: 'Marcus Battle, Assisstant Superintendent Business Services, ESUHSD'
 ---
 After an internal review, Marcus Battle, CBO of East Side Union High School District in San
 Jose, confirmed what he had suspected – the district’s schools weren’t following a number

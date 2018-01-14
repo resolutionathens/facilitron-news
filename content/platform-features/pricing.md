@@ -11,8 +11,7 @@ custom_header_img: "football-field.jpg"
   <div class="col-md-6"><img src="/images/overview/overview-01.jpg" alt="Facilitron Overview" class="img-fluid"></div>
   <div class="col-md-6">
     <h2 class="h2-responsive">No direct costs for software, setup, and support</h2>
-    <p>Facilitron's unique business strategy allows us to provide cloud-based <b>software, setup and support at NO COST</b>.</p>
-    <p>It’s <b>our investment in your district</b> and community – and reflects our commitment to a <b>long-term partnership</b>.</p>
+    <p>Facilitron's unique business strategy allows us to provide cloud-based <b>software, setup and support at NO COST</b>. It’s <b>our investment in your district</b> and community – and reflects our commitment to a <b>long-term partnership</b>.</p>
   </div>
 </div>
 
@@ -29,7 +28,7 @@ custom_header_img: "football-field.jpg"
 <div class="row mb-5 px-5 align-items-center">
   <div class="col-md-7">
     <h2 class="h2-responsive vertical-callout">No cost setup</h2>
-    <p>No Cost Setup includes <b>creation and setup of accounts</b> and community facing storefronts for district and district schools including <b>digitally cataloging all facilities</b> (pictures, descriptions, geolocations), creating unlimited fee schedules, calendars, role-based users and more as well as <b>pre-loading all existing facility schedules and events</b> &mdash; both school and community uses.</p>
+    <p>No Cost Setup includes <b>creation and setup of accounts</b> and community facing storefronts for district and district schoolso including <b>digitally cataloging all facilities</b> (pictures, descriptions, geolocations), creating unlimited fee schedules, calendars, role-based users and more, as well as <b>pre-loading all existing facility schedules and events</b> &mdash; both school and community uses.</p>
     <p class="f-bullet-title">Setup includes:</p>
     <ul class="f-ul">
       <li>Digital catalog of facilities &mdash; capacities, square footage, amenities and more</li>

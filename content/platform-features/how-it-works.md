@@ -10,7 +10,7 @@ custom_header_img: "pool.jpg"
   <div class="col-md-6"><img src="/images/overview/overview-01.jpg" class="img-fluid" alt="Facilitron Overview"></div>
   <div class="col-md-6">
     <h2 class="h2-responsive">How does a partnership with Facilitron work?</h2>
-    <p>Your district just decided to move forward with Facilitron so they can streamline receiving and managing reservation requests and start tracking valuable data on how, when and by whom facilities are being used. Now what?</p>
+    <p>Your district just decided to move forward with Facilitron to streamline receiving and managing reservation requests and start tracking valuable data on how, when and by whom facilities are being used. Now what?</p>
     <p class="f-bullet-title">You may be wondering…</p>
     <ul class="f-ul">
       <li>What happens first?</li>
@@ -90,9 +90,9 @@ custom_header_img: "pool.jpg"
 <div class="row mb-5 px-5 align-items-center">
   <div class="col-md-6">
     <h2 class="h2-responsive vertical-callout">We just went live. Now what?</h2>
-    <p> During implementation, we introduce your district’s <b>Account Manager</b> who becomes involved with training key staff and getting to know your district - its renters, its administrators and its policies. AMs then work with the district on a day-to-day basis assisting and supporting <b>to help relieve the burden of routine but time-consuming admin tasks</b> like insurance verification or collections. </p>
+    <p>During implementation, we introduce your district’s <b>Account Manager</b> who becomes involved with training key staff and getting to know your district - its renters, its administrators and its policies. AMs then work with the district on a day-to-day basis assisting and supporting <b>to help relieve the burden of routine but time-consuming admin tasks</b> like insurance verification or collections. </p>
 
-    <p>Then, on an ongoing basis, our Account Managers along with our <b>Customer Support</b> continue to assist district administrators, faculty and facility requestors - whether school-related groups or community groups - with day to day questions, ongoing training, best practices, adjustments and more.</p>
+    <p>Then on an ongoing basis, our Account Managers along with our <b>Customer Support</b> continue to assist district administrators, faculty and facility requestors - whether school-related groups or community groups - with day to day questions, ongoing training, best practices, adjustments and more.</p>
     <p class="f-bullet-title">Among the ways AMs and CS representatives assist…</p>
     <ul class="f-ul">
       <li>Onsite training and support for admins</li>

@@ -4,7 +4,10 @@
   <div class="container-fluid mt-5 px-5">
     <div class="row">
       <div class="col">
-        <p>by: {{ .Params.author }} <br>
+        {{ if .Params.showdate }}
+        <p><time class="entry-date published" date="{{ .Date }}">{{ dateFormat .Site.Params.DateForm .Date }}</time>
+        {{ end }}
+        <br>by: {{ .Params.author }} <br>
         original article: <a href={{ .Params.original_article_url }}>{{ .Params.original_publication }}</a></p>
         {{ .Content }}
       </div>

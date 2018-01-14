@@ -13,7 +13,7 @@ description:
   </div>
   <div class="col-md-6">
     <h2 class="h2-responsive">Track and manage facility schedules, requests and costs like never before</h2>
-    <p>Facilitron’s scheduling and reservation platform is designed to help districts <b>maximize building use</b> through managing schedules as well as reservation requests - whether from school users, school associated groups or the community.</p>
+    <p>Facilitron’s scheduling and reservation platform is designed to help districts <b>maximize building use</b> through managing schedules as well as reservation requests - whether from school users, school associated groups, or the community.</p>
     <ul class="f-ul">
       <li>Cloud-based reservation system manages all facility use</li>
       <li>Request system allows school faculty to book available facilities</li>
@@ -58,7 +58,7 @@ description:
 <div class="row align-items-end px-5 mb-5">
   <div class="col-md-6">
     <h2 class="h2-responsive vertical-callout">Online application with Facilitron support simplifies requests and reduces admin time</h2>
-    <p>Managing facility schedules and requests and other burdens such as answering questions from community requesters can take up significant time for district employees. Combining the online request system with our account and support teams <b>allows districts to save significant time and money</b> by offloading such duties as non-profit status and insurance verifications, tracking down payment, issuing refunds and more.</p>
+    <p>Managing facility schedules and requests and other burdens, such as answering questions from community requesters, can take up significant time for district employees. Combining the online request system with our account and support teams <b>allows districts to save significant time and money</b> by offloading duties such as verifying non-profit status and insurance, tracking down payment, issuing refunds and more.</p>
     <p class="f-bullet-title">
       Account Managers and Customer Support teams assist districts with...
     </p>

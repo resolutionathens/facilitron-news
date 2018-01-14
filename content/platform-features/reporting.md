@@ -15,14 +15,14 @@ custom_header_img: "business-insights.jpg"
   </div>
   <div class="col-lg-6">
     <h2 class="h2-responsive py-3">More than reporting &mdash; Business insights to help drive policy</h2>
-    <p>Data-driven decision making is transforming the way districts operate. Facilitron <b>helps districts automate data tracking</b> and delivers more than just data analytics, <b>we deliver business insights</b> districts can use to make policy decisions based on actual data.</p>
+    <p>Data-driven decision making is transforming the way districts operate. Facilitron <b>helps districts automate data tracking</b> and delivers more than just data analytics; <b>we deliver business insights</b> districts can use to make policy decisions based on actual data.</p>
   </div>
 </div>
 
 <div class="row mb-5 px-5 align-items-end">
   <div class="col-md-7">
       <h2 class="h2-responsive vertical-callout">Real-time data at your fingertips</h2>
-      <p>Facilitron provides a system that <b>collects and organizes important facility use data</b> &mdash; both community and internal use - in real-time, in one place and at no cost to the district. Now districts can <b>easily reconcile and analyze financial and facility-use data</b> like never before to better understand facility utilization and recovery costs.</p>
+      <p>Facilitron provides a system that <b>collects and organizes important facility use data</b> &mdash; both community and internal use - in real-time, in one place and at no cost to the district. Now districts can <b>easily reconcile and analyze financial and facility-use data</b> like never before in order to better understand facility utilization and recovery costs.</p>
       <ul class="f-ul">
         <li>Revenue reports by school &mdash; track approved, pending, declined amounts; policy vs adjusted</li>
         <li>Reservation summary and details &mdash; itemized by rent, services, equipment</li>

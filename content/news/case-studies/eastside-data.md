@@ -23,7 +23,7 @@ quote:
   quote: >-
     Access to the data allowed us to change our policies for administering
     community rental requests...so we could drive more revenue.
-  quotee: 'Marcus Battle, Chief Business Officer, ESUHSD'
+  quotee: 'Marcus Battle, Assisstant Superintendent Business Services, ESUHSD'
 ---
 Like many districts across the country, East Side Union High School District and its CBO Marcus Battle were facing challenging budget cuts and were looking to the facility use program for possible additional funds. In the first year alone, revenue from community use of district facilities jumped from $450 thousand to over $2 million as a result of a new focus on the program and access and efficiencies created by the Facilitron partnership.
 
