@@ -1,6 +1,6 @@
 ---
 title: About Facilitron
-layout: single
+layout: single-with-container
 page: /about-facilitron.html
 description: This is the Facilitron about page. We'll fix it up once we have content.
 type: about-facilitron

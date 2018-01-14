@@ -2,7 +2,7 @@
 title: Privacy Policy
 type: privacy
 page: /privacy.html
-layout: single
+layout: single-with-container
 description:
 ---
 

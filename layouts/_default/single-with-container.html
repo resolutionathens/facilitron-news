@@ -1,0 +1,18 @@
+<!-- template: _default/single-with-container.html -->
+
+{{ partial "header.html" . }}
+
+<main id="main">
+  <div class="row mx-5">
+    <article class="post">
+      {{ .Content }}
+    </article>
+  </div>
+</main>
+
+<div class="clearfix"></div>
+
+{{ partial "footer.html" . }}
+<script type="text/javascript">
+  console.log("Template: layouts/_default/single.html");
+</script>

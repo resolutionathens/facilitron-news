@@ -1,6 +1,6 @@
 ---
 title: Terms of Use
-layout: single
+layout: single-with-container
 page: /terms.html
 description: Facilitron terms of use.
 type: terms
