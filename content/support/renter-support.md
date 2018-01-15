@@ -13,6 +13,7 @@ questions:
       If you did not receive a Facilitron account creation verification email,
       try the following:
 
+
       1. Check your spam, junk or bulk mail folders to see if the verification
       email is there
 
