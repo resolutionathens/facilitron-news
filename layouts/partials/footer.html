@@ -51,20 +51,10 @@
   </div>
   <!--/.Copyright-->
 </footer>
+<!--/.Footer-->
 {{ partial "get-started-form" . }}
 {{ partial "login-form" . }}
-<!--/.Footer-->
-<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js"></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/jquery-validation@1.17.0/dist/jquery.validate.min.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/jquery-validation@1.17.0/dist/additional-methods.min.js"></script>
-<script src="/js/fForms.js"></script>
-<script src="/js/template.js"></script>
-<!-- Hugo debugging script -->
-<!-- <script type="text/javascript">
-  console.log("Kind: {{ .Kind }}");
-  console.log("{{ printf " % #v " . }}")
-</script> -->
+{{ partial "forgot-password-form.html" . }}
+{{ partial "scripts.html" . }}
 </body>
 </html>

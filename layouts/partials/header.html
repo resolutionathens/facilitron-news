@@ -22,27 +22,7 @@
         {{ with .Params.custom_header_img }}background-image: url({{ $.Site.BaseURL }}images/headers/{{ $.Params.custom_header_img }}) !important;  {{ end }}
       }
     </style>
-  <!-- Optimize Page-hiding snippet  -->
-  <style>
-    .async-hide {
-      opacity: 0 !important
-    }
-  </style>
-  <script>(function (a, s, y, n, c, h, i, d, e) {
-    s.className += ' ' + y; h.start = 1 * new Date;
-      h.end = i = function () { s.className = s.className.replace(RegExp(' ?' + y), '') };
-      (a[n] = a[n] || []).hide = h; setTimeout(function () { i(); h.end = null }, c); h.timeout = c;
-    })(window, document.documentElement, 'async-hide', 'dataLayer', 4000,
-      { 'GTM-M9GB8CB': true });</script>
 
-  <!-- Global site tag (gtag.js) - Google Analytics Facilitron Marketing -->
-  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-106803624-1"></script>
-  <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag() { dataLayer.push(arguments); }
-    gtag('js', new Date());
-    gtag('config', 'UA-106803624-1', { 'optimize_id': 'GTM-M9GB8CB' });
-  </script>
   <!-- Google Tag Manager -->
   <script>
     (function (w, d, s, l, i) {

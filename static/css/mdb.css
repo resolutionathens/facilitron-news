@@ -9250,21 +9250,21 @@ article.post {
   margin: 20px;
 }
 
-#fActivity {
+#activities {
   position: absolute;
   top: 0;
   left: 0;
   width: 300px;
 }
 
-#fLocation {
+#geocomplete {
   position: absolute;
   top: 0;
   left: 311px;
   width: 300px;
 }
 
-#fSearchBtn {
+#btn-search {
   position: absolute;
   background-color: #269AD5;
   border: none;
@@ -9404,9 +9404,9 @@ article.post {
   .search-container {
     width: 100%;
   }
-  #fActivity,
-  #fLocation,
-  #fSearchBtn{
+  #activities,
+  #geocomplete,
+  #btn-search{
     box-sizing: border-box;
     position: static;
     width: 85%;
@@ -9414,6 +9414,9 @@ article.post {
   }
   #head h2{
     margin-top:100px;
+  }
+  #custom_head h2{
+    font-size: 30px;
   }
 }
 

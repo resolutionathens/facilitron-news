@@ -1,10 +1,13 @@
+// These will likely be replaced by the existing js
+
+
 // grab the fields and listen
-const activityInput = document.querySelector('#fActivity');
+const activityInput = document.getElementById('activities');
 const suggestions = document.querySelector('.suggestions');
 
-activityInput.addEventListener('change', displayMatches);
-activityInput.addEventListener('keyup', displayMatches);
-activityInput.addEventListener('blur', clearSuggestions);
+// activityInput.addEventListener('change', displayMatches);
+// activityInput.addEventListener('keyup', displayMatches);
+// activityInput.addEventListener('blur', clearSuggestions);
 
 // json endpoint for facilities/activities
 const endpoint = '/js/activities-scratch.js';
@@ -54,10 +57,7 @@ function initMap(){
       country: 'us'
     }
   }
-  var fLocation = document.getElementById('fLocation')
+  var fLocation = document.getElementById('geocomplete')
   var autocomplete = new google.maps.places.Autocomplete(fLocation, options)
 }
 
-function initSearch() {
-  console.log('initSearch fired and all else was loaded.')
-}

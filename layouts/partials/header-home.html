@@ -4,7 +4,7 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="{{ .Description }}">
+  <meta name="description" content="At Facilitron, our mission is to simplify the discovery, scheduling and booking of all kinds of community venues. Working with owners and managers, we are creating the largest online marketplace for facility rentals. With our turn-key solution, venue managers can easily configure and list their facilities, approve applications, report on usage and manage the logistics to accommodate the needs of their customers. The facility users can find and compare available venues in their area, submit applications, request extra services or equipment, get insurance, issue payments, and seamlessly host their activities and events - affordably and timely.">
   <title>{{ .Title }}</title>
   <link rel="shortcut icon" href="{{ .Site.BaseURL }}{{ .Site.Params.favicon }}">
   <!-- Bootstrap -->
@@ -20,27 +20,6 @@
     }
   </style>
 
-  <!-- Optimize Page-hiding snippet  -->
-  <style>
-    .async-hide {
-      opacity: 0 !important
-    }
-  </style>
-  <script>(function (a, s, y, n, c, h, i, d, e) {
-    s.className += ' ' + y; h.start = 1 * new Date;
-      h.end = i = function () { s.className = s.className.replace(RegExp(' ?' + y), '') };
-      (a[n] = a[n] || []).hide = h; setTimeout(function () { i(); h.end = null }, c); h.timeout = c;
-    })(window, document.documentElement, 'async-hide', 'dataLayer', 4000,
-      { 'GTM-M9GB8CB': true });</script>
-
-  <!-- Global site tag (gtag.js) - Google Analytics Facilitron Marketing -->
-  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-106803624-1"></script>
-  <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag() { dataLayer.push(arguments); }
-    gtag('js', new Date());
-    gtag('config', 'UA-106803624-1', { 'optimize_id': 'GTM-M9GB8CB' });
-  </script>
   <!-- Google Tag Manager -->
   <script>
     (function (w, d, s, l, i) {
@@ -87,11 +66,11 @@
       <div class="mx-auto text-center search-container">
         <div id="fSearch">
           <form>
-            <input id="fActivity" v-model="activity" type="text" placeholder="Enter facility or activity">
+            <input id="activities" v-model="activity" type="text" placeholder="Enter facility or activity">
             <ul class="suggestions">
             </ul>
-            <input id="fLocation" v-model="location" type="text" placeholder="City or zip">
-            <button type="submit" id="fSearchBtn" onclick="getLocation()" class="searchBtn">Search</button>
+            <input id="geocomplete" v-model="location" type="text" placeholder="City or zip">
+            <button id="btn-search" class="searchBtn">Search</button>
           </form>
         </div>
       </div>
