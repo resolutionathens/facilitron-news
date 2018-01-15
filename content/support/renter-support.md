@@ -198,5 +198,24 @@ questions:
       reservation approval email, or by going to the reservation itself and
       clicking “Permit” at the top of the reservation. 
     question: My request has been approved. What do I bring with me the day of my event?
+  - answer: >-
+      Insurance requirements are listed during the checkout process and again in
+      your reservation detail page.  On your reservation detail page, you see
+      the question balloon that lists insurance requirements including the
+      certificate holder and coverage amount.  If you have questions about
+      insurance, contact support.
+    question: What are the liability insurance requirements?
+  - answer: >-
+      To upload your insurance certificate, you must go to your reservation
+      details page.  In the insurance section you will find the insurance
+      requirement details and a button to “Upload Certificate” or “Switch To
+      Facilitron” insurance - per event coverage that meets district
+      requirements.
+    question: How do I upload my insurance?
+  - answer: >-
+      Payment options include major credit cards, PayPal, eChecks, and regular
+      check payments (by mail).  To pay, navigate to your reservation details
+      page and find the payment section.  
+    question: What are the payment options?
 ---
 
