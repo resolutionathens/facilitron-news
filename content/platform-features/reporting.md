@@ -34,8 +34,8 @@ custom_header_img: "business-insights.jpg"
   </div>
 </div>
 
-<div class="row mb-5 pl-5 align-items-end">
-  <div class="col-md-5">
+<div class="row mb-5 align-items-end">
+  <div class="col-md-5 px-5">
     <h2 class="h2-responsive vertical-callout">Insights for driving revenue and cost recovery</h2>
     <p>Facilitron provides <b>facility-use calculations</b> that help schools arrive at recovery costs based on actual costs and metrics like square footage and amortization. Once on the platform, districts can very accurately use total availability (total hours each facility type is available to either school or community) and current utilization (in hours) to <b>determine internal and external utilization rates</b> and which types of district facilities are being utilized to what capacity – important data points for requesting and scheduling updates and renovations.</p>
     <div>

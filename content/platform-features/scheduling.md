@@ -42,7 +42,7 @@ description:
 
 <div class="row align-items-end mb-5">
   <div class="col-md-6 pl-0 homepage-img-l"><img src="/images/overview/bibb-storefront-desktop.jpg" alt="Bibb County Front" class="img-fluid"></div>
-  <div class="col-md-6 pr-5">
+  <div class="col-md-6 px-5">
     <h2 class="h2-responsive vertical-callout">Community request portal streamlines facility use application process</h2>
     <p><b>Custom school sites</b> which link right off school websites create a place where the community can come to find photos, pricing and information on the availability of school facilities for rent &mdash; <b>without needing to call or email school administrators.</b> Search results allow community groups to view facility details, configure and submit requests, upload documents, and more.</p>
     <ul class="f-ul">

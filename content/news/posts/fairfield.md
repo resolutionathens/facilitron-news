@@ -1,5 +1,5 @@
 ---
-title: Fairfield-Suisun Unified School District Plans Changes in Facility Use Process
+title: FSUSD Facility Use Process
 author: Tim Goree
 date: '2017-10-04 11:56:02 -0500'
 description: >-
