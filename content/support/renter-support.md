@@ -135,7 +135,28 @@ questions:
       Then, typically payment is due in full 1 month from event date unless
       otherwise outlined by district policy.  
     question: I just submitted a request.  When will I have to pay in full?
-  - question: Can I be invoiced?
+  - answer: >-
+      Public school fees presented during checkout are calculated per board
+      policy for the particular rate schedule, time and date of a request. 
+      These fees are reviewed by the district at the time of approval and can be
+      changed by the district administrator.  Any adjustments will be reflected
+      at the time of approval. 
+    question: >-
+      Are the estimated fees showing during checkout the final fees for my
+      reservation?
+  - answer: >-
+      Fees for services that are not requested are essentially REQUIRED services
+      that school districts mandate to be added to requests for use of
+      facilities.  Services like these - custodial, event manager, utilities or
+      restrooms - represent additional costs that districts incur and can be
+      adjusted or waived only at the discretion of the district.
+    question: >-
+      My request added services that I didn’t request.  Are these fees necessary
+      and can they be waived? 
+  - answer: >-
+      Yes Facilitron can invoice you for the full amount, or with an ongoing
+      reservation, partial amounts can be invoiced (subject to district policy)
+    question: Can I be invoiced?
   - answer: 'Insurance is due at the same time payment is due. '
     question: When is the insurance due on my reservation?
   - answer: >-
@@ -147,5 +168,35 @@ questions:
       Requests are approved by school or district personnel.  You will receive
       an email notifying you that your request has been approved or declined. 
     question: How do I know if my reservation was approved?
+  - answer: >-
+      The timeline for decisions by school or district personnel regarding
+      reservation requests vary by school or district and may be affected by
+      school holidays. Usually districts are reasonably prompt and respond
+      within days. If your request hasn’t been answered in a week, you may
+      contact support for assistance. Facilitron does not approve requests and
+      can only ask school personnel to review a pending reservation request on
+      behalf of a renter.
+    question: 'How long does it take to get my request approved?  '
+  - answer: >-
+      Schools understandably make using school facilities for school programs
+      their first priority. Therefore on occasion circumstances arise that
+      require a school event to take priority over an already approved community
+      use request (such as, the basketball team makes the playoffs and has a
+      heretofore previously unscheduled home game). In such cases, schools
+      usually try to accommodate a different date or a different school in the
+      district.  You may also work with customer support to try to reschedule
+      your event for a different school or date.
+    question: My request was approved but now it has been declined.  What do I do?
+  - answer: >-
+      Renters may cancel a request at any time before it is approved.  After it
+      is approved, it can only be cancelled with district approval.  
+    question: What if I need to cancel my reservation?
+  - answer: >-
+      Renters whose approved reservations meet all requirements for use by the
+      district (insurance, payment, etc) should print and bring a copy of their
+      Facility Use Permit which can be obtained directly from a link in the
+      reservation approval email, or by going to the reservation itself and
+      clicking “Permit” at the top of the reservation. 
+    question: My request has been approved. What do I bring with me the day of my event?
 ---
 
