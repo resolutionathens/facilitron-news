@@ -52,8 +52,11 @@ questions:
       Please note, not all colleges and districts have non-profit rates.  
     question: >-
       My organization is a non-profit but we don’t have a government issued FEIN
-      (Federal Employer Identification Number).  How do I receive the non-profit
-      rate?
+      (Federal Employer Identification Number).  Can I sign up as a non-profit?
+  - answer: Contact support to have your FEIN added to your account.
+    question: >-
+      I didn’t have the FEIN when I signed up as a non-profit, but now I have
+      it.  How can I update my account?
   - answer: >-
       Any organization who receives a rate other than the commercial rate MUST
       have their organization assigned to that rate category with school
@@ -100,5 +103,49 @@ questions:
       I’m the incoming president of my organization but I can’t access my
       organization’s account. How do I have my account associated with my
       organization?
+  - answer: >-
+      You may search for a specific school name in the search bar at
+      facilitron.com.  Or you may go to the specific school’s website and look
+      for facility rental information and the link to their Facilitron facility
+      storefront.  
+    question: >-
+      I want to make a request at a specific school.  How do I search among just
+      that school’s facilities?
+  - answer: >-
+      Schools set the availability of their facilities based on school schedules
+      and policies.  If a facility shows no availability, there may be several
+      reasons why – for example, the school may not have released public
+      availability yet, or the facility may be undergoing maintenance or
+      repairs.  You may contact support to find out if there’s more information
+      about a given facility.
+    question: >-
+      I found the facility I want to request, but there appears to be no
+      availability for any dates or times.  Is the facility not available?
+  - answer: >-
+      No.  One reservation can consist of multiple dates and/or multiple
+      facilities.  For example, if you’re requesting every Sunday from January
+      thru June, your request can be configured to include 24 Sundays over 6
+      months.  Or if you were requesting the cafeteria and 3 classrooms for one
+      or multiple dates, all the requests go on one reservation.
+    question: >-
+      I want to request multiple dates or multiple facilities.  Do I need to
+      make a separate reservation request for each date and/or each facility?
+  - answer: >-
+      Payment in full isn’t required until after the request has been approved. 
+      Then, typically payment is due in full 1 month from event date unless
+      otherwise outlined by district policy.  
+    question: I just submitted a request.  When will I have to pay in full?
+  - question: Can I be invoiced?
+  - answer: 'Insurance is due at the same time payment is due. '
+    question: When is the insurance due on my reservation?
+  - answer: >-
+      Yes, in most states Facilitron (through a 3rd party provider) offers event
+      insurance on a per event basis.  You may add Facilitron insurance at any
+      time after you have submitted your request.
+    question: 'If I can’t provide my own insurance, are there other options?'
+  - answer: >-
+      Requests are approved by school or district personnel.  You will receive
+      an email notifying you that your request has been approved or declined. 
+    question: How do I know if my reservation was approved?
 ---
 
