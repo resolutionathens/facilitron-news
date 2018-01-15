@@ -94,9 +94,18 @@ function openLoginModal(){
   loginModal.modal('show');
 }
 
+function openForgotPassModal(){
+  var forgotPassModal = $('#forgotpass-form');
+  closeAllModals();
+  resetGetStarted();
+  forgotPassModal.modal('show');
+}
+
 function closeAllModals(){
+  var forgotPassModal = $('#forgotpass-form');
   var getStartedModal = $('#fGetStartedForm');
-  var loginModal = $('#fLoginForm')
+  var loginModal = $('#fLoginForm');
   getStartedModal.modal('hide');
   loginModal.modal('hide');
+  forgotPassModal.modal('hide');
 }
