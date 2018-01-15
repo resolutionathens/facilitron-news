@@ -25,6 +25,10 @@
  *
  */
 
+body{
+  overflow-x: hidden;
+}
+
 .mdb-color.lighten-5 {
   background-color: #D0D6E2 !important
 }
@@ -9113,7 +9117,7 @@ article.post {
 }
 
 .header-shadow {
-  text-shadow: 2px 2px 1px rgba(0, 0, 0, 0.75);
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.75);
   letter-spacing: 1px;
 }
 
