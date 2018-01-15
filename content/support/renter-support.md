@@ -41,7 +41,10 @@ questions:
       Identification Number) and have it verified in the system to qualify for
       non-profit status.  Please note, not all colleges and districts have
       non-profit rates.
-    question: 'My organization is a non-profit.  How do I receive the non-profit rate?  '
+    question: >-
+      My organization is a non-profit so I signed up for a non-profit account,
+      but I’m not receiving the non-profit rate.  How do I receive the
+      non-profit rate? 
   - answer: >-
       Non-profit organizations MUST be verified using their federally issued EIN
       to qualify for non-profit rates.  You must register your organization as a
