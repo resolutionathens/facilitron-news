@@ -1,35 +1,29 @@
 <!-- template: _default/contact-sales.html -->
-
 {{ partial "header.html" . }}
-
+<script> function createFcn(nm){(window.freshsales)[nm]=function(){(window.freshsales).push([nm].concat(Array.prototype.slice.call(arguments,0)))}; } (function(url,appToken,formCapture){window.freshsales=window.freshsales||[];if(window.freshsales.length==0){list='init identify trackPageView trackEvent set'.split(' ');for(var i=0;i<list.length;i++){var nm=list[i];createFcn(nm);}var t=document.createElement('script');t.async=1;t.src='//d952cmcgwqsjf.cloudfront.net/assets/analytics.js';var ft=document.getElementsByTagName('script')[0];ft.parentNode.insertBefore(t,ft);freshsales.init("facilitron.freshsales.io","zFIeXsTcTJXVmQe8sW8aAw",true);}})();</script>
 <main id="main">
   <div class="container-fluid px-5 mb-5">
     <article class="post">
       {{ .Content }}
     </article>
     <div class="clearfix"></div>
-
     <!-- Form contact -->
     <form>
       <div class="md-form">
         <i class="fa fa-user-o prefix grey-text"></i>
-        <input type="text" id="contact-sales-name" class="form-control">
-        <label for="contact-sales-name">Your name</label>
+        <input placeholder="Your name" type="text" id="contact-sales-name" class="form-control" autofocus>
       </div>
       <div class="md-form">
         <i class="fa fa-envelope-o prefix grey-text"></i>
-        <input type="text" id="contact-sales-email" class="form-control">
-        <label for="contact-sales-email">Your email</label>
+        <input placeholder="Email" type="email" id="contact-sales-email" class="form-control">
       </div>
       <div class="md-form">
         <i class="fa fa-building-o prefix grey-text"></i>
-        <input type="text" id="contact-sales-organization" class="form-control">
-        <label for="contact-sales-organization">Organization</label>
+        <input placeholder="Organization" type="text" id="contact-sales-organization" class="form-control">
       </div>
       <div class="md-form">
         <i class="fa fa-pencil prefix grey-text"></i>
-        <textarea type="text" id="contact-sales-message" class="md-textarea" style="height: 100px"></textarea>
-        <label for="contact-sales-message">Your message</label>
+        <textarea placeholder="Your message" type="text" id="contact-sales-message" class="md-textarea" style="height: 100px"></textarea>
       </div>
       <div class="text-center">
         <button class="btn btn-primary">Send
@@ -40,13 +34,6 @@
     <!-- Form contact -->
   </div>
   <!-- /container -->
-
-
 </main>
-
 <div class="clearfix"></div>
-
 {{ partial "footer.html" . }}
-<script type="text/javascript">
-  console.log("Template: layouts/_default/contact-sales.html");
-</script>
