@@ -161,8 +161,10 @@ questions:
     question: When is the insurance due on my reservation?
   - answer: >-
       Yes, in most states Facilitron (through a 3rd party provider) offers event
-      insurance on a per event basis.  You may add Facilitron insurance at any
-      time after you have submitted your request.
+      insurance on a per event basis that can be added to your reservation
+      during checkout. The cost is automatically calculated based on event
+      details and meets the requirements of the district  You may also switch to
+      Facilitron insurance at any time after you have submitted your request.
     question: 'If I can’t provide my own insurance, are there other options?'
   - answer: >-
       Requests are approved by school or district personnel.  You will receive
