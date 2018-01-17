@@ -1,7 +1,7 @@
-baseURL = "https://facilitron.netlify.com/"
-# disqusShortname = "disqus_ygr6wmlEnU"
+baseURL = "https://facilitron-marketing-dev.herokuapp.com/"
 languageCode = "en-us"
 title = "Facility Management, Evolved"
+
 [params]
 address = "485 Alberto Way, Suite 230, Los Gatos, CA 95032"
 dateform = "January 2, 2006"
@@ -11,8 +11,7 @@ favicon = "images/favicon.ico"
 name = "Facilitron"
 phone = "800.272.2962"
 year = 2017
-# [params.disqus]
-# site = "facilitron.disqus.com"
+
 [params.google.analytics]
 trackerid = "UA-88933286-1"
 

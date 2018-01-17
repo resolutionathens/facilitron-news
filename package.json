@@ -2,18 +2,6 @@
   "name": "facilitron-news",
   "version": "1.0.0",
   "description": "facilitron.com",
-  "main": "index.js",
-  "dependencies": {},
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/resolutionathens/facilitron-news.git"
-  },
-  "author": "Ian Kennedy",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/resolutionathens/facilitron-news/issues"
-  },
-  "homepage": "https://github.com/resolutionathens/facilitron-news#readme",
   "devDependencies": {
     "gulp": "^3.9.1",
     "gulp-autoprefixer": "^4.1.0",
