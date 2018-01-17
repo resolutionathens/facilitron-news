@@ -27,7 +27,7 @@ questions:
       School employee accounts must be associated with your school and assigned
       a role to gain access to school calendars and scheduling system.  Only
       school admins or Facilitron customer support can do this.  To request
-      access, select “Administrator” from the “Sign Up” menu.  Fill out the form
+      access, select “Administrator” from the Sign Up menu.  Fill out the form
       and submit.  Someone from customer support will contact you about having
       your account added to your school and assigned a role. Or, you may contact
       your school’s admin and request to be added to the system.
@@ -38,7 +38,7 @@ questions:
       No.  You should not attempt to create your school as an organization. 
       Existing organizations must have users added by school administrators or
       by Facilitron customer support.  To request access, select “Administrator”
-      from the “Sign Up” menu.   Fill out the form and submit.  Someone from
+      from the Sign Up menu.   Fill out the form and submit.  Someone from
       customer support will contact you about having your account added to your
       school and assigned a role.
     question: >-
