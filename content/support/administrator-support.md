@@ -124,6 +124,14 @@ questions:
     question: >-
       Can I delete a single event in a reservation without deleting the whole
       reservation?
-  - {}
+  - answer: >-
+      In order to request facilities at another school within your District, go
+      to that school's Facilitron rental site. If you do not know the website,
+      you can go to facilitron.com and type the school name in the search bar.
+      Search or select the facility you are requesting and proceed with the
+      check out process. When prompted to log in, make sure you are representing
+      your own school to allow school admins to recognize that you are part of
+      the same District.
+    question: How do I request events at other school sites within my District?
 ---
 
