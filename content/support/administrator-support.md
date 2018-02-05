@@ -74,5 +74,56 @@ questions:
     question: >-
       I’m logged in to my Facilitron account but I do not see the school
       calendar when I'm at the Dashboard. What do I do?
+  - answer: >-
+      To view a pending reservation at your school or district, log in to your
+      Facilitron account at facilitron.com and select your organization. Or if
+      you are already logged in under the correct organization, access the
+      "Accounts and Dashboard" drop down and choose "Dashboard." From the
+      Dashboard, you will see a section labeled “Pending Reservations” or you
+      may select "Reservations" from the side bar menu and choose "Pending
+      Reservations."
+    question: How do I view the pending reservations at my school or district?
+  - answer: >-
+      If all the dates of use in a reservation are cancelled, you may ‘Decline’
+      the entire reservation to cancel the event. If an individual date of use
+      is cancelled (or even several dates, but not all dates) within a
+      reservation with multiple dates, you can use the red ‘x’ next to the
+      timeslot to cancel individual dates of use.  
+    question: How can I cancel an approved event?
+  - answer: >-
+      No. Email notifications are sent from no-reply@facilitron.com, and should
+      not be replied to. In order to reply to an email notification, you can
+      click “See Details” next to the reservation ID number or the button “Click
+      Here” under the reservation details. Clicking either of these buttons will
+      prompt you to login to Facilitron and will direct you to the specific
+      reservation where you can make comments and changes in the
+      “Comments/History” section.  Otherwise, you should email support.
+    question: I received an email notification about a reservation.  Can I reply to it?
+  - answer: >-
+      The best way to communicate with the renter/requestor, other stakeholders,
+      and the Facilitron team is to make a comment directly in the reservation.
+      At the bottom of the reservation details page on the left hand side, is a
+      section labeled “Comments/History.” Type your comment in the box and
+      choose from a variety of sending options below. By selecting internal
+      comment, only the District staff and Facilitron team will be able to view
+      the comment. If you would like to send the comment to a specific
+      recipient, click on the “Select Recipients” box and type the recipient’s
+      name. Click the comment button when you are finished and the comment will
+      be recorded in the reservation and an email notification will be sent to
+      all involved recipients.
+    question: >-
+      I want to send a message to the requestor and other stakeholders about a
+      reservation.  What’s the best way to do that?
+  - answer: >-
+      Yes. Under the reservation details page on the right hand side is the
+      “Calendar” section. Here you will find a list of each date and facility
+      being used. In order to delete a date or facility, simply click on the box
+      to the right of the timeslot which will highlight the timeslot red.
+      Continue to select any times you wish to remove and click the “Delete
+      Timeslots” button at the bottom of the section.
+    question: >-
+      Can I delete a single event in a reservation without deleting the whole
+      reservation?
+  - {}
 ---
 
