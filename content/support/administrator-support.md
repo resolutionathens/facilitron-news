@@ -68,7 +68,9 @@ questions:
       side of the Dashboard and choose your school.  The school name will appear
       at the top of your Dashboard.  If your school isn’t in the list, then you
       haven’t been added to your school and assigned a role.  To request access,
-      contact your school administrator or Facilitron customer support.
+      contact your school administrator or Facilitron customer support.  If you
+      are at logged in to facilitron.com, you can go to "Accounts and Dashboard"
+      drop down and select the appropriate organization under "Switch Accounts"
     question: >-
       I’m logged in to my Facilitron account but I do not see the school
       calendar when I'm at the Dashboard. What do I do?
