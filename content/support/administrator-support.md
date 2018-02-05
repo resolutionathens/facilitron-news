@@ -57,6 +57,13 @@ questions:
       I’m a school employee trying to make a reservation request but I can’t
       request during school hours. Why?
   - answer: >-
+      Logged in users at facilitron.com will see Accounts & Dashboard in the
+      menu.  In the drop down menu for Accounts & Dashboard will be links to the
+      Dashboard and other areas of the administrative back end.
+    question: >-
+      I’m logged in to Facilitron.  How do I get to the administrative
+      dashboard?
+  - answer: >-
       To access your school account, select “Other Organizations” on the left
       side of the Dashboard and choose your school.  The school name will appear
       at the top of your Dashboard.  If your school isn’t in the list, then you
@@ -65,6 +72,5 @@ questions:
     question: >-
       I’m logged in to my Facilitron account but I do not see the school
       calendar when I'm at the Dashboard. What do I do?
-  - {}
 ---
 
